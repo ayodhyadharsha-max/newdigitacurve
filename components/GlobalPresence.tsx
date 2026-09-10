@@ -26,6 +26,10 @@ export default function GlobalPresence() {
       country: 'United States',
       img: '/locations/USA.svg',
     },
+    {
+      country: 'Australia',
+      img: '/locations/AUSTRALIA.svg',
+    },
   ];
 
   return (
@@ -42,7 +46,7 @@ export default function GlobalPresence() {
       </div>
 
       {/* Seamless Floating Skylines Grid - Box Free */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-12 sm:gap-16 items-end">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-10 sm:gap-14 items-end">
         {globalHubs.map((hub, idx) => (
           <div
             key={idx}
