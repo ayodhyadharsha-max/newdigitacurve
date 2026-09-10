@@ -53,11 +53,13 @@ export default function GlobalPresence() {
             className="flex flex-col items-center justify-end text-center space-y-4 group cursor-default"
           >
             {/* Skyline Image */}
-            <div className="w-full h-36 flex items-end justify-center px-4 overflow-hidden">
+            <div className="w-full h-32 sm:h-36 flex items-end justify-center px-2 py-2">
               <img
                 src={hub.img}
                 alt={hub.country}
-                className="max-h-28 max-w-full object-contain group-hover:scale-105 transition-transform duration-500 opacity-90 group-hover:opacity-100"
+                loading="eager"
+                decoding="async"
+                className="max-h-28 sm:max-h-32 w-auto max-w-full object-contain filter drop-shadow-[0_0_10px_rgba(255,255,255,0.3)] group-hover:drop-shadow-[0_0_18px_rgba(59,130,246,0.6)] group-hover:scale-105 transition-all duration-500 opacity-95 group-hover:opacity-100"
               />
             </div>
 
