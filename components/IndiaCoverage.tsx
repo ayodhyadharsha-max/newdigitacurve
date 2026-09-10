@@ -5,10 +5,10 @@ import { ArrowUpRight, MapPin } from 'lucide-react';
 
 export default function IndiaCoverage() {
   const cities = [
-    { name: 'Noida / NCR Base', tag: 'PRIMARY HQ' },
+    { name: 'Noida HQ', tag: 'PRIMARY HQ' },
     { name: 'Delhi NCR', tag: 'NORTH' },
-    { name: 'Bengaluru', tag: 'SOUTH HUB' },
     { name: 'Mumbai', tag: 'WEST' },
+    { name: 'Bengaluru', tag: 'SOUTH' },
     { name: 'Hyderabad', tag: 'SOUTH' },
     { name: 'Kolkata', tag: 'EAST' },
     { name: 'Pune', tag: 'WEST' },
@@ -29,7 +29,7 @@ export default function IndiaCoverage() {
             </span>
           </div>
 
-          <h2 className="text-5xl sm:text-7xl font-black tracking-tight leading-[0.9] text-white uppercase">
+          <h2 className="text-3xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-[0.95] text-white uppercase">
             SERVING BRANDS<br />
             <span className="text-blue-500 italic font-light">ACROSS INDIA.</span>
           </h2>
@@ -40,7 +40,7 @@ export default function IndiaCoverage() {
 
           <div className="pt-2">
             <Link
-              href="#contact"
+              href="/company/contact"
               className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs px-7 py-4 rounded-full shadow-xl shadow-blue-600/30 transition-all hover:scale-105"
             >
               BOOK A CALL WITH RISHABH <ArrowUpRight className="w-4 h-4" />

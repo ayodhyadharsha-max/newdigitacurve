@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { ArrowUpRight } from 'lucide-react';
 
 export default function RosterPulse() {
@@ -54,7 +55,7 @@ export default function RosterPulse() {
             44 IDENTITIES
           </span>
           <h2 className="text-xs font-mono text-slate-400 tracking-wider uppercase mt-2">
-            HOSPITALITY · BEAUTY · REAL ESTATE · HEALTHCARE
+            NATIONAL · HOSPITALITY · BEAUTY · REAL ESTATE · HEALTHCARE
           </h2>
         </div>
         <div className="text-xs font-mono text-slate-500">
@@ -65,8 +66,9 @@ export default function RosterPulse() {
       {/* Auto-sliding Marquee with Image Logo Cards */}
       <div className="flex w-max animate-marquee space-x-6 py-4">
         {[...brandTiles, ...brandTiles, ...brandTiles].map((brand, idx) => (
-          <div
+          <Link
             key={idx}
+            href="/portfolio"
             className="w-64 h-40 bg-white rounded-2xl p-4 flex flex-col justify-between shadow-2xl hover:scale-105 transition-transform duration-300 group cursor-pointer border border-slate-200 shrink-0"
           >
             {/* Top Real Image Logo Display */}
@@ -83,7 +85,7 @@ export default function RosterPulse() {
               <span>{brand.name}</span>
               <ArrowUpRight className="w-4 h-4 text-slate-400 group-hover:text-blue-600 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all" />
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </section>

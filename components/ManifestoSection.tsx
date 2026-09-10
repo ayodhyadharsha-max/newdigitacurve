@@ -5,70 +5,8 @@ import { ArrowUpRight } from 'lucide-react';
 
 export default function ManifestoSection() {
   return (
-    <section id="about" className="py-8 sm:py-24 px-3 sm:px-6 lg:px-8 max-w-7xl mx-auto border-b border-blue-900/30">
-      {/* MOBILE ONLY (lg:hidden): 4-Platform Review Ratings Banner */}
-      <div className="lg:hidden py-6 px-3 bg-black border border-blue-900/40 rounded-2xl shadow-2xl">
-        <div className="grid grid-cols-4 gap-1.5 sm:gap-3 items-center text-center">
-          {/* Google */}
-          <div className="space-y-1">
-            <svg viewBox="0 0 120 30" className="h-5 sm:h-6 w-auto mx-auto">
-              <text x="10" y="23" fontFamily="Arial, Helvetica, sans-serif" fontWeight="900" fontSize="24">
-                <tspan fill="#4285F4">G</tspan>
-                <tspan fill="#EA4335">o</tspan>
-                <tspan fill="#FBBC05">o</tspan>
-                <tspan fill="#4285F4">g</tspan>
-                <tspan fill="#34A853">l</tspan>
-                <tspan fill="#EA4335">e</tspan>
-              </text>
-            </svg>
-            <div className="flex justify-center text-amber-400 text-[8px] sm:text-[10px] tracking-tighter sm:tracking-widest">
-              ★★★★★
-            </div>
-            <div className="font-mono text-[10px] sm:text-xs font-bold text-white">150+</div>
-          </div>
-
-          {/* Clutch */}
-          <div className="space-y-1">
-            <svg viewBox="0 0 120 32" className="h-5 sm:h-6 w-auto mx-auto">
-              <text x="12" y="24" fontFamily="Arial, Helvetica, sans-serif" fontWeight="900" fontSize="24" fill="#FFFFFF">Clutch</text>
-              <circle cx="92" cy="13" r="3" fill="#FF3D2E" />
-            </svg>
-            <div className="flex justify-center text-amber-400 text-[8px] sm:text-[10px] tracking-tighter sm:tracking-widest">
-              ★★★★★
-            </div>
-            <div className="font-mono text-[10px] sm:text-xs font-bold text-white">50+</div>
-          </div>
-
-          {/* GoodFirms */}
-          <div className="space-y-1">
-            <svg viewBox="0 0 140 32" className="h-5 sm:h-6 w-auto mx-auto">
-              <g transform="translate(2, 5)">
-                <rect width="20" height="20" rx="4" fill="#0066FF" />
-                <path d="M6 5h8v3.5H9.5v2.5h4.5v3.5H9.5V18H6V5z" fill="#FFFFFF" />
-              </g>
-              <text x="26" y="21" fontFamily="Arial, Helvetica, sans-serif" fontWeight="800" fontSize="18" fill="#0066FF">Good<tspan fill="#FFFFFF">Firms</tspan></text>
-            </svg>
-            <div className="flex justify-center text-amber-400 text-[8px] sm:text-[10px] tracking-tighter sm:tracking-widest">
-              ★★★★★
-            </div>
-            <div className="font-mono text-[10px] sm:text-xs font-bold text-white">60+</div>
-          </div>
-
-          {/* Sortlist */}
-          <div className="space-y-1">
-            <svg viewBox="0 0 120 32" className="h-5 sm:h-6 w-auto mx-auto">
-              <text x="12" y="23" fontFamily="Arial, Helvetica, sans-serif" fontWeight="700" fontSize="22" fill="#FFFFFF" letterSpacing="-0.5">sortlist</text>
-            </svg>
-            <div className="flex justify-center text-amber-400 text-[8px] sm:text-[10px] tracking-tighter sm:tracking-widest">
-              ★★★★★
-            </div>
-            <div className="font-mono text-[10px] sm:text-xs font-bold text-white">110+</div>
-          </div>
-        </div>
-      </div>
-
-      {/* DESKTOP ONLY (hidden lg:grid): Original Founder & Manifesto Layout */}
-      <div className="hidden lg:grid lg:grid-cols-12 gap-12 items-start">
+    <section id="about" className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-b border-blue-900/30">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
         {/* Left Column - Founder Card */}
         <div className="lg:col-span-4 lg:sticky lg:top-28">
           <div className="bg-[#050B14] border border-blue-900/60 rounded-3xl p-8 shadow-2xl space-y-6">
@@ -102,7 +40,7 @@ export default function ManifestoSection() {
             </div>
 
             <Link
-              href="#contact"
+              href="/company/contact"
               className="w-full inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs py-3.5 rounded-full transition-all"
             >
               TALK TO RISHABH <ArrowUpRight className="w-4 h-4" />

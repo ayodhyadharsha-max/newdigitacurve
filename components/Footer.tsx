@@ -1,164 +1,195 @@
 'use client';
 
 import Link from 'next/link';
-import { ArrowUpRight, Mail, Phone, Instagram, MessageSquare } from 'lucide-react';
+import { ArrowUpRight, Mail, Phone, Instagram, MessageSquare, MapPin, Sparkles, Building2, HeartPulse, Plane, Sun } from 'lucide-react';
+import GlobalPresence from './GlobalPresence';
 
 export default function Footer() {
   return (
     <footer className="bg-[#030712] text-white border-t border-blue-900/40 relative overflow-hidden">
+      {/* Background ambient glow */}
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[800px] h-[300px] bg-blue-950/20 blur-[140px] pointer-events-none rounded-full" />
+
+      {/* Global Client Reach & Skyline Vector Section */}
+      <GlobalPresence />
+
       {/* Upper CTA Bar */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 border-b border-blue-900/30">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 border-b border-blue-900/30 relative z-10">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
           <div className="lg:col-span-8 space-y-4">
-            <p className="text-xs font-mono text-blue-400 tracking-widest uppercase">
-              06 / CONTACT &amp; NEXT STEPS
-            </p>
-            <h2 className="text-5xl sm:text-7xl font-black tracking-tight leading-[0.9] uppercase">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-950/80 border border-blue-800/50 text-[11px] font-mono text-blue-400 font-bold uppercase tracking-widest">
+              <Sparkles className="w-3.5 h-3.5" /> 06 / CONTACT & NEXT STEPS
+            </div>
+            <h2 className="text-4xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-[0.95] uppercase">
               READY WHEN THE<br />
-              <span className="text-blue-500 italic font-light">PROBLEM IS.</span>
+              <span className="bg-gradient-to-r from-blue-400 via-indigo-400 to-cyan-400 bg-clip-text text-transparent italic font-light">PROBLEM IS.</span>
             </h2>
-            <p className="text-slate-300 text-base max-w-xl font-light leading-relaxed">
-              If your current website, search ranking or paid campaigns are not delivering clear business signals, let’s audit your setup.
+            <p className="text-slate-300 text-sm sm:text-base max-w-xl font-light leading-relaxed">
+              If your current website, search ranking, or paid ad campaigns are underperforming, let's audit your funnel and build for real growth.
             </p>
           </div>
 
-          <div className="lg:col-span-4 flex flex-col items-start lg:items-end gap-4">
+          <div className="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col items-stretch sm:items-center lg:items-end gap-3.5">
             <Link
-              href="#contact"
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-500 text-white font-bold text-sm px-9 py-5 rounded-full shadow-2xl shadow-blue-600/40 transition-all hover:scale-105"
+              href="/company/contact"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-500 text-white font-bold text-sm px-8 py-4 rounded-full shadow-2xl shadow-blue-600/40 transition-all hover:scale-105"
             >
-              START A PROJECT <ArrowUpRight className="w-5 h-5" />
+              START A PROJECT <ArrowUpRight className="w-4 h-4" />
             </Link>
             <a
-              href="https://wa.me/918302569311"
+              href="https://wa.me/917572094201"
               target="_blank"
               rel="noreferrer"
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs px-6 py-3.5 rounded-full transition-all"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-emerald-600/90 hover:bg-emerald-500 text-white font-bold text-xs px-6 py-3.5 rounded-full border border-emerald-500/30 transition-all"
             >
-              CHAT ON WHATSAPP <ArrowUpRight className="w-4 h-4" />
+              <MessageSquare className="w-4 h-4" /> CHAT ON WHATSAPP
             </a>
           </div>
         </div>
       </div>
 
       {/* Main Footer Links & Contact Info */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10">
-          {/* Col 1 - Studio Info */}
-          <div className="lg:col-span-4 space-y-6">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center font-black text-white shadow-lg shadow-blue-600/30">
-                DC
-              </div>
-              <div className="flex flex-col">
-                <span className="text-lg font-black tracking-tight text-white">
-                  DIGITA<span className="text-blue-500 font-light italic">CURVE</span>
-                </span>
-                <span className="text-[9px] font-mono text-slate-400 tracking-widest uppercase">
-                  Creative Growth Studio
-                </span>
-              </div>
-            </div>
+          {/* Col 1 - Studio Info & Founder */}
+          <div className="lg:col-span-4 space-y-5">
+            <Link href="/" className="inline-block">
+              <img
+                src="/media/logo-v2.png?v=2"
+                alt="Digitacurve Logo"
+                className="h-9 w-auto object-contain"
+              />
+            </Link>
             <p className="text-slate-400 text-xs leading-relaxed font-light">
-              Website + Digital Marketing Agency based in Noida, serving brands and businesses across India.
+              Premium Web Development &amp; Performance Marketing Studio from Noida. Building high-converting web apps, local SEO, and scalable ad funnels across India.
             </p>
-            <div className="text-xs font-mono text-blue-400">
-              NOIDA BASE → PAN-INDIA COVERAGE
+            <div className="p-3.5 rounded-xl bg-[#050B14] border border-blue-900/40 space-y-1.5">
+              <div className="text-[11px] font-bold text-slate-200 flex items-center justify-between">
+                <span>FOUNDER: RISHABH JAISWAL (RJ)</span>
+                <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+              </div>
+              <div className="text-[10px] font-mono text-blue-400 flex items-center gap-1.5">
+                <MapPin className="w-3 h-3 shrink-0" /> NOIDA HQ · PAN-INDIA CLIENTELE
+              </div>
             </div>
           </div>
 
-          {/* Col 2 - Quick Navigation */}
+          {/* Col 2 - Core Services & Solutions */}
           <div className="lg:col-span-3 space-y-4">
-            <h3 className="text-xs font-mono text-slate-400 tracking-widest uppercase">
-              NAVIGATION
+            <h3 className="text-xs font-mono text-blue-400 tracking-widest uppercase font-bold border-b border-blue-900/40 pb-2">
+              SOLUTIONS & SERVICES
             </h3>
-            <ul className="space-y-2 text-xs font-semibold text-slate-300">
+            <ul className="space-y-2 text-xs font-medium text-slate-300">
               <li>
-                <Link href="#services" className="hover:text-blue-400 transition-colors">
-                  01 Core Services
+                <Link href="/web-development" className="hover:text-blue-400 transition-colors flex items-center gap-2">
+                  <span className="text-blue-500 font-mono text-[10px]">01</span> Web Development
                 </Link>
               </li>
               <li>
-                <Link href="#free-report" className="hover:text-blue-400 transition-colors">
-                  02 Free Diagnostic Report
+                <Link href="/digital-marketing" className="hover:text-blue-400 transition-colors flex items-center gap-2">
+                  <span className="text-blue-500 font-mono text-[10px]">02</span> Digital Marketing & SEO
                 </Link>
               </li>
               <li>
-                <Link href="#work" className="hover:text-blue-400 transition-colors">
-                  03 Brand Roster &amp; Work
+                <Link href="/solutions/real-estate" className="hover:text-blue-400 transition-colors flex items-center gap-2">
+                  <Building2 className="w-3 h-3 text-blue-400" /> Real Estate & Builders
                 </Link>
               </li>
               <li>
-                <Link href="#founder" className="hover:text-blue-400 transition-colors">
-                  04 Founder &amp; Team
+                <Link href="/solutions/healthcare" className="hover:text-blue-400 transition-colors flex items-center gap-2">
+                  <HeartPulse className="w-3 h-3 text-emerald-400" /> Healthcare & Clinics
                 </Link>
               </li>
               <li>
-                <Link href="#india" className="hover:text-blue-400 transition-colors">
-                  05 India City Coverage
+                <Link href="/solutions/travel-tourism" className="hover:text-blue-400 transition-colors flex items-center gap-2">
+                  <Plane className="w-3 h-3 text-cyan-400" /> Travel & Tourism
+                </Link>
+              </li>
+              <li>
+                <Link href="/solutions/solar-energy" className="hover:text-blue-400 transition-colors flex items-center gap-2">
+                  <Sun className="w-3 h-3 text-amber-400" /> Solar Energy Portals
                 </Link>
               </li>
             </ul>
           </div>
 
-          {/* Col 3 - Direct Contact Channels */}
-          <div className="lg:col-span-5 space-y-4">
-            <h3 className="text-xs font-mono text-slate-400 tracking-widest uppercase">
+          {/* Col 3 - Navigation & Agency */}
+          <div className="lg:col-span-2 space-y-4">
+            <h3 className="text-xs font-mono text-blue-400 tracking-widest uppercase font-bold border-b border-blue-900/40 pb-2">
+              COMPANY
+            </h3>
+            <ul className="space-y-2 text-xs font-medium text-slate-300">
+              <li>
+                <Link href="/portfolio" className="hover:text-blue-400 transition-colors">
+                  Work Portfolio
+                </Link>
+              </li>
+              <li>
+                <Link href="/pricing" className="hover:text-blue-400 transition-colors text-purple-300 font-semibold">
+                  Pricing &amp; Plans ⚡
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog" className="hover:text-blue-400 transition-colors">
+                  Blog &amp; Insights
+                </Link>
+              </li>
+              <li>
+                <Link href="/company/contact" className="hover:text-blue-400 transition-colors">
+                  Contact Studio
+                </Link>
+              </li>
+              <li>
+                <Link href="/#free-report" className="hover:text-blue-400 transition-colors">
+                  Get Free Audit
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Col 4 - Direct Contact Channels */}
+          <div className="lg:col-span-3 space-y-4">
+            <h3 className="text-xs font-mono text-blue-400 tracking-widest uppercase font-bold border-b border-blue-900/40 pb-2">
               DIRECT CHANNELS
             </h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+            <div className="space-y-2 text-xs">
               <a
-                href="mailto:contact@digitacurve.in"
-                className="p-3 bg-[#050B14] border border-blue-900/40 hover:border-blue-500/80 rounded-xl flex items-center gap-3 transition-colors group"
+                href="mailto:contact@digitacurve.com"
+                className="p-2.5 bg-[#050B14] border border-blue-900/40 hover:border-blue-500/80 rounded-xl flex items-center gap-3 transition-colors group"
               >
-                <div className="w-8 h-8 rounded-lg bg-blue-950 flex items-center justify-center text-blue-400 group-hover:bg-blue-600 group-hover:text-white transition-colors">
-                  <Mail className="w-4 h-4" />
+                <div className="w-7 h-7 rounded-lg bg-blue-950 flex items-center justify-center text-blue-400 group-hover:bg-blue-600 group-hover:text-white transition-colors shrink-0">
+                  <Mail className="w-3.5 h-3.5" />
                 </div>
-                <div>
-                  <div className="text-[10px] font-mono text-slate-400">EMAIL</div>
-                  <div className="font-bold text-white text-[11px] truncate">contact@digitacurve.in</div>
+                <div className="min-w-0">
+                  <div className="text-[9px] font-mono text-slate-400 uppercase">EMAIL</div>
+                  <div className="font-bold text-white text-[11px] truncate">contact@digitacurve.com</div>
                 </div>
               </a>
 
               <a
-                href="https://wa.me/918302569311"
+                href="tel:+917572094201"
+                className="p-2.5 bg-[#050B14] border border-blue-900/40 hover:border-blue-500/80 rounded-xl flex items-center gap-3 transition-colors group"
+              >
+                <div className="w-7 h-7 rounded-lg bg-blue-950 flex items-center justify-center text-blue-400 group-hover:bg-blue-600 group-hover:text-white transition-colors shrink-0">
+                  <Phone className="w-3.5 h-3.5" />
+                </div>
+                <div className="min-w-0">
+                  <div className="text-[9px] font-mono text-slate-400 uppercase">CALL DIRECT</div>
+                  <div className="font-bold text-white text-[11px]">+91 75720 94201</div>
+                </div>
+              </a>
+
+              <a
+                href="https://www.instagram.com/digitacurve/"
                 target="_blank"
                 rel="noreferrer"
-                className="p-3 bg-[#050B14] border border-blue-900/40 hover:border-blue-500/80 rounded-xl flex items-center gap-3 transition-colors group"
+                className="p-2.5 bg-[#050B14] border border-blue-900/40 hover:border-blue-500/80 rounded-xl flex items-center gap-3 transition-colors group"
               >
-                <div className="w-8 h-8 rounded-lg bg-emerald-950 flex items-center justify-center text-emerald-400 group-hover:bg-emerald-600 group-hover:text-white transition-colors">
-                  <MessageSquare className="w-4 h-4" />
+                <div className="w-7 h-7 rounded-lg bg-pink-950 flex items-center justify-center text-pink-400 group-hover:bg-pink-600 group-hover:text-white transition-colors shrink-0">
+                  <Instagram className="w-3.5 h-3.5" />
                 </div>
-                <div>
-                  <div className="text-[10px] font-mono text-slate-400">WHATSAPP</div>
-                  <div className="font-bold text-white text-[11px]">+91 83025 69311</div>
-                </div>
-              </a>
-
-              <a
-                href="tel:+918302569311"
-                className="p-3 bg-[#050B14] border border-blue-900/40 hover:border-blue-500/80 rounded-xl flex items-center gap-3 transition-colors group"
-              >
-                <div className="w-8 h-8 rounded-lg bg-blue-950 flex items-center justify-center text-blue-400 group-hover:bg-blue-600 group-hover:text-white transition-colors">
-                  <Phone className="w-4 h-4" />
-                </div>
-                <div>
-                  <div className="text-[10px] font-mono text-slate-400">DIRECT CALL</div>
-                  <div className="font-bold text-white text-[11px]">+91 83025 69311</div>
-                </div>
-              </a>
-
-              <a
-                href="https://www.instagram.com"
-                target="_blank"
-                rel="noreferrer"
-                className="p-3 bg-[#050B14] border border-blue-900/40 hover:border-blue-500/80 rounded-xl flex items-center gap-3 transition-colors group"
-              >
-                <div className="w-8 h-8 rounded-lg bg-pink-950 flex items-center justify-center text-pink-400 group-hover:bg-pink-600 group-hover:text-white transition-colors">
-                  <Instagram className="w-4 h-4" />
-                </div>
-                <div>
-                  <div className="text-[10px] font-mono text-slate-400">INSTAGRAM</div>
+                <div className="min-w-0">
+                  <div className="text-[9px] font-mono text-slate-400 uppercase">INSTAGRAM</div>
                   <div className="font-bold text-white text-[11px]">@digitacurve</div>
                 </div>
               </a>
@@ -168,23 +199,23 @@ export default function Footer() {
 
         {/* GIANT FOOTER WATERMARK - DIGITACURVE */}
         <div className="pt-16 pb-4 overflow-hidden border-b border-blue-900/30">
-          <h1 className="text-[15vw] font-black tracking-tighter leading-none text-slate-900/80 hover:text-blue-950 transition-colors uppercase select-none text-center">
+          <h1 className="text-[14vw] font-black tracking-tighter leading-none bg-gradient-to-b from-slate-800/80 via-slate-900/60 to-transparent bg-clip-text text-transparent hover:from-blue-700/60 hover:to-indigo-900/20 transition-all duration-500 uppercase select-none text-center">
             DIGITACURVE
           </h1>
         </div>
 
         {/* Bottom Copyright Metadata */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono text-slate-500">
+        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono text-slate-400">
           <div>
-            © 2026 DIGITACURVE · FOUNDER-LED STUDIO FROM NOIDA · SERVING ALL INDIA
+            © 2026 DIGITACURVE · FOUNDER: RISHABH JAISWAL (RJ) · NOIDA, INDIA
           </div>
-          <div className="flex items-center gap-4">
-            <Link href="#privacy" className="hover:text-blue-400 transition-colors">
+          <div className="flex items-center gap-4 text-[11px]">
+            <Link href="/company/contact" className="hover:text-blue-400 transition-colors">
               PRIVACY POLICY
             </Link>
             <span>·</span>
-            <Link href="#terms" className="hover:text-blue-400 transition-colors">
-              TERMS OF SERVICE
+            <Link href="/company/contact" className="hover:text-blue-400 transition-colors">
+              TERMS &amp; CONDITIONS
             </Link>
           </div>
         </div>

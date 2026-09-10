@@ -55,11 +55,11 @@ export default function ProcessSystem() {
 
   return (
     <section className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-b border-blue-900/30">
-      <div className="space-y-4 mb-12">
+      <div className="space-y-4 mb-8 sm:mb-12">
         <p className="text-xs font-mono text-blue-400 tracking-widest uppercase">
           HOW WE WORK / ONE CONNECTED METHOD
         </p>
-        <h2 className="text-5xl sm:text-7xl font-black tracking-tight leading-[0.9] text-white uppercase">
+        <h2 className="text-3xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-[0.95] text-white uppercase">
           A STRUCTURED<br />
           <span className="text-blue-500 italic font-light">WAY TO MOVE.</span>
         </h2>
@@ -147,7 +147,7 @@ export default function ProcessSystem() {
             {/* Top Animated Header */}
             <div className="flex items-center justify-between text-xs font-mono text-blue-400 z-10">
               <span className="bg-slate-950/80 px-3 py-1 rounded-full border border-blue-900/60 backdrop-blur-md">
-                DC—SYSTEM / {steps[activeStep].num}
+                MD—SYSTEM / {steps[activeStep].num}
               </span>
               <AnimatePresence mode="wait">
                 <motion.span

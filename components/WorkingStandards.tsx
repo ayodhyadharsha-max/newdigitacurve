@@ -23,34 +23,31 @@ export default function WorkingStandards() {
   ];
 
   return (
-    <section className="hidden lg:block py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-b border-blue-900/30 space-y-16">
+    <section className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-b border-blue-900/30 space-y-16">
       {/* Header */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end">
-        <div className="lg:col-span-8 space-y-4">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-end">
+        <div className="lg:col-span-8 space-y-3">
           <p className="text-xs font-mono text-blue-400 tracking-widest uppercase">
             04 / CLIENT EXPERIENCE
           </p>
-          <h2 className="text-5xl sm:text-7xl font-black tracking-tight leading-[0.9] text-white uppercase">
-            WHAT<br />
-            WORKING<br />
-            TOGETHER<br />
-            SHOULD<br />
-            <span className="text-blue-500 italic font-light">FEEL LIKE.</span>
+          <h2 className="text-3xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-[0.95] text-white uppercase">
+            WHAT WORKING TOGETHER<br />
+            <span className="text-blue-500 italic font-light">SHOULD FEEL LIKE.</span>
           </h2>
         </div>
         <div className="lg:col-span-4">
-          <p className="text-slate-300 text-sm leading-relaxed font-light">
-            Strong agency relationships are built on clarity before hype. These are Meet Digital's working standards—not attributed client testimonials.
+          <p className="text-slate-300 text-xs sm:text-sm leading-relaxed font-light">
+            Strong agency relationships are built on clarity before hype. These are Digitacurve's working standards—not attributed client testimonials.
           </p>
         </div>
       </div>
 
       {/* 3 Standard Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
         {standards.map((std, idx) => (
           <div
             key={idx}
-            className="bg-[#050B14] border border-blue-900/60 rounded-2xl p-8 flex flex-col justify-between min-h-[280px] hover:border-blue-500/80 transition-all duration-300 group"
+            className="bg-[#050B14] border border-blue-900/60 rounded-2xl p-5 sm:p-8 flex flex-col justify-between hover:border-blue-500/80 transition-all duration-300 group space-y-4"
           >
             <div className="flex justify-between items-center text-xs font-mono text-blue-400">
               <span className="bg-blue-950 border border-blue-800/50 px-2.5 py-1 rounded font-bold">
@@ -58,8 +55,8 @@ export default function WorkingStandards() {
               </span>
               <span className="text-blue-500 text-sm">✦</span>
             </div>
-            <div className="space-y-3 my-4">
-              <h3 className="text-2xl font-black text-white uppercase tracking-tight group-hover:text-blue-400 transition-colors">
+            <div className="space-y-2">
+              <h3 className="text-lg sm:text-2xl font-black text-white uppercase tracking-tight group-hover:text-blue-400 transition-colors">
                 {std.title}
               </h3>
               <p className="text-xs text-slate-300 leading-relaxed font-light">
@@ -81,7 +78,7 @@ export default function WorkingStandards() {
           </span>
         </div>
         <Link
-          href="#contact"
+          href="/company/contact"
           className="text-blue-400 hover:text-white font-mono font-bold flex items-center gap-1 shrink-0 transition-colors"
         >
           SHARE APPROVED FEEDBACK <ArrowUpRight className="w-3.5 h-3.5" />

@@ -5,7 +5,7 @@ import { ArrowUpRight } from 'lucide-react';
 
 export default function FreeReportFeature() {
   return (
-    <section id="free-report" className="hidden lg:block py-16 sm:py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-b border-blue-900/30">
+    <section id="free-report" className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-b border-blue-900/30">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
         {/* Left Copy Column */}
         <div className="lg:col-span-6 space-y-6">
@@ -25,10 +25,10 @@ export default function FreeReportFeature() {
 
           <div className="pt-2">
             <Link
-              href="#contact"
+              href="/company/contact"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs sm:text-sm px-8 py-4 rounded-full shadow-xl shadow-blue-600/40 transition-all active:scale-95"
             >
-              GET FREE AUDIT &amp; PICK PLAN <ArrowUpRight className="w-4 h-4" />
+              PREPARE MY FREE REPORT <ArrowUpRight className="w-4 h-4" />
             </Link>
           </div>
 

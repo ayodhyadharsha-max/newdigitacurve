@@ -158,7 +158,7 @@ export default function MeetAiWidget() {
           <div className="px-3 py-2 bg-slate-950 border-t border-slate-900 flex items-center justify-between text-[10px] text-slate-400 font-mono">
             <span>RESPONSES BY DIGITACURVE AI</span>
             <a
-              href="https://wa.me/918302569311"
+              href="https://wa.me/917572094201"
               target="_blank"
               rel="noreferrer"
               className="text-blue-400 hover:underline flex items-center gap-0.5"

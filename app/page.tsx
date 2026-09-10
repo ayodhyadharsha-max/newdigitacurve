@@ -1,8 +1,8 @@
 import HeroSection from '@/components/HeroSection';
 import MarqueeBanner from '@/components/MarqueeBanner';
 import RosterPulse from '@/components/RosterPulse';
-import ServicesGrid from '@/components/ServicesGrid';
 import FreeReportFeature from '@/components/FreeReportFeature';
+import ServicesGrid from '@/components/ServicesGrid';
 import LivingStudio from '@/components/LivingStudio';
 import ManifestoSection from '@/components/ManifestoSection';
 import ProcessSystem from '@/components/ProcessSystem';
@@ -17,8 +17,8 @@ export default function Home() {
       <HeroSection />
       <MarqueeBanner />
       <RosterPulse />
-      <ServicesGrid />
       <FreeReportFeature />
+      <ServicesGrid />
       <LivingStudio />
       <ManifestoSection />
       <ProcessSystem />

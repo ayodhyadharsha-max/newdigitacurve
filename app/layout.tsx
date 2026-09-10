@@ -9,9 +9,176 @@ import MeetAiWidget from '@/components/MeetAiWidget';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Digital Marketing & Website Design Agency India | Digitacurve',
+  metadataBase: new URL('https://www.digitacurve.com'),
+  title: {
+    default: 'Digitacurve: Next.js Web Development Agency | SEO & GEO Company',
+    template: '%s | Digitacurve',
+  },
   description:
-    'Digitacurve is a website design and digital marketing agency based in Noida, serving brands across India. Web, search, paid media and brand strategy.',
+    'Digitacurve stands at the forefront of digital transformation, offering custom Next.js web applications, digital marketing, SEO, PPC, and 360° lead generation systems based in Noida, serving clients across India.',
+  keywords: [
+    'Digitacurve',
+    'Next.js Web Development Agency',
+    'SEO & GEO Company',
+    'Digital Marketing Agency Noida',
+    'Website Design Company India',
+    'Real Estate Lead Generation',
+    'Healthcare Website Development',
+    'PPC Google Ads Agency',
+  ],
+  alternates: {
+    canonical: 'https://www.digitacurve.com',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'en_IN',
+    url: 'https://www.digitacurve.com',
+    siteName: 'Digitacurve',
+    title: 'Digitacurve: Next.js Web Development Agency | SEO & GEO Company',
+    description:
+      'Digitacurve offers custom Next.js web applications, SEO, PPC, and 360° lead generation systems based in Noida, serving clients across India.',
+    images: [
+      {
+        url: '/media/logo-v2.png',
+        width: 1200,
+        height: 630,
+        alt: 'Digitacurve Agency',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Digitacurve: Next.js Web Development Agency | SEO & GEO Company',
+    description: 'Custom Next.js web development, SEO, PPC & digital growth systems.',
+    images: ['/media/logo-v2.png'],
+  },
+};
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Organization',
+      '@id': 'https://www.digitacurve.com/#organization',
+      name: 'Digitacurve',
+      url: 'https://www.digitacurve.com',
+      logo: 'https://www.digitacurve.com/media/logo-v2.png',
+      founder: {
+        '@type': 'Person',
+        name: 'Rishabh Jaiswal',
+        jobTitle: 'Founder & Strategy Lead',
+      },
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Noida',
+        addressRegion: 'Uttar Pradesh',
+        addressCountry: 'IN',
+      },
+      contactPoint: {
+        '@type': 'ContactPoint',
+        telephone: '+91-7572094201',
+        contactType: 'customer service',
+        email: 'contact@digitacurve.com',
+      },
+      sameAs: ['https://www.instagram.com/digitacurve/'],
+    },
+    {
+      '@type': 'WebSite',
+      '@id': 'https://www.digitacurve.com/#website',
+      url: 'https://www.digitacurve.com',
+      name: 'Digitacurve',
+      description: 'Next.js Web Development Agency & Digital Growth Studio',
+      publisher: {
+        '@id': 'https://www.digitacurve.com/#organization',
+      },
+    },
+    {
+      '@type': 'ProfessionalService',
+      '@id': 'https://www.digitacurve.com/#service',
+      name: 'Digitacurve Digital Agency',
+      image: 'https://www.digitacurve.com/media/logo-v2.png',
+      priceRange: '₹₹',
+      telephone: '+917572094201',
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Noida',
+        addressRegion: 'Uttar Pradesh',
+        addressCountry: 'IN',
+      },
+      areaServed: 'India',
+      hasOfferCatalog: {
+        '@type': 'OfferCatalog',
+        name: 'Digital Growth Services',
+        itemListElement: [
+          {
+            '@type': 'Offer',
+            itemOffered: {
+              '@type': 'Service',
+              name: 'Web Development',
+              description: 'Custom Next.js 14 and React Web Application Development',
+            },
+          },
+          {
+            '@type': 'Offer',
+            itemOffered: {
+              '@type': 'Service',
+              name: 'Mobile App Development',
+              description: 'iOS, Android, React Native & Flutter Mobile Apps',
+            },
+          },
+          {
+            '@type': 'Offer',
+            itemOffered: {
+              '@type': 'Service',
+              name: 'SEO & Performance Marketing',
+              description: 'Technical SEO, Google Ads, Meta Ads, and Lead Funnels',
+            },
+          },
+        ],
+      },
+    },
+    {
+      '@type': 'FAQPage',
+      '@id': 'https://www.digitacurve.com/#faq',
+      mainEntity: [
+        {
+          '@type': 'Question',
+          name: 'Where is Digitacurve based?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Digitacurve and its core leadership team led by Rishabh Jaiswal are based in Noida, serving businesses across India with zero location friction.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'Do I get direct access to the founder?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Yes. Rishabh Jaiswal oversees strategy and execution directly on every project. No junior account manager pass-offs.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'What services does Digitacurve provide?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Digitacurve provides Next.js web development, mobile app development, technical SEO, Google Ads, Meta Ads, and real estate/healthcare industry solutions.',
+          },
+        },
+      ],
+    },
+  ],
 };
 
 export default function RootLayout({
@@ -21,6 +188,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark scroll-smooth">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className={`${inter.className} bg-[#030712] text-slate-100 antialiased selection:bg-blue-600 selection:text-white`}>
         <SmoothScroll>
           <Header />

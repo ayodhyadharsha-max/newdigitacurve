@@ -1,5 +1,6 @@
 'use client';
 
+import { useEffect } from 'react';
 import { X, ArrowUpRight } from 'lucide-react';
 import Link from 'next/link';
 
@@ -9,63 +10,79 @@ interface NavigationMenuProps {
 }
 
 export default function NavigationMenu({ isOpen, onClose }: NavigationMenuProps) {
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [isOpen]);
+
   if (!isOpen) return null;
 
   const navLinks = [
     { number: '01', label: 'Home', href: '/' },
-    { number: 'FR', label: 'Free Report', href: '#free-report' },
-    { number: '02', label: 'Work', href: '#work' },
-    { number: '03', label: 'Services', href: '#services' },
-    { number: '04', label: 'Founder', href: '#founder' },
-    { number: '05', label: 'About', href: '#about' },
-    { number: '06', label: 'Contact', href: '#contact' },
-    { number: '07', label: 'India', href: '#india' },
+    { number: '02', label: 'Web Development', href: '/web-development' },
+    { number: '03', label: 'Mobile App Development', href: '/app-development' },
+    { number: '04', label: 'Digital Marketing & SEO', href: '/digital-marketing' },
+    { number: '05', label: 'Real Estate Solution', href: '/solutions/real-estate' },
+    { number: '06', label: 'Healthcare Solution', href: '/solutions/healthcare' },
+    { number: '07', label: 'Travel & Tourism', href: '/solutions/travel-tourism' },
+    { number: '08', label: 'Solar Energy', href: '/solutions/solar-energy' },
+    { number: '09', label: 'Pricing & Packages', href: '/pricing' },
+    { number: '10', label: 'Portfolio Showcase', href: '/portfolio' },
+    { number: '11', label: 'Insights & Blog', href: '/blog' },
+    { number: '12', label: 'Contact Studio', href: '/company/contact' },
   ];
 
   return (
-    <div className="fixed inset-0 z-50 bg-[#000B29]/95 backdrop-blur-xl flex flex-col justify-between p-6 md:p-12 text-white animate-in fade-in duration-300">
+    <div className="fixed inset-0 z-50 w-full h-[100dvh] bg-[#000B29]/98 backdrop-blur-2xl flex flex-col justify-between p-4 sm:p-6 md:p-12 text-white animate-in fade-in duration-300 overflow-y-auto overscroll-contain">
       {/* Header inside overlay */}
-      <div className="flex items-center justify-between border-b border-blue-900/50 pb-6">
-        <div className="text-xs tracking-widest text-blue-400 font-mono flex items-center gap-2">
-          <span className="w-6 h-6 rounded-full bg-blue-600 flex items-center justify-center font-black text-[10px] text-white">DC</span>
-          DC—NAV / NOIDA BASE → INDIA
+      <div className="flex items-center justify-between border-b border-blue-900/50 pb-4 sm:pb-6 shrink-0">
+        <div className="text-xs tracking-widest text-blue-400 font-mono flex items-center gap-2 sm:gap-3">
+          <img src="/media/logo-v2.png?v=2" alt="Digitacurve" className="h-5 sm:h-6 w-auto object-contain" />
+          <span className="text-[10px] sm:text-xs">DIGITACURVE / NOIDA BASE → INDIA</span>
         </div>
         <button
           onClick={onClose}
-          className="flex items-center gap-2 bg-blue-600/20 border border-blue-500/40 hover:bg-blue-600 px-4 py-2 rounded-full text-xs font-bold transition-all"
+          className="flex items-center gap-1.5 bg-blue-600/20 border border-blue-500/40 hover:bg-blue-600 px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full text-xs font-bold transition-all shrink-0"
         >
           CLOSE <X className="w-4 h-4" />
         </button>
       </div>
 
       {/* Navigation Links Grid */}
-      <nav className="my-auto py-8 grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl mx-auto w-full">
+      <nav className="my-auto py-6 sm:py-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2.5 sm:gap-3 max-w-6xl mx-auto w-full">
         {navLinks.map((link, idx) => (
           <Link
             key={idx}
             href={link.href}
             onClick={onClose}
-            className="group flex items-center justify-between p-4 rounded-xl border border-blue-900/30 hover:border-blue-500/60 hover:bg-blue-900/20 transition-all duration-300"
+            className="group flex items-center justify-between p-3 sm:p-3.5 rounded-xl border border-blue-900/40 hover:border-blue-500/60 bg-[#050B14]/80 hover:bg-blue-900/30 transition-all duration-300"
           >
-            <div className="flex items-center gap-4">
-              <span className="text-xs font-mono text-blue-400 bg-blue-950/80 border border-blue-800/50 px-2 py-1 rounded">
+            <div className="flex items-center gap-3">
+              <span className="text-[10px] font-mono text-blue-400 bg-blue-950/80 border border-blue-800/50 px-2 py-0.5 rounded">
                 {link.number}
               </span>
-              <span className="text-2xl md:text-3xl font-black tracking-tight group-hover:text-blue-400 transition-colors">
+              <span className="text-base sm:text-lg font-black tracking-tight group-hover:text-blue-400 transition-colors">
                 {link.label}
               </span>
             </div>
-            <ArrowUpRight className="w-6 h-6 text-blue-400 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 group-hover:-translate-y-1 transition-all" />
+            <ArrowUpRight className="w-4 h-4 sm:w-5 sm:h-5 text-blue-400 opacity-80 sm:opacity-0 group-hover:opacity-100 group-hover:translate-x-1 group-hover:-translate-y-1 transition-all shrink-0" />
           </Link>
         ))}
       </nav>
 
       {/* Footer Links */}
-      <div className="flex flex-wrap items-center justify-between gap-4 border-t border-blue-900/50 pt-6 text-xs text-slate-400 font-mono">
-        <div>DIGITACURVE AGENCY © 2026 · NOIDA</div>
-        <div className="flex items-center gap-6">
+      <div className="flex flex-wrap items-center justify-between gap-3 border-t border-blue-900/50 pt-4 sm:pt-6 text-[10px] sm:text-xs text-slate-400 font-mono shrink-0">
+        <div>DIGITACURVE AGENCY © 2026</div>
+        <div className="flex items-center gap-4 sm:gap-6">
           <a
-            href="https://www.instagram.com"
+            href="https://www.instagram.com/digitacurve/"
             target="_blank"
             rel="noreferrer"
             className="hover:text-blue-400 flex items-center gap-1 transition-colors"
@@ -73,7 +90,7 @@ export default function NavigationMenu({ isOpen, onClose }: NavigationMenuProps)
             INSTAGRAM <ArrowUpRight className="w-3 h-3" />
           </a>
           <a
-            href="https://wa.me/918302569311"
+            href="https://wa.me/917572094201"
             target="_blank"
             rel="noreferrer"
             className="hover:text-blue-400 flex items-center gap-1 transition-colors"
