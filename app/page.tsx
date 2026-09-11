@@ -8,6 +8,7 @@ import ManifestoSection from '@/components/ManifestoSection';
 import ProcessSystem from '@/components/ProcessSystem';
 import BrandUniverse from '@/components/BrandUniverse';
 import IndiaCoverage from '@/components/IndiaCoverage';
+import GlobalPresence from '@/components/GlobalPresence';
 import WorkingStandards from '@/components/WorkingStandards';
 import FaqSection from '@/components/FaqSection';
 
@@ -24,6 +25,7 @@ export default function Home() {
       <ProcessSystem />
       <BrandUniverse />
       <IndiaCoverage />
+      <GlobalPresence />
       <WorkingStandards />
       <FaqSection />
     </div>
