@@ -2,19 +2,19 @@
 
 export default function GlobalPresence() {
   const row1Hubs = [
-    { country: 'Ontario, Canada', img: '/locations/CANADA.png?v=7' },
-    { country: 'United Kingdom', img: '/locations/UK.png?v=7' },
-    { country: 'Ireland', img: '/locations/IRELAND.png?v=7' },
+    { country: 'Ontario, Canada', img: '/locations/CANADA.png?v=8' },
+    { country: 'United Kingdom', img: '/locations/UK.png?v=8' },
+    { country: 'Ireland', img: '/locations/IRELAND.png?v=8' },
   ];
 
   const row2Hubs = [
-    { country: 'UAE', img: '/locations/UAE.png?v=7' },
-    { country: 'India (Noida HQ)', img: '/locations/INDIA.png?v=7' },
-    { country: 'United States', img: '/locations/USA.png?v=7' },
+    { country: 'UAE', img: '/locations/UAE.png?v=8' },
+    { country: 'India (Noida HQ)', img: '/locations/INDIA.png?v=8' },
+    { country: 'United States', img: '/locations/USA.png?v=8' },
   ];
 
   const row3Hubs = [
-    { country: 'Australia', img: '/locations/AUSTRALIA.png?v=7' },
+    { country: 'Australia', img: '/locations/AUSTRALIA.png?v=8' },
   ];
 
   const renderHub = (hub: { country: string; img: string }, idx: number) => (
