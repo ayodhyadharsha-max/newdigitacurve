@@ -4,7 +4,7 @@ export default function GlobalPresence() {
   const row1Hubs = [
     { country: 'Ontario, Canada', img: '/locations/CANADA.svg?v=3' },
     { country: 'United Kingdom', img: '/locations/UK.svg?v=3' },
-    { country: 'Ireland', img: '/locations/IRELAND.svg?v=3' },
+    { country: 'Ireland', img: '/locations/Dublin.png?v=3' },
   ];
 
   const row2Hubs = [
