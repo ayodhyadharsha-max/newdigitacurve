@@ -7,7 +7,6 @@ import LivingStudio from '@/components/LivingStudio';
 import ManifestoSection from '@/components/ManifestoSection';
 import ProcessSystem from '@/components/ProcessSystem';
 import BrandUniverse from '@/components/BrandUniverse';
-import GlobalPresence from '@/components/GlobalPresence';
 import WorkingStandards from '@/components/WorkingStandards';
 import FaqSection from '@/components/FaqSection';
 
@@ -23,7 +22,6 @@ export default function Home() {
       <ManifestoSection />
       <ProcessSystem />
       <BrandUniverse />
-      <GlobalPresence />
       <WorkingStandards />
       <FaqSection />
     </div>
