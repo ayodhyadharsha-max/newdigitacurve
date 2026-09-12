@@ -37,6 +37,9 @@ export const metadata: Metadata = {
     shortcut: '/favicon.ico?v=3',
     apple: '/apple-icon.png?v=3',
   },
+  verification: {
+    google: 'googlee0f549c8d1a8a1cd',
+  },
   robots: {
     index: true,
     follow: true,
