@@ -38,7 +38,10 @@ export const metadata: Metadata = {
     apple: '/apple-icon.png?v=3',
   },
   verification: {
-    google: 'googlee0f549c8d1a8a1cd',
+    google: [
+      'googlee0f549c8d1a8a1cd',
+      'WbnglHYC1zWfihaNiEeyOMTupfOh3iHF8h8tKPa07II',
+    ],
   },
   robots: {
     index: true,
