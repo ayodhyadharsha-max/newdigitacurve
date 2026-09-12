@@ -29,6 +29,14 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.digitacurve.com',
   },
+  icons: {
+    icon: [
+      { url: '/favicon.ico?v=3' },
+      { url: '/icon.png?v=3', type: 'image/png' },
+    ],
+    shortcut: '/favicon.ico?v=3',
+    apple: '/apple-icon.png?v=3',
+  },
   robots: {
     index: true,
     follow: true,
