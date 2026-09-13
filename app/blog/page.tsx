@@ -8,6 +8,14 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: 'generative-engine-optimization-geo-guide-2026',
+    title: 'Generative Engine Optimization (GEO): How to Rank on Google Gemini, ChatGPT Search & Perplexity in 2026',
+    category: 'GEO & AI Search',
+    date: 'Sep 13, 2026',
+    readTime: '6 min read',
+    excerpt: 'Master the transition from traditional SEO to Generative Engine Optimization. Learn how AI engines select brand citations, extract structured data, and recommend businesses.',
+  },
+  {
     slug: 'nextjs-14-speed-optimization',
     title: 'Why Next.js 14 is the Ultimate Web Framework for High-Converting Business Websites',
     category: 'Engineering',

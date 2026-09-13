@@ -3,6 +3,21 @@ import { ArrowLeft, ArrowUpRight, Calendar, Clock, Tag, User } from 'lucide-reac
 import { notFound } from 'next/navigation';
 
 const postsMap: Record<string, { title: string; category: string; date: string; readTime: string; content: string[] }> = {
+  'generative-engine-optimization-geo-guide-2026': {
+    title: 'Generative Engine Optimization (GEO): How to Rank on Google Gemini, ChatGPT Search & Perplexity in 2026',
+    category: 'GEO & AI Search',
+    date: 'Sep 13, 2026',
+    readTime: '6 min read',
+    content: [
+      'Search behavior in 2026 has shifted dramatically. Users no longer just type short keywords and click ten blue links — they ask complex, multi-turn questions directly to AI Search Engines like Google Gemini Overviews, Perplexity AI, and ChatGPT Search.',
+      'Generative Engine Optimization (GEO) is the discipline of structuring your digital presence so LLMs extract, cite, and recommend your business when users search for high-intent commercial solutions.',
+      'Key Pillars of GEO Excellence for 2026:',
+      '1. High Informational & Fact Density: AI models skip generic marketing fluff and prioritize sentences containing concrete metrics, structured statistics, and verified industry outcomes.',
+      '2. Entity-Fact Associations: Explicitly linking your brand name with your specific service offerings (e.g. "Digitacurve provides custom Next.js 14 web development and GEO optimization based in Noida") establishes unbreakable knowledge graph nodes.',
+      '3. Conversational Question-and-Answer Headers: Structuring H2 and H3 tags as natural language queries followed by direct 2-sentence answers allows AI models to slice and cite your content in featured answer carousels.',
+      'At Digitacurve, every web application we build comes pre-optimized for both traditional Google SEO rankings and LLM recommendation algorithms.',
+    ],
+  },
   'nextjs-14-speed-optimization': {
     title: 'Why Next.js 14 is the Ultimate Web Framework for High-Converting Business Websites',
     category: 'Engineering',
