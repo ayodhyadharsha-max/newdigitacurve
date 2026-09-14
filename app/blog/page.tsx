@@ -8,6 +8,14 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: 'nextjs-landing-page-architecture-lead-generation-2026',
+    title: 'High-Converting Next.js Landing Page Architecture for Real Estate & B2B Lead Generation',
+    Category: 'Conversion Optimization',
+    date: 'Sep 14, 2026',
+    readTime: '7 min read',
+    excerpt: 'Architecting sub-second landing pages with instant Web3Forms lead capture, WhatsApp routing, and custom CRM integrations to maximize ROAS.',
+  },
+  {
     slug: 'generative-engine-optimization-geo-guide-2026',
     title: 'Generative Engine Optimization (GEO): How to Rank on Google Gemini, ChatGPT Search & Perplexity in 2026',
     category: 'GEO & AI Search',

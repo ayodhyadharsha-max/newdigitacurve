@@ -3,6 +3,21 @@ import { ArrowLeft, ArrowUpRight, Calendar, Clock, Tag, User } from 'lucide-reac
 import { notFound } from 'next/navigation';
 
 const postsMap: Record<string, { title: string; category: string; date: string; readTime: string; content: string[] }> = {
+  'nextjs-landing-page-architecture-lead-generation-2026': {
+    title: 'High-Converting Next.js Landing Page Architecture for Real Estate & B2B Lead Generation',
+    category: 'Conversion Optimization',
+    date: 'Sep 14, 2026',
+    readTime: '7 min read',
+    content: [
+      'Digital ad campaigns (Google Ads, Meta Ads) succeed or fail based on post-click conversion rates. Sending paid traffic to bloated monolithic sites often results in 70%+ bounce rates and wasted marketing dollars.',
+      'At Digitacurve, we design high-intent landing page architectures engineered specifically for Next.js 14 and React.',
+      'Key Architectural Principles for High-Converting Funnels:',
+      '1. Sub-Second Time To Interactive (TTI): Hydrating form controls and CTAs in under 0.6s ensures users can submit inquiries without lag.',
+      '2. Dual Lead Routing (Instant Email + Direct WhatsApp): Providing immediate WhatsApp lead triggers alongside Web3Forms submission captures mobile users on the spot.',
+      '3. Micro-Copy & Social Proof Above The Fold: Placing client trust badges, ROI stats, and clear value propositions before scrolling doubles lead conversions.',
+      '4. Strict Privacy & Security Rule Compliance: Encrypting contact forms and adhering to data security standards protects user info and builds institutional trust.',
+    ],
+  },
   'generative-engine-optimization-geo-guide-2026': {
     title: 'Generative Engine Optimization (GEO): How to Rank on Google Gemini, ChatGPT Search & Perplexity in 2026',
     category: 'GEO & AI Search',
