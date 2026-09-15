@@ -11,7 +11,7 @@ export default function BrandUniverse() {
     },
     {
       name: 'Starbucks',
-      logoImg: '/brand-roster/starbucks.png?v=3',
+      logoImg: '/brand-roster/starbucks.svg?v=4',
     },
     {
       name: 'Burger King',
