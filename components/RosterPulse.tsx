@@ -11,7 +11,7 @@ export default function RosterPulse() {
     },
     {
       name: 'Starbucks',
-      logoImg: '/brand-roster/starbucks.svg?v=4',
+      logoImg: '/brand-roster/starbucks.png?v=5',
     },
     {
       name: 'Burger King',
