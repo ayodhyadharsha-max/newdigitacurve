@@ -2,8 +2,8 @@ import Link from 'next/link';
 import { ArrowUpRight, Code, Cpu, Smartphone, Zap, Shield, CheckCircle2, Server, Layout } from 'lucide-react';
 
 export const metadata = {
-  title: 'Web Development Company | Custom Next.js & React Apps',
-  description: 'Digitacurve is a trusted web development company offering custom Next.js web applications, mobile apps, and enterprise lead systems.',
+  title: 'Next.js 14 Web Development Company Noida & India | Custom React Apps',
+  description: 'Top Next.js 14 web development agency in Noida, Delhi NCR & India. Build sub-second high-converting web applications, React web apps, and enterprise lead portals.',
   alternates: {
     canonical: 'https://www.digitacurve.com/web-development',
   },

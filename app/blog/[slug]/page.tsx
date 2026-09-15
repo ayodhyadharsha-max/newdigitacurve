@@ -3,6 +3,34 @@ import { ArrowLeft, ArrowUpRight, Calendar, Clock, Tag, User } from 'lucide-reac
 import { notFound } from 'next/navigation';
 
 const postsMap: Record<string, { title: string; category: string; date: string; readTime: string; content: string[] }> = {
+  'apple-intelligence-ios-app-development-trends-2026': {
+    title: 'Apple Intelligence & iOS App Development: Leveraging On-Device AI & Siri Intents for 10x UX in 2026',
+    category: 'Mobile & AI Tech',
+    date: 'Sep 15, 2026',
+    readTime: '6 min read',
+    content: [
+      'The rollout of Apple Intelligence and hardware-level Neural Engines has reshaped how consumers interact with iOS applications. In 2026, mobile users expect instant, privacy-first AI assistance directly inside their favorite apps.',
+      'How Modern Businesses Capitalize on Apple Intelligence:',
+      '1. Siri App Intents & Semantic Indexing: Integrating App Intents allows users to execute complex multi-step workflows using voice or natural language queries directly through Siri.',
+      '2. CoreML & On-Device Processing: Running machine learning models locally on iPhone & iPad hardware eliminates network latency and protects sensitive user data without cloud roundtrips.',
+      '3. Seamless Cross-Platform Syncing: Pairing iOS native applications with Next.js web portals ensures zero-friction data continuity across Apple ecosystem devices.',
+      'At Digitacurve, our mobile engineering team builds custom iOS and Android applications equipped with native Apple Intelligence features.',
+    ],
+  },
+  'best-web-development-digital-agency-noida-india-2026': {
+    title: 'Top Next.js Web Development & Digital Marketing Agencies in Noida & India (2026 Buyers Guide)',
+    category: 'Industry Guide',
+    date: 'Sep 15, 2026',
+    readTime: '8 min read',
+    content: [
+      'Selecting the right digital agency partner in 2026 determines whether your web platform becomes a revenue-generating asset or a stagnant expense.',
+      'Key Criteria when Evaluating Digital Agencies in Noida & Pan-India:',
+      '1. Modern Tech Stack (Next.js 14 / React vs Legacy Monolithic CMS): High-performing agencies build on modern server-rendered frameworks that deliver sub-second page loads and zero layout shift.',
+      '2. End-to-End Performance Marketing: Look for agencies that pair web engineering with ROI-focused Google PPC ads, Meta lead funnels, and technical SEO.',
+      '3. Direct Founder Oversight: Working directly with core engineering leadership eliminates account manager lag and ensures execution quality.',
+      'Digitacurve operates out of Noida HQ, delivering enterprise Next.js web applications, mobile apps, and 360° lead engines for clients across India and globally.',
+    ],
+  },
   '360-lead-generation-systems-nextjs-whatsapp-funnels-2026': {
     title: '360° Lead Generation Systems in 2026: Integrating Next.js Web Apps, Meta Ads & Automated WhatsApp Funnels',
     category: 'Lead Generation',

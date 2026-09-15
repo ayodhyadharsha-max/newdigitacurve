@@ -2,8 +2,8 @@ import Link from 'next/link';
 import { ArrowUpRight, Smartphone, Cpu, Shield, Zap, CheckCircle2, Layers, Code2, Globe } from 'lucide-react';
 
 export const metadata = {
-  title: 'Mobile App Development Company | iOS & Android Apps',
-  description: 'Digitacurve is a premier mobile app development company offering custom iOS, Android, React Native, and Flutter mobile application development.',
+  title: 'Mobile App Development Company Noida & India | iOS, Android & Apple Intelligence',
+  description: 'Custom mobile app development agency in Noida & India. Specialized in iOS (SwiftUI), Android (Kotlin), React Native, Flutter, and Apple Intelligence (AI) feature integration for high-converting business applications.',
   alternates: {
     canonical: 'https://www.digitacurve.com/app-development',
   },
@@ -13,8 +13,8 @@ export default function AppDevelopmentPage() {
   const appCapabilities = [
     {
       icon: Smartphone,
-      title: 'iOS & Android Native Apps',
-      desc: 'High-performance mobile applications for Apple iOS (Swift/SwiftUI) and Android (Kotlin), engineered for speed and hardware-level precision.',
+      title: 'iOS (Swift/SwiftUI) & Apple Intelligence Integration',
+      desc: 'High-performance iOS applications built with SwiftUI, Siri App Intents, and Apple Intelligence CoreML features for next-gen iPhone & iPad experiences.',
     },
     {
       icon: Code2,

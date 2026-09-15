@@ -2,8 +2,8 @@ import Link from 'next/link';
 import { ArrowUpRight, TrendingUp, Target, Search, BarChart3, Share2, Megaphone, CheckCircle2 } from 'lucide-react';
 
 export const metadata = {
-  title: 'Digital Marketing Agency & SEO Company | Google & Meta Ads',
-  description: 'Digitacurve is a premier digital marketing agency and SEO company providing technical SEO, Google Ads, Meta Ads, and performance lead generation.',
+  title: 'Digital Marketing Agency Noida & India | SEO, PPC Google Ads & Meta Funnels',
+  description: 'Result-driven digital marketing agency in Noida, Delhi NCR & India. Specialized in ROI-focused Google PPC ads, Meta lead generation funnels, technical SEO, and conversion optimization.',
   alternates: {
     canonical: 'https://www.digitacurve.com/digital-marketing',
   },

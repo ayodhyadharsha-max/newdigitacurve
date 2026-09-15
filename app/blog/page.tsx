@@ -8,6 +8,22 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: 'apple-intelligence-ios-app-development-trends-2026',
+    title: 'Apple Intelligence & iOS App Development: Leveraging On-Device AI & Siri Intents for 10x UX in 2026',
+    category: 'Mobile & AI Tech',
+    date: 'Sep 15, 2026',
+    readTime: '6 min read',
+    excerpt: 'Explore how Apple Intelligence, Siri App Intents, Swift CoreML, and privacy-first on-device AI transform mobile application performance and user engagement.',
+  },
+  {
+    slug: 'best-web-development-digital-agency-noida-india-2026',
+    title: 'Top Next.js Web Development & Digital Marketing Agencies in Noida & India (2026 Buyers Guide)',
+    category: 'Industry Guide',
+    date: 'Sep 15, 2026',
+    readTime: '8 min read',
+    excerpt: 'A comprehensive evaluation of leading Next.js web application partners, SEO specialists, and performance marketing agencies in Noida and India.',
+  },
+  {
     slug: '360-lead-generation-systems-nextjs-whatsapp-funnels-2026',
     title: '360° Lead Generation Systems in 2026: Integrating Next.js Web Apps, Meta Ads & Automated WhatsApp Funnels',
     category: 'Lead Generation',
