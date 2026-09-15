@@ -8,6 +8,14 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: '360-lead-generation-systems-nextjs-whatsapp-funnels-2026',
+    title: '360° Lead Generation Systems in 2026: Integrating Next.js Web Apps, Meta Ads & Automated WhatsApp Funnels',
+    category: 'Lead Generation',
+    date: 'Sep 15, 2026',
+    readTime: '6 min read',
+    excerpt: 'Discover how combining high-speed Next.js web applications, targeted Meta/Google PPC ad campaigns, and instant WhatsApp automation maximizes lead qualification and conversion.',
+  },
+  {
     slug: 'nextjs-landing-page-architecture-lead-generation-2026',
     title: 'High-Converting Next.js Landing Page Architecture for Real Estate & B2B Lead Generation',
     Category: 'Conversion Optimization',

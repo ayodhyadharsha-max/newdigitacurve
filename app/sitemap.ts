@@ -15,6 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/pricing',
     '/portfolio',
     '/blog',
+    '/blog/360-lead-generation-systems-nextjs-whatsapp-funnels-2026',
     '/blog/nextjs-landing-page-architecture-lead-generation-2026',
     '/blog/generative-engine-optimization-geo-guide-2026',
     '/blog/nextjs-14-speed-optimization',

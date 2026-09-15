@@ -3,6 +3,20 @@ import { ArrowLeft, ArrowUpRight, Calendar, Clock, Tag, User } from 'lucide-reac
 import { notFound } from 'next/navigation';
 
 const postsMap: Record<string, { title: string; category: string; date: string; readTime: string; content: string[] }> = {
+  '360-lead-generation-systems-nextjs-whatsapp-funnels-2026': {
+    title: '360° Lead Generation Systems in 2026: Integrating Next.js Web Apps, Meta Ads & Automated WhatsApp Funnels',
+    category: 'Lead Generation',
+    date: 'Sep 15, 2026',
+    readTime: '6 min read',
+    content: [
+      'Modern businesses cannot rely on isolated marketing tactics. A standalone website without traffic produces zero revenue, while ad campaigns directed to slow landing pages burn capital fast.',
+      'Our 360° Lead Generation System connects every component of your digital sales funnel into a unified growth engine:',
+      '1. Custom Next.js 14 Web Applications: Ultra-fast web pages optimized for instant loading, sub-second TTFB, and flawless mobile UX.',
+      '2. Targeted Meta & Google Ads: Precision PPC campaigns filtering for high-intent B2B, real estate, and healthcare buyer profiles.',
+      '3. Automated WhatsApp & Web3Forms Lead Routing: Capturing prospect data immediately and triggering instant WhatsApp conversations while lead intent is highest.',
+      '4. End-to-End Analytics & Attribution: Tracking real conversion metrics to continuously lower Cost Per Acquisition (CPA) and maximize ROAS.',
+    ],
+  },
   'nextjs-landing-page-architecture-lead-generation-2026': {
     title: 'High-Converting Next.js Landing Page Architecture for Real Estate & B2B Lead Generation',
     category: 'Conversion Optimization',
