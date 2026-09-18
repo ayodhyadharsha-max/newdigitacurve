@@ -8,6 +8,22 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: 'ai-agents-nextjs-web-app-integration-2026',
+    title: 'AI Agents & Next.js Web App Integration in 2026: Automating Enterprise Customer Operations & Lead Qualification',
+    category: 'AI & Web Engineering',
+    date: 'Sep 18, 2026',
+    readTime: '7 min read',
+    excerpt: 'Discover how integrating autonomous AI agents into Next.js 14 web applications automates 24/7 customer support, lead scoring, and CRM synchronization for modern enterprises.',
+  },
+  {
+    slug: 'local-seo-geo-noida-delhi-ncr-business-guide-2026',
+    title: 'Local SEO & GEO Dominance for Noida & Delhi NCR Businesses: Ranking #1 on Google Search, Maps & ChatGPT Search',
+    category: 'Local SEO & GEO',
+    date: 'Sep 18, 2026',
+    readTime: '8 min read',
+    excerpt: 'A definitive playbook for businesses in Noida, Delhi NCR, and Pan-India to dominate Google Local Pack rankings, Google Maps citations, and AI generative recommendations.',
+  },
+  {
     slug: 'apple-intelligence-ios-app-development-trends-2026',
     title: 'Apple Intelligence & iOS App Development: Leveraging On-Device AI & Siri Intents for 10x UX in 2026',
     category: 'Mobile & AI Tech',
