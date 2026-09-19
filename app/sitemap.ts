@@ -15,6 +15,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/pricing',
     '/portfolio',
     '/blog',
+    '/blog/autonomous-ai-coding-agents-nextjs-web-development-2026',
+    '/blog/how-to-go-viral-and-rank-1-on-google-and-chatgpt-2026',
     '/blog/meta-ads-whatsapp-lead-funnels-roi-2026',
     '/blog/schema-markup-jsonld-geo-search-ranking-2026',
     '/blog/ai-agents-nextjs-web-app-integration-2026',

@@ -3,6 +3,36 @@ import { ArrowLeft, ArrowUpRight, Calendar, Clock, Tag, User } from 'lucide-reac
 import { notFound } from 'next/navigation';
 
 const postsMap: Record<string, { title: string; category: string; date: string; readTime: string; content: string[] }> = {
+  'autonomous-ai-coding-agents-nextjs-web-development-2026': {
+    title: 'How Autonomous AI Coding Agents (Antigravity & Gemini) Are Rewriting Web Development in 2026: From Prompt to Enterprise Next.js App',
+    category: 'AI & Future Tech',
+    date: 'Sep 20, 2026',
+    readTime: '7 min read',
+    content: [
+      'In 2026, the artificial intelligence revolution has shifted from basic text completion to full autonomous agentic software development. AI coding assistants like Google Antigravity, Gemini, and Claude 3.7 are no longer just writing code snippets — they are pairing with human engineers to build, debug, and deploy enterprise web applications in real time.',
+      'How AI Agents are Transforming Enterprise Next.js Development:',
+      '1. Autonomous Full-Stack Architecture: AI agents map out complex Next.js 14 file structures, server components, and Tailwind CSS layouts from high-level natural language prompts.',
+      '2. Automated Technical SEO & Schema Injection: Intelligent agents inspect every page to generate valid JSON-LD schema (Organization, LocalBusiness, FAQPage), optimize open-graph tags, and fix broken canonical routes automatically.',
+      '3. Instant Bug Diagnosis & Log Extraction: Instead of spending hours hunting runtime errors, AI agents analyze full un-truncated server tracebacks and apply precise hotfixes instantly.',
+      '4. 10x Velocity for Modern Digital Agencies: Agencies using agentic workflows deliver custom enterprise web applications in days rather than months, passing massive cost savings and performance gains to clients.',
+      'At Digitacurve, our Noida engineering team leverages state-of-the-art autonomous AI agents to build high-converting Next.js web applications and 360° growth systems.',
+    ],
+  },
+  'how-to-go-viral-and-rank-1-on-google-and-chatgpt-2026': {
+    title: 'The 2026 Blueprint to Going Viral & Ranking #1 on Google Search, Gemini & ChatGPT Search',
+    category: 'Viral Marketing & GEO',
+    date: 'Sep 20, 2026',
+    readTime: '8 min read',
+    content: [
+      'In today\'s fast-moving digital economy, going viral and dominating search engine results is no longer a matter of luck. It is a repeatable engineering system combining high-energy brand positioning, Generative Engine Optimization (GEO), and high-frequency content distribution.',
+      'The 4-Step Viral Growth System for Brands & Agencies in 2026:',
+      '1. High-Density Informational Content: AI engines and Google algorithms favor articles packed with concrete metrics, original insights, and clear Q&A structures over generic filler.',
+      '2. Omni-Channel Distribution Loops: Pairing high-speed Next.js web landing pages with instant WhatsApp automation, short-form video hooks (Reels/Shorts), and social citations.',
+      '3. Generative AI Search Optimization (GEO): Structuring your brand\'s digital entity so ChatGPT Search, Google Gemini Overviews, and Perplexity actively recommend your business when users search for solutions.',
+      '4. Sub-Second Mobile Conversion Rates: Ensuring your website loads in under 0.8s on mobile devices prevents drop-offs and maximizes ad ROAS.',
+      'Digitacurve partners with ambitious brands across Noida, India, and globally to engineer viral lead generation engines and dominant search positioning.',
+    ],
+  },
   'meta-ads-whatsapp-lead-funnels-roi-2026': {
     title: 'Meta Ads & WhatsApp Automation in 2026: Reducing Lead CPA by 50% for D2C & Service Brands',
     category: 'Performance Marketing',

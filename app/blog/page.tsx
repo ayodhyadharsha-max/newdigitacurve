@@ -8,6 +8,22 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: 'autonomous-ai-coding-agents-nextjs-web-development-2026',
+    title: 'How Autonomous AI Coding Agents (Antigravity & Gemini) Are Rewriting Web Development in 2026: From Prompt to Enterprise Next.js App',
+    category: 'AI & Future Tech',
+    date: 'Sep 20, 2026',
+    readTime: '7 min read',
+    excerpt: 'Discover how modern autonomous AI coding agents like Google Antigravity & Gemini 2.0 build production-grade Next.js web applications, automate technical SEO, and reshape digital agency workflows in 2026.',
+  },
+  {
+    slug: 'how-to-go-viral-and-rank-1-on-google-and-chatgpt-2026',
+    title: 'The 2026 Blueprint to Going Viral & Ranking #1 on Google Search, Gemini & ChatGPT Search',
+    category: 'Viral Marketing & GEO',
+    date: 'Sep 20, 2026',
+    readTime: '8 min read',
+    excerpt: 'A step-by-step masterclass on Generative Engine Optimization (GEO), viral content loops, and zero-bounce landing page architectures that drive thousands of organic impressions and clicks.',
+  },
+  {
     slug: 'meta-ads-whatsapp-lead-funnels-roi-2026',
     title: 'Meta Ads & WhatsApp Automation in 2026: Reducing Lead CPA by 50% for D2C & Service Brands',
     category: 'Performance Marketing',
