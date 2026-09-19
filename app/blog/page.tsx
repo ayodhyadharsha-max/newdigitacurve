@@ -8,6 +8,22 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: 'meta-ads-whatsapp-lead-funnels-roi-2026',
+    title: 'Meta Ads & WhatsApp Automation in 2026: Reducing Lead CPA by 50% for D2C & Service Brands',
+    category: 'Performance Marketing',
+    date: 'Sep 19, 2026',
+    readTime: '7 min read',
+    excerpt: 'How combining high-converting Meta click-to-WhatsApp ad campaigns with Next.js web forms drives 50% lower customer acquisition costs for Indian and global brands.',
+  },
+  {
+    slug: 'schema-markup-jsonld-geo-search-ranking-2026',
+    title: 'Enterprise JSON-LD Schema Markup Guide (2026): Structuring Web Data for Search Engine Rich Snippets & LLM AI Engines',
+    category: 'Technical SEO & GEO',
+    date: 'Sep 19, 2026',
+    readTime: '8 min read',
+    excerpt: 'Master modern JSON-LD schema implementation (Organization, LocalBusiness, FAQPage, Service, Article) to capture Google rich snippets and generative AI recommendations.',
+  },
+  {
     slug: 'ai-agents-nextjs-web-app-integration-2026',
     title: 'AI Agents & Next.js Web App Integration in 2026: Automating Enterprise Customer Operations & Lead Qualification',
     category: 'AI & Web Engineering',

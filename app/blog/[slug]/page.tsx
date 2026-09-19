@@ -3,6 +3,38 @@ import { ArrowLeft, ArrowUpRight, Calendar, Clock, Tag, User } from 'lucide-reac
 import { notFound } from 'next/navigation';
 
 const postsMap: Record<string, { title: string; category: string; date: string; readTime: string; content: string[] }> = {
+  'meta-ads-whatsapp-lead-funnels-roi-2026': {
+    title: 'Meta Ads & WhatsApp Automation in 2026: Reducing Lead CPA by 50% for D2C & Service Brands',
+    category: 'Performance Marketing',
+    date: 'Sep 19, 2026',
+    readTime: '7 min read',
+    content: [
+      'Customer acquisition costs on traditional digital advertising channels have reached all-time highs in 2026. Driving ad traffic to complex, multi-field lead forms frequently results in high drop-off rates and inflated Cost Per Acquisition (CPA).',
+      'By pairing high-intent Meta Click-to-WhatsApp ad campaigns with Next.js web application landing pages, modern brands achieve immediate 2-way prospect engagement.',
+      'Core Advantages of Meta + WhatsApp Automated Funnels:',
+      '1. Instant Conversion Velocity: Replacing slow email form responses with automated WhatsApp greetings within 5 seconds increases lead response rates by over 400%.',
+      '2. Conversational Qualification: Interactive WhatsApp bots pre-qualify budget, project scope, and timeline before handing high-intent leads to human sales teams.',
+      '3. Serverless Next.js Webhook Integration: Syncing WhatsApp lead interactions directly with custom CRM databases and Meta Conversions API (CAPI) for precise ad campaign optimization.',
+      '4. Retargeting & Nurture Broadcasts: Delivering personalized follow-up sequences directly to prospects\' WhatsApp inboxes yields 95%+ open rates compared to traditional email marketing.',
+      'Digitacurve designs end-to-end performance marketing systems combining custom Next.js landing pages, Meta PPC ads, and enterprise WhatsApp automation.',
+    ],
+  },
+  'schema-markup-jsonld-geo-search-ranking-2026': {
+    title: 'Enterprise JSON-LD Schema Markup Guide (2026): Structuring Web Data for Search Engine Rich Snippets & LLM AI Engines',
+    category: 'Technical SEO & GEO',
+    date: 'Sep 19, 2026',
+    readTime: '8 min read',
+    content: [
+      'In 2026, structured data is no longer just an optional enhancement for Google search snippets — it is the primary framework that AI search engines (Google Gemini, ChatGPT Search, Perplexity) use to understand and index enterprise business entities.',
+      'Implementing comprehensive JSON-LD schema markup ensures your brand details, service offerings, and trust credentials are explicitly mapped into global knowledge graphs.',
+      'Essential JSON-LD Schema Types for 2026 Dominance:',
+      '1. Organization & SameAs Schema: Explicitly linking your official brand domain with social profiles, Wikipedia entries, and corporate registries to build Domain Authority.',
+      '2. LocalBusiness & AreaServed Schema: Defining exact geographical service boundaries (e.g. Noida, Delhi NCR, Gurgaon) and physical office coordinates for Local Pack ranking.',
+      '3. Service & OfferCatalog Schema: Demarcating specific service capabilities (Next.js web development, mobile app engineering, SEO management) so AI models match your site to commercial search queries.',
+      '4. FAQPage & HowTo Schema: Enabling Google featured snippets and providing structured Q&A blocks that LLMs synthesize into direct conversational answers.',
+      'At Digitacurve, every web application we build includes dynamic, valid JSON-LD schema embedded directly into Next.js 14 Server Components.',
+    ],
+  },
   'ai-agents-nextjs-web-app-integration-2026': {
     title: 'AI Agents & Next.js Web App Integration in 2026: Automating Enterprise Customer Operations & Lead Qualification',
     category: 'AI & Web Engineering',
