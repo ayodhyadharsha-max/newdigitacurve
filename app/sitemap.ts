@@ -15,6 +15,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/pricing',
     '/portfolio',
     '/blog',
+    '/blog/real-estate-digital-marketing-agency-noida-gurgaon-2026',
+    '/blog/nextjs-vs-wordpress-seo-performance-agency-guide-2026',
     '/blog/autonomous-ai-coding-agents-nextjs-web-development-2026',
     '/blog/how-to-go-viral-and-rank-1-on-google-and-chatgpt-2026',
     '/blog/meta-ads-whatsapp-lead-funnels-roi-2026',

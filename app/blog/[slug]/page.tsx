@@ -3,6 +3,38 @@ import { ArrowLeft, ArrowUpRight, Calendar, Clock, Tag, User } from 'lucide-reac
 import { notFound } from 'next/navigation';
 
 const postsMap: Record<string, { title: string; category: string; date: string; readTime: string; content: string[] }> = {
+  'real-estate-digital-marketing-agency-noida-gurgaon-2026': {
+    title: 'Top Real Estate Digital Marketing & Lead Generation Agency in Noida & Gurgaon (2026 Playbook)',
+    category: 'Real Estate Lead Gen',
+    date: 'Sep 20, 2026',
+    readTime: '8 min read',
+    content: [
+      'The real estate market across Noida, Gurgaon, and the broader Delhi NCR region has reached unprecedented transaction volumes in 2026. However, traditional property marketing methods — such as generic print listings and un-targeted cold calls — yield diminishing ROI for premium property developers.',
+      'Modern real estate brands rely on integrated digital growth engines that capture high-net-worth buyer intent at the exact moment of search.',
+      'Key Pillars of High-Converting Real Estate Marketing Systems:',
+      '1. Sub-Second Interactive Project Portals: Custom Next.js 14 web applications featuring virtual floorplan viewports, interactive masterplans, and instant brochure downloads.',
+      '2. Geo-Fenced Meta & Google PPC Campaigns: Hyper-targeted advertising filtering for high-income buyer demographics in specific commercial corridors (Expressway Noida, Golf Course Extension Gurgaon).',
+      '3. Instant WhatsApp & Web3Forms Sales Routing: Capturing prospect inquiries immediately and initiating automated WhatsApp conversations with site visit booking links.',
+      '4. Verified Local Schema & Map Pack Optimization: Dominating Google Maps 3-Pack rankings for high-intent searches like "luxury apartments in Noida".',
+      'At Digitacurve, we build end-to-end digital sales systems for real estate developers and property brokers across India.',
+    ],
+  },
+  'nextjs-vs-wordpress-seo-performance-agency-guide-2026': {
+    title: 'Next.js 14 vs WordPress in 2026: Why Modern Enterprises Are Migrating to Custom React Architectures for 10x SEO Rankings',
+    category: 'Web Engineering & SEO',
+    date: 'Sep 20, 2026',
+    readTime: '7 min read',
+    content: [
+      'In 2026, web speed, security, and rendering efficiency directly dictate your business\'s search engine rankings and conversion rates. Legacy monolithic CMS platforms like WordPress often suffer from plugin bloat, slow server response times (TTFB), and vulnerable security surfaces.',
+      'Migrating to a custom Next.js 14 React architecture provides enterprise brands with a multi-year performance advantage over traditional CMS competitors.',
+      'Why Next.js Outperforms Legacy WordPress for Enterprise SEO:',
+      '1. Sub-0.8s Core Web Vitals: Pre-rendered static pages and server-side rendering ensure instant page loads without render-blocking plugin scripts.',
+      '2. Zero Plugin Vulnerabilities & Unbreakable Security: Serverless architectures eliminate SQL injection risks and database downtime.',
+      '3. Superior Googlebot & AI Indexing: Clean canonical structures, automated XML sitemaps, and native JSON-LD schema injection ensure rapid crawling by Google and LLMs.',
+      '4. Silky-Smooth Mobile User Experience: Modern Tailwind CSS design systems deliver zero layout shift (CLS) across all mobile viewports.',
+      'Digitacurve specializes in migrating high-traffic business platforms from legacy CMS to modern Next.js 14 web applications.',
+    ],
+  },
   'autonomous-ai-coding-agents-nextjs-web-development-2026': {
     title: 'How Autonomous AI Coding Agents (Antigravity & Gemini) Are Rewriting Web Development in 2026: From Prompt to Enterprise Next.js App',
     category: 'AI & Future Tech',

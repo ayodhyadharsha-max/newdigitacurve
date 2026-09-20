@@ -8,6 +8,22 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: 'real-estate-digital-marketing-agency-noida-gurgaon-2026',
+    title: 'Top Real Estate Digital Marketing & Lead Generation Agency in Noida & Gurgaon (2026 Playbook)',
+    category: 'Real Estate Lead Gen',
+    date: 'Sep 20, 2026',
+    readTime: '8 min read',
+    excerpt: 'How leading real estate developers in Noida, Gurgaon, and Delhi NCR capture 3x more qualified buyer leads using Next.js interactive project portals, Meta PPC ads, and instant WhatsApp routing.',
+  },
+  {
+    slug: 'nextjs-vs-wordpress-seo-performance-agency-guide-2026',
+    title: 'Next.js 14 vs WordPress in 2026: Why Modern Enterprises Are Migrating to Custom React Architectures for 10x SEO Rankings',
+    category: 'Web Engineering & SEO',
+    date: 'Sep 20, 2026',
+    readTime: '7 min read',
+    excerpt: 'A detailed comparison of Core Web Vitals, page speed, security, and Google indexing speed between legacy WordPress CMS and modern Next.js serverless web applications.',
+  },
+  {
     slug: 'autonomous-ai-coding-agents-nextjs-web-development-2026',
     title: 'How Autonomous AI Coding Agents (Antigravity & Gemini) Are Rewriting Web Development in 2026: From Prompt to Enterprise Next.js App',
     category: 'AI & Future Tech',
