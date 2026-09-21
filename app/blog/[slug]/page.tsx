@@ -3,6 +3,38 @@ import { ArrowLeft, ArrowUpRight, Calendar, Clock, Tag, User } from 'lucide-reac
 import { notFound } from 'next/navigation';
 
 const postsMap: Record<string, { title: string; category: string; date: string; readTime: string; content: string[] }> = {
+  'healthcare-hospital-website-development-lead-gen-2026': {
+    title: 'Healthcare & Hospital Web Development in 2026: Architecting HIPAA-Compliant Next.js Portals & Doctor Appointment Systems',
+    category: 'Healthcare Solutions',
+    date: 'Sep 21, 2026',
+    readTime: '8 min read',
+    content: [
+      'Patient acquisition in 2026 has shifted almost entirely to digital channels. Patients across Noida, Delhi NCR, and nationwide expect instant online doctor appointment scheduling, secure digital health records, and sub-second mobile page loads.',
+      'Legacy healthcare websites with slow appointment forms suffer high patient drop-off rates and lost consultation revenue.',
+      'Core Pillars of Next-Gen Healthcare Web Portals:',
+      '1. Sub-Second Next.js Appointment Engines: Enabling instant doctor lookup, real-time slot selection, and automated SMS/WhatsApp booking confirmation.',
+      '2. Strict Data Security & Privacy Controls: Encrypting patient inquiries and ensuring full compliance with international health data standards.',
+      '3. Verified Medical Schema & Local Pack Optimization: Dominating Google Maps local searches for high-intent queries like "best cardiology clinic near me".',
+      '4. Multi-Specialty Department Hubs: Creating fast, content-rich landing pages for specialized medical services (orthopedics, pediatrics, dental, neurology).',
+      'Digitacurve partners with leading hospitals, diagnostic chains, and medical practices to build enterprise healthcare web portals.',
+    ],
+  },
+  'generative-ai-search-optimization-chatgpt-gemini-2026': {
+    title: 'How to Optimize Your Business for ChatGPT Search & Google Gemini Overviews (2026 GEO Playbook)',
+    category: 'GEO & AI Search',
+    date: 'Sep 21, 2026',
+    readTime: '7 min read',
+    content: [
+      'Traditional search engine optimization (SEO) focused primarily on ranking ten blue links on Google. In 2026, millions of potential buyers use AI Search Engines — such as ChatGPT Search, Google Gemini Overviews, and Perplexity — to ask direct commercial questions.',
+      'Generative Engine Optimization (GEO) ensures your brand is synthesized, cited, and recommended as the premier solution by conversational AI engines.',
+      'Actionable GEO Strategies for 2026 Dominance:',
+      '1. Fact-Dense Entity Mapping: Structuring corporate data with precise metrics, team credentials, and service capabilities that LLMs can extract as ground truth.',
+      '2. Conversational Q&A Content Architecture: Crafting headings formatted as natural human queries followed by authoritative, 2-sentence direct answers.',
+      '3. High-Authority Citation Signals: Securing brand mentions on verified third-party platforms (Clutch, LinkedIn, industry directories) that AI training datasets reference.',
+      '4. Valid Enterprise JSON-LD Schema: Embedding structured Organization, LocalBusiness, and Service schema directly into Next.js 14 Server Components.',
+      'Digitacurve helps businesses across Noida, India, and globally achieve top positioning on both traditional Google Search and next-generation AI Search Engines.',
+    ],
+  },
   'real-estate-digital-marketing-agency-noida-gurgaon-2026': {
     title: 'Top Real Estate Digital Marketing & Lead Generation Agency in Noida & Gurgaon (2026 Playbook)',
     category: 'Real Estate Lead Gen',

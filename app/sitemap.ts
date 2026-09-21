@@ -15,6 +15,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/pricing',
     '/portfolio',
     '/blog',
+    '/blog/healthcare-hospital-website-development-lead-gen-2026',
+    '/blog/generative-ai-search-optimization-chatgpt-gemini-2026',
     '/blog/real-estate-digital-marketing-agency-noida-gurgaon-2026',
     '/blog/nextjs-vs-wordpress-seo-performance-agency-guide-2026',
     '/blog/autonomous-ai-coding-agents-nextjs-web-development-2026',

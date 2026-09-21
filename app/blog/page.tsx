@@ -8,6 +8,22 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: 'healthcare-hospital-website-development-lead-gen-2026',
+    title: 'Healthcare & Hospital Web Development in 2026: Architecting HIPAA-Compliant Next.js Portals & Doctor Appointment Systems',
+    category: 'Healthcare Solutions',
+    date: 'Sep 21, 2026',
+    readTime: '8 min read',
+    excerpt: 'How hospitals, clinics, and healthtech platforms in Noida, Delhi NCR, and India double patient consultations using fast Next.js appointment portals, Local SEO, and instant WhatsApp booking.',
+  },
+  {
+    slug: 'generative-ai-search-optimization-chatgpt-gemini-2026',
+    title: 'How to Optimize Your Business for ChatGPT Search & Google Gemini Overviews (2026 GEO Playbook)',
+    category: 'GEO & AI Search',
+    date: 'Sep 21, 2026',
+    readTime: '7 min read',
+    excerpt: 'Master Generative Engine Optimization (GEO) strategies to ensure LLMs cite, recommend, and feature your company when users ask commercial questions on ChatGPT and Gemini.',
+  },
+  {
     slug: 'real-estate-digital-marketing-agency-noida-gurgaon-2026',
     title: 'Top Real Estate Digital Marketing & Lead Generation Agency in Noida & Gurgaon (2026 Playbook)',
     category: 'Real Estate Lead Gen',
