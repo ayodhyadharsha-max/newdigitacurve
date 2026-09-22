@@ -3,6 +3,38 @@ import { ArrowLeft, ArrowUpRight, Calendar, Clock, Tag, User } from 'lucide-reac
 import { notFound } from 'next/navigation';
 
 const postsMap: Record<string, { title: string; category: string; date: string; readTime: string; content: string[] }> = {
+  'solar-energy-cleantech-lead-generation-digital-agency-2026': {
+    title: 'Solar Energy & Cleantech Lead Generation Playbook 2026: Next.js Calculators, Google PPC & WhatsApp Automation',
+    category: 'CleanTech Lead Gen',
+    date: 'Sep 22, 2026',
+    readTime: '8 min read',
+    content: [
+      'The solar energy and cleantech sector across Noida, Delhi NCR, and India is experiencing explosive growth in 2026. However, commercial and residential solar EPC installers frequently face high customer acquisition costs due to generic, static websites.',
+      'Deploying custom interactive solar ROI calculators on Next.js web applications transforms passive site visitors into pre-qualified sales leads.',
+      'Key Components of High-Converting Solar Marketing Systems:',
+      '1. Interactive Next.js Solar Savings Calculators: Allowing property owners to estimate monthly electricity savings and rooftop system sizes in real time.',
+      '2. Precision Google PPC & Meta Ad Campaigns: Targeting high-intent commercial building owners, industrial factory managers, and luxury homeowners.',
+      '3. Instant WhatsApp Lead Routing & Proposal Bot: Triggering automated WhatsApp messages with customized solar quotation PDFs within seconds of form submission.',
+      '4. Verified Geo-Targeted Schema & Local SEO: Ranking at the top of Google Local Pack for searches like "best solar installer in Noida".',
+      'At Digitacurve, we design full-stack digital marketing and web application systems for solar energy and renewable engineering companies.',
+    ],
+  },
+  'travel-tourism-booking-engine-nextjs-seo-2026': {
+    title: 'Building High-Converting Travel & Tourism Booking Platforms in 2026: Custom Next.js Systems vs Off-The-Shelf Plugins',
+    category: 'Travel Engineering',
+    date: 'Sep 22, 2026',
+    readTime: '7 min read',
+    content: [
+      'Travelers in 2026 demand instant itinerary customization, seamless mobile checkout, and sub-second page rendering when booking holiday packages and luxury stays. Legacy WordPress travel plugins often suffer from slow database queries and high cart abandonment rates.',
+      'Architecting custom travel portals on Next.js 14 delivers ultra-fast booking flows, Razorpay/Stripe payment gateway integration, and superior search rankings.',
+      'Core Capabilities of Next-Gen Travel Web Platforms:',
+      '1. Dynamic Itinerary Viewports & Filter Engines: Allowing travelers to filter tour packages by destination, duration, and budget with zero page reloads.',
+      '2. Instant Mobile Checkout & Payment Gateway Integration: Supporting UPI, credit cards, and multi-currency payments with automated PDF booking vouchers.',
+      '3. Search Engine & LLM Destination Indexing: Embedding structured TouristAttraction, Event, and OfferCatalog JSON-LD schema for top Google and AI search visibility.',
+      '4. Automated Customer WhatsApp Nurture: Delivering instant booking confirmations and trip itineraries directly to travelers\' WhatsApp.',
+      'Digitacurve partners with tour operators, travel agencies, and hospitality brands across Noida, India, and internationally to build high-converting booking portals.',
+    ],
+  },
   'healthcare-hospital-website-development-lead-gen-2026': {
     title: 'Healthcare & Hospital Web Development in 2026: Architecting HIPAA-Compliant Next.js Portals & Doctor Appointment Systems',
     category: 'Healthcare Solutions',

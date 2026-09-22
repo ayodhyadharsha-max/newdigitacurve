@@ -8,6 +8,22 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: 'solar-energy-cleantech-lead-generation-digital-agency-2026',
+    title: 'Solar Energy & Cleantech Lead Generation Playbook 2026: Next.js Calculators, Google PPC & WhatsApp Automation',
+    category: 'CleanTech Lead Gen',
+    date: 'Sep 22, 2026',
+    readTime: '8 min read',
+    excerpt: 'How solar EPC installers and renewable energy companies across India, Noida, and globally capture high-intent commercial & residential solar leads using interactive Next.js ROI calculators and Meta ads.',
+  },
+  {
+    slug: 'travel-tourism-booking-engine-nextjs-seo-2026',
+    title: 'Building High-Converting Travel & Tourism Booking Platforms in 2026: Custom Next.js Systems vs Off-The-Shelf Plugins',
+    category: 'Travel Engineering',
+    date: 'Sep 22, 2026',
+    readTime: '7 min read',
+    excerpt: 'Discover how tour operators, luxury travel agencies, and hotel chains increase direct booking revenues with ultra-fast Next.js itineraries, Razorpay/Stripe checkout, and Local SEO.',
+  },
+  {
     slug: 'healthcare-hospital-website-development-lead-gen-2026',
     title: 'Healthcare & Hospital Web Development in 2026: Architecting HIPAA-Compliant Next.js Portals & Doctor Appointment Systems',
     category: 'Healthcare Solutions',
