@@ -8,6 +8,22 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: 'ecommerce-web-development-nextjs-shopify-headless-2026',
+    title: 'Headless E-Commerce & Next.js 14 in 2026: Architecting High-Converting D2C Stores with Sub-Second Page Speeds',
+    category: 'E-Commerce Engineering',
+    date: 'Sep 23, 2026',
+    readTime: '8 min read',
+    excerpt: 'Discover how D2C brands and enterprise e-commerce platforms in Noida, Delhi NCR, and globally increase checkout conversion rates by 40% using headless Next.js storefronts, Shopify APIs, and instant search.',
+  },
+  {
+    slug: 'b2b-saas-lead-generation-digital-marketing-agency-2026',
+    title: 'B2B SaaS Digital Marketing & Growth Playbook 2026: Next.js Product Landing Pages, LinkedIn Ads & Automated Demo Booking',
+    category: 'B2B Growth',
+    date: 'Sep 23, 2026',
+    readTime: '7 min read',
+    excerpt: 'How B2B software companies and SaaS startups scale Monthly Recurring Revenue (MRR) using high-converting Next.js product pages, targeted PPC ad campaigns, and instant sales calendar routing.',
+  },
+  {
     slug: 'solar-energy-cleantech-lead-generation-digital-agency-2026',
     title: 'Solar Energy & Cleantech Lead Generation Playbook 2026: Next.js Calculators, Google PPC & WhatsApp Automation',
     category: 'CleanTech Lead Gen',
