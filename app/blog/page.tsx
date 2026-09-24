@@ -8,6 +8,22 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: 'educational-edtech-portal-website-development-2026',
+    title: 'Educational & EdTech Portal Development in 2026: Next.js Student Portals, LMS Integration & High-Intent Student Lead Gen',
+    category: 'EdTech Solutions',
+    date: 'Sep 24, 2026',
+    readTime: '8 min read',
+    excerpt: 'How universities, coaching institutes, and EdTech platforms in Noida, Delhi NCR, and India double student enrollments using fast Next.js course portals, Meta lead ads, and automated WhatsApp counseling.',
+  },
+  {
+    slug: 'google-ppc-ads-agency-noida-delhi-ncr-2026',
+    title: 'Top Google PPC Ads & Performance Marketing Agency in Noida & Delhi NCR (2026 ROAS Framework)',
+    category: 'PPC & Digital Marketing',
+    date: 'Sep 24, 2026',
+    readTime: '7 min read',
+    excerpt: 'A data-driven playbook for service brands and B2B enterprises to maximize ROAS, eliminate negative keyword waste, and drive 3x more inbound sales calls using Google Search PPC.',
+  },
+  {
     slug: 'ecommerce-web-development-nextjs-shopify-headless-2026',
     title: 'Headless E-Commerce & Next.js 14 in 2026: Architecting High-Converting D2C Stores with Sub-Second Page Speeds',
     category: 'E-Commerce Engineering',

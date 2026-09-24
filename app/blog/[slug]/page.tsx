@@ -3,6 +3,38 @@ import { ArrowLeft, ArrowUpRight, Calendar, Clock, Tag, User } from 'lucide-reac
 import { notFound } from 'next/navigation';
 
 const postsMap: Record<string, { title: string; category: string; date: string; readTime: string; content: string[] }> = {
+  'educational-edtech-portal-website-development-2026': {
+    title: 'Educational & EdTech Portal Development in 2026: Next.js Student Portals, LMS Integration & High-Intent Student Lead Gen',
+    category: 'EdTech Solutions',
+    date: 'Sep 24, 2026',
+    readTime: '8 min read',
+    content: [
+      'Student admissions and course enrollments in 2026 depend heavily on digital first impressions. Universities, coaching institutes, and EdTech platforms across Noida, Delhi NCR, and nationwide require fast, interactive course portals that convert prospective student visitors into qualified leads.',
+      'Legacy educational websites with slow contact forms suffer high bounce rates and lost admission inquiries.',
+      'Core Capabilities of Next-Gen Educational Web Platforms:',
+      '1. Sub-Second Next.js Course Directory & Search Filters: Allowing students to explore programs, fees, and eligibility with zero loading lag.',
+      '2. Automated Counselor WhatsApp Routing & Lead Capture: Triggering immediate WhatsApp messages with course prospectuses and instant booking for counseling sessions.',
+      '3. Verified Educational Schema Markup & Local SEO: Dominating Google search results for queries like "best coaching institute in Noida".',
+      '4. Seamless LMS & Student Dashboard Integration: Connecting web applications directly with learning management systems (LMS), payment gateways, and student CRMs.',
+      'Digitacurve partners with educational institutions, EdTech startups, and competitive exam centers to build high-converting web portals.',
+    ],
+  },
+  'google-ppc-ads-agency-noida-delhi-ncr-2026': {
+    title: 'Top Google PPC Ads & Performance Marketing Agency in Noida & Delhi NCR (2026 ROAS Framework)',
+    category: 'PPC & Digital Marketing',
+    date: 'Sep 24, 2026',
+    readTime: '7 min read',
+    content: [
+      'Running Google PPC search ads without strict intent filtering can deplete marketing budgets quickly. In 2026, capturing high-intent commercial buyers requires precise keyword management, negative keyword shielding, and ultra-fast landing pages.',
+      'At Digitacurve, we follow a disciplined 4-pillar performance marketing framework engineered to lower Cost Per Lead (CPL) and maximize Return on Ad Spend (ROAS).',
+      'The Digitacurve Google PPC Performance Framework:',
+      '1. High-Intent Exact & Phrase Match Campaign Structure: Filtering out non-buying search terms and focusing ad spend on active decision-makers.',
+      '2. Sub-Second Next.js Landing Page Architecture: Sending ad traffic to ultra-fast, high-converting landing pages built on Next.js 14 for sub-0.8s mobile load times.',
+      '3. Multi-Channel Lead Capture & Instant WhatsApp Triggers: Capturing prospect info via Web3Forms and initiating direct WhatsApp conversations while buying intent is highest.',
+      '4. Deep Attribution & Conversion API (CAPI) Syncing: Tracking real closed-won deal metrics to continuously optimize bidding strategies.',
+      'Digitacurve helps brands across Noida, Delhi NCR, and Pan-India build profitable Google Ads and performance marketing engines.',
+    ],
+  },
   'ecommerce-web-development-nextjs-shopify-headless-2026': {
     title: 'Headless E-Commerce & Next.js 14 in 2026: Architecting High-Converting D2C Stores with Sub-Second Page Speeds',
     category: 'E-Commerce Engineering',
