@@ -3,6 +3,38 @@ import { ArrowLeft, ArrowUpRight, Calendar, Clock, Tag, User } from 'lucide-reac
 import { notFound } from 'next/navigation';
 
 const postsMap: Record<string, { title: string; category: string; date: string; readTime: string; content: string[] }> = {
+  'ai-powered-seo-strategy-rank-1-google-gemini-2026': {
+    title: 'AI-Powered SEO Strategy 2026: Combining Next.js Technical Speed, Generative Search Optimization & LLM Brand Citations',
+    category: 'AI & Search Strategy',
+    date: 'Sep 25, 2026',
+    readTime: '8 min read',
+    content: [
+      'Search engine optimization in 2026 has evolved beyond traditional backlink building and basic keyword placement. Today, search algorithms evaluate technical Core Web Vitals, entity-fact associations, and AI Generative Engine Optimization (GEO) holistically.',
+      'Integrating high-speed Next.js 14 web rendering with structured JSON-LD schema ensures your brand is indexed and cited by both Google and conversational AI engines like ChatGPT and Gemini.',
+      'Key Pillars of AI-Powered SEO Growth:',
+      '1. Sub-0.8s Technical Render Speed: Eliminating render-blocking scripts to ensure instant crawling by Googlebot and LLM web indexers.',
+      '2. Fact-Dense Entity Mapping: Structuring corporate data with verified metrics, team credentials, and service capabilities to establish unbreakable knowledge graph nodes.',
+      '3. High-Authority Citation Signals: Securing brand mentions across high-DR directories (Clutch, GoodFirms, LinkedIn) to build institutional trust.',
+      '4. Conversational Q&A Content Architecture: Formatting headings as natural human queries followed by direct 2-sentence authoritative answers.',
+      'At Digitacurve, every web application we build comes pre-configured with advanced AI SEO & GEO capabilities.',
+    ],
+  },
+  '360-degree-digital-marketing-agency-noida-india-2026': {
+    title: '360° Digital Marketing & Full-Funnel Growth Agency in Noida & India (2026 Enterprise Guide)',
+    category: 'Digital Growth Systems',
+    date: 'Sep 25, 2026',
+    readTime: '7 min read',
+    content: [
+      'Single-channel marketing tactics — such as running PPC ads to a slow website or publishing blogs without ad distribution — produce inconsistent business results in 2026. High-growth enterprises require integrated 360° digital systems where every component reinforces customer acquisition.',
+      'Connecting custom Next.js landing pages, precision Google & Meta ad campaigns, technical SEO, and instant WhatsApp automation creates a predictable sales engine.',
+      'Components of a 360° Full-Funnel Growth Engine:',
+      '1. Sub-Second High-Converting Web Platforms: Custom React & Next.js applications engineered for maximum conversion velocity.',
+      '2. High-Intent PPC & Paid Social Campaigns: Precision targeting on Google Search and Meta Ads filtering for high-income commercial buyer profiles.',
+      '3. Automated Instant WhatsApp Lead Nurture: Capturing prospect data immediately and initiating 2-way WhatsApp conversations within 5 seconds.',
+      '4. Continuous Technical SEO & GEO Dominance: Maintaining top search rankings on Google, Google Maps, and AI Search Engines (ChatGPT & Gemini).',
+      'Digitacurve operates out of Noida HQ, delivering enterprise 360° digital marketing systems for clients across India and globally.',
+    ],
+  },
   'educational-edtech-portal-website-development-2026': {
     title: 'Educational & EdTech Portal Development in 2026: Next.js Student Portals, LMS Integration & High-Intent Student Lead Gen',
     category: 'EdTech Solutions',

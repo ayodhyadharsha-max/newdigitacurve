@@ -8,6 +8,22 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: 'ai-powered-seo-strategy-rank-1-google-gemini-2026',
+    title: 'AI-Powered SEO Strategy 2026: Combining Next.js Technical Speed, Generative Search Optimization & LLM Brand Citations',
+    category: 'AI & Search Strategy',
+    date: 'Sep 25, 2026',
+    readTime: '8 min read',
+    excerpt: 'Discover how modern digital agencies combine Core Web Vitals optimization, entity-fact schema mapping, and AI Generative Engine Optimization (GEO) to capture top rankings on Google and ChatGPT Search.',
+  },
+  {
+    slug: '360-degree-digital-marketing-agency-noida-india-2026',
+    title: '360° Digital Marketing & Full-Funnel Growth Agency in Noida & India (2026 Enterprise Guide)',
+    category: 'Digital Growth Systems',
+    date: 'Sep 25, 2026',
+    readTime: '7 min read',
+    excerpt: 'A comprehensive evaluation of end-to-end digital growth systems connecting Next.js web portals, Google & Meta PPC ads, technical SEO, and automated WhatsApp lead nurture.',
+  },
+  {
     slug: 'educational-edtech-portal-website-development-2026',
     title: 'Educational & EdTech Portal Development in 2026: Next.js Student Portals, LMS Integration & High-Intent Student Lead Gen',
     category: 'EdTech Solutions',
