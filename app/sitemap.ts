@@ -15,6 +15,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/pricing',
     '/portfolio',
     '/blog',
+    '/blog/mobile-app-development-company-noida-delhi-ncr-2026',
+    '/blog/conversion-rate-optimization-cro-landing-pages-2026',
     '/blog/ai-powered-seo-strategy-rank-1-google-gemini-2026',
     '/blog/360-degree-digital-marketing-agency-noida-india-2026',
     '/blog/educational-edtech-portal-website-development-2026',

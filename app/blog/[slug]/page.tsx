@@ -3,6 +3,38 @@ import { ArrowLeft, ArrowUpRight, Calendar, Clock, Tag, User } from 'lucide-reac
 import { notFound } from 'next/navigation';
 
 const postsMap: Record<string, { title: string; category: string; date: string; readTime: string; content: string[] }> = {
+  'mobile-app-development-company-noida-delhi-ncr-2026': {
+    title: 'Top iOS & Android Mobile App Development Agency in Noida & Delhi NCR (2026 Tech Stack Guide)',
+    category: 'Mobile Engineering',
+    date: 'Sep 26, 2026',
+    readTime: '8 min read',
+    content: [
+      'In 2026, mobile applications are the central touchpoint for customer engagement, retention, and brand loyalty. Leading enterprises across Noida, Delhi NCR, and India require native and cross-platform mobile apps engineered for sub-second performance, on-device AI assistance, and seamless cloud syncing.',
+      'Developing custom iOS and Android applications with React Native, Swift, and Kotlin ensures maximum execution speed and zero interface lag.',
+      'Key Capabilities of Next-Gen Mobile App Architecture:',
+      '1. On-Device AI & Siri App Intents: Integrating Apple Intelligence and hardware Neural Engines for instant, privacy-first voice and conversational workflows.',
+      '2. Real-Time Cloud & Database Synchronization: Connecting mobile client apps directly to serverless PostgreSQL/MongoDB backends and WebSockets for sub-100ms data updates.',
+      '3. High-Security Authentication & Encryption: Enforcing biometric login (FaceID/TouchID), encrypted local storage, and secure OAuth token management.',
+      '4. Native App Store Optimization (ASO): Structuring app metadata, localized screenshots, and keyword indexing to capture top App Store and Google Play rankings.',
+      'At Digitacurve, our Noida mobile engineering team builds enterprise iOS and Android applications for high-growth startups and global brands.',
+    ],
+  },
+  'conversion-rate-optimization-cro-landing-pages-2026': {
+    title: 'Conversion Rate Optimization (CRO) Blueprint 2026: Designing Zero-Bounce Next.js Landing Pages That Quadruple ROAS',
+    category: 'Conversion Optimization',
+    date: 'Sep 26, 2026',
+    readTime: '7 min read',
+    content: [
+      'Driving ad traffic from Google PPC and Meta Ads to slow, cluttered landing pages is the single fastest way to burn marketing capital in 2026. Increasing post-click conversion rates by even 2% can double your advertising ROI without increasing ad spend.',
+      'Architecting high-intent Next.js 14 landing pages engineered specifically for rapid mobile hydration and instant lead capture maximizes conversion velocity.',
+      'Core CRO Pillars for High-Converting Ad Funnels:',
+      '1. Sub-0.6s Hydration & Zero Cumulative Layout Shift (CLS): Ensuring CTAs, forms, and value propositions render instantly on mobile devices.',
+      '2. Above-The-Fold Micro-Copy & Social Proof: Placing client trust badges, verified ROI statistics, and direct headline promises before scrolling.',
+      '3. Dual Lead Capture (Instant WhatsApp + Web3Forms): Providing direct 1-click WhatsApp triggers alongside fast form submissions to capture mobile buyers on the spot.',
+      '4. Continuous A/B Testing & CAPI Attribution: Tracking real closed deals to continuously refine headline copy, form field counts, and CTA button contrast.',
+      'Digitacurve partners with B2B enterprises, D2C brands, and service companies across Noida, India, and globally to build ultra-high-converting landing page funnels.',
+    ],
+  },
   'ai-powered-seo-strategy-rank-1-google-gemini-2026': {
     title: 'AI-Powered SEO Strategy 2026: Combining Next.js Technical Speed, Generative Search Optimization & LLM Brand Citations',
     category: 'AI & Search Strategy',

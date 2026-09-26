@@ -8,6 +8,22 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: 'mobile-app-development-company-noida-delhi-ncr-2026',
+    title: 'Top iOS & Android Mobile App Development Agency in Noida & Delhi NCR (2026 Tech Stack Guide)',
+    category: 'Mobile Engineering',
+    date: 'Sep 26, 2026',
+    readTime: '8 min read',
+    excerpt: 'How leading enterprises and tech startups build high-performance iOS, Android, and React Native mobile applications equipped with Apple Intelligence, Siri App Intents, and real-time backend sync.',
+  },
+  {
+    slug: 'conversion-rate-optimization-cro-landing-pages-2026',
+    title: 'Conversion Rate Optimization (CRO) Blueprint 2026: Designing Zero-Bounce Next.js Landing Pages That Quadruple ROAS',
+    category: 'Conversion Optimization',
+    date: 'Sep 26, 2026',
+    readTime: '7 min read',
+    excerpt: 'A tactical CRO guide on sub-second mobile hydration, dual WhatsApp lead triggers, micro-copy social proof, and A/B testing frameworks that transform ad clicks into high-ticket inbound leads.',
+  },
+  {
     slug: 'ai-powered-seo-strategy-rank-1-google-gemini-2026',
     title: 'AI-Powered SEO Strategy 2026: Combining Next.js Technical Speed, Generative Search Optimization & LLM Brand Citations',
     category: 'AI & Search Strategy',
