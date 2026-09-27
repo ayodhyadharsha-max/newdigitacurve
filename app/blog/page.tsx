@@ -8,6 +8,22 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: 'fintech-banking-website-development-security-seo-2026',
+    title: 'FinTech & Banking Web Application Development 2026: Next.js Security Architecture, API Integrations & Local SEO',
+    category: 'FinTech Engineering',
+    date: 'Sep 27, 2026',
+    readTime: '8 min read',
+    excerpt: 'How FinTech startups and financial institutions build bank-grade Next.js web applications, sub-second EMI calculators, secure CRM lead routing, and dominate local search.',
+  },
+  {
+    slug: 'ai-lead-generation-whatsapp-funnels-conversion-2026',
+    title: 'AI-Powered Lead Generation & WhatsApp Funnels in 2026: Automating B2B & D2C Sales Workflows',
+    category: 'AI Lead Systems',
+    date: 'Sep 27, 2026',
+    readTime: '7 min read',
+    excerpt: 'A tactical blueprint for service brands and D2C enterprises to combine Next.js lead forms, AI pre-screening chatbots, and automated WhatsApp sequences with 90%+ open rates.',
+  },
+  {
     slug: 'mobile-app-development-company-noida-delhi-ncr-2026',
     title: 'Top iOS & Android Mobile App Development Agency in Noida & Delhi NCR (2026 Tech Stack Guide)',
     category: 'Mobile Engineering',

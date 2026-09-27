@@ -15,6 +15,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/pricing',
     '/portfolio',
     '/blog',
+    '/blog/fintech-banking-website-development-security-seo-2026',
+    '/blog/ai-lead-generation-whatsapp-funnels-conversion-2026',
     '/blog/mobile-app-development-company-noida-delhi-ncr-2026',
     '/blog/conversion-rate-optimization-cro-landing-pages-2026',
     '/blog/ai-powered-seo-strategy-rank-1-google-gemini-2026',
