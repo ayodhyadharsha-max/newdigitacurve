@@ -8,6 +8,22 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: 'enterprise-nextjs-microservices-app-router-2026',
+    title: 'Enterprise Next.js 14 App Router & Microservices Architecture (2026 Engineering Playbook)',
+    category: 'Web Architecture',
+    date: 'Sep 28, 2026',
+    readTime: '8 min read',
+    excerpt: 'How global engineering teams architect decoupled Next.js 14 App Router platforms with Server Components, Edge Middleware, microservices, and sub-50ms TTFB.',
+  },
+  {
+    slug: 'b2b-saas-multi-tenant-web-portal-development-2026',
+    title: 'B2B SaaS & Multi-Tenant Web Portal Development in 2026: Scalable Next.js Architecture & Local SEO',
+    category: 'SaaS Engineering',
+    date: 'Sep 28, 2026',
+    readTime: '8 min read',
+    excerpt: 'A comprehensive guide for B2B SaaS startups building isolated multi-tenant client portals, interactive pricing calculators, and programmatic SEO lead funnels.',
+  },
+  {
     slug: 'fintech-banking-website-development-security-seo-2026',
     title: 'FinTech & Banking Web Application Development 2026: Next.js Security Architecture, API Integrations & Local SEO',
     category: 'FinTech Engineering',
