@@ -8,6 +8,22 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: 'enterprise-web-security-soc2-hipaa-nextjs-2026',
+    title: 'Enterprise Web Security & SOC 2 / HIPAA Compliant Next.js Web Development (2026 Shield Playbook)',
+    category: 'Web Security',
+    date: 'Sep 29, 2026',
+    readTime: '8 min read',
+    excerpt: 'How enterprise tech brands build bank-grade Next.js web applications compliant with SOC 2 Type II, HIPAA, CSP policies, and zero-trust data encryption.',
+  },
+  {
+    slug: 'ai-search-optimization-geo-brand-citations-2026',
+    title: 'AI Search Optimization (GEO) 2026: Winning Brand Citations on ChatGPT Search, Perplexity & Gemini',
+    category: 'GEO & AI Search',
+    date: 'Sep 29, 2026',
+    readTime: '8 min read',
+    excerpt: 'A tactical blueprint for capturing top AI recommendations and brand citations on ChatGPT Search, Perplexity, and Google Gemini using entity-fact schema.',
+  },
+  {
     slug: 'enterprise-nextjs-microservices-app-router-2026',
     title: 'Enterprise Next.js 14 App Router & Microservices Architecture (2026 Engineering Playbook)',
     category: 'Web Architecture',

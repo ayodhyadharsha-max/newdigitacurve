@@ -3,6 +3,38 @@ import { ArrowLeft, ArrowUpRight, Calendar, Clock, Tag, User } from 'lucide-reac
 import { notFound } from 'next/navigation';
 
 const postsMap: Record<string, { title: string; category: string; date: string; readTime: string; content: string[] }> = {
+  'enterprise-web-security-soc2-hipaa-nextjs-2026': {
+    title: 'Enterprise Web Security & SOC 2 / HIPAA Compliant Next.js Web Development (2026 Shield Playbook)',
+    category: 'Web Security',
+    date: 'Sep 29, 2026',
+    readTime: '8 min read',
+    content: [
+      'In 2026, web security is no longer an afterthought—it is a core business requirement for enterprises, healthcare providers, and SaaS platforms across Noida, Delhi NCR, and global markets. Building web applications that strictly adhere to SOC 2 Type II, HIPAA, and GDPR compliance requires zero-trust web architecture.',
+      'Architecting secure Next.js 14 web platforms ensures end-to-end data encryption, sanitized user input handling, and protection against automated bot traffic and OWASP Top 10 vulnerabilities.',
+      'Core Pillars of Enterprise Web Security Architecture:',
+      '1. Strict Content Security Policy (CSP) & CORS Enforcement: Blocking unauthorized script injection and cross-site data leaks at the browser edge.',
+      '2. Encrypted Data Transmission & Storage: Implementing TLS 1.3 in transit and AES-256 field-level encryption for sensitive user data.',
+      '3. Automated Vulnerability Scanning & Penetration Testing: Continuously auditing dependencies and API endpoints to prevent zero-day exploits.',
+      '4. Granular RBAC & Secure Session Auth: Utilizing HTTP-only JWTs, OAuth 2.0 PKCE, and multi-factor authentication (MFA) across client portals.',
+      'At Digitacurve, our Noida web engineering team builds bank-grade, compliant web applications tailored for enterprise trust and seamless performance.',
+    ],
+  },
+  'ai-search-optimization-geo-brand-citations-2026': {
+    title: 'AI Search Optimization (GEO) 2026: Winning Brand Citations on ChatGPT Search, Perplexity & Gemini',
+    category: 'GEO & AI Search',
+    date: 'Sep 29, 2026',
+    readTime: '8 min read',
+    content: [
+      'Search engine optimization has fundamentally evolved in 2026. As over 40% of commercial search queries are now resolved through conversational AI engines like ChatGPT Search, Perplexity AI, and Google Gemini, brands must optimize for Generative Engine Optimization (GEO).',
+      'Securing top AI recommendations requires structured entity-fact schema, authoritative digital PR citations, and high-speed Next.js web rendering.',
+      'Strategic Framework for Winning AI Search Engine Citations:',
+      '1. Entity-Fact JSON-LD Schema Integration: Explicitly defining your agency services, founders, and geographic credentials in machine-readable markup.',
+      '2. High-Density Knowledge Base Content: Writing comprehensive, factual, and direct answers that LLMs extract during retrieval-augmented generation (RAG).',
+      '3. Digital Ecosystem Citation Mapping: Securing press mentions, industry directories, and authoritative backlinks across web ecosystems monitored by AI crawlers.',
+      '4. Sub-Second Web Speed & Clean Hydration: Ensuring AI search crawlers can parse and index full page HTML without JavaScript execution delays.',
+      'Digitacurve helps forward-thinking enterprises and service brands in Noida and across India dominate both traditional Google rankings and AI-driven answer engines.',
+    ],
+  },
   'enterprise-nextjs-microservices-app-router-2026': {
     title: 'Enterprise Next.js 14 App Router & Microservices Architecture (2026 Engineering Playbook)',
     category: 'Web Architecture',
