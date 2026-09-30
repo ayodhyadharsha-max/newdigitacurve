@@ -8,6 +8,22 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: 'omnichannel-marketing-custom-ecommerce-nextjs-2026',
+    title: 'Omnichannel Marketing Systems & Headless E-Commerce Architecture in 2026: Next.js 14 Playbook',
+    category: 'E-Commerce Growth',
+    date: 'Sep 30, 2026',
+    readTime: '8 min read',
+    excerpt: 'How scaling D2C brands and enterprise retailers combine headless Next.js e-commerce storefronts, sub-second checkout hydration, and automated WhatsApp funnels.',
+  },
+  {
+    slug: 'b2b-enterprise-web-design-cro-noida-2026',
+    title: 'High-Converting B2B Enterprise Web Design & CRO Blueprint 2026: Driving 4x Inbound Sales Pipeline',
+    category: 'B2B Web Design',
+    date: 'Sep 30, 2026',
+    readTime: '8 min read',
+    excerpt: 'A tactical guide for B2B tech companies and IT services firms to quadruple inbound RFP inquiries using fast Next.js architecture and micro-copy CRO.',
+  },
+  {
     slug: 'enterprise-web-security-soc2-hipaa-nextjs-2026',
     title: 'Enterprise Web Security & SOC 2 / HIPAA Compliant Next.js Web Development (2026 Shield Playbook)',
     category: 'Web Security',

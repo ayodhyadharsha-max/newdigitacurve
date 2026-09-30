@@ -15,6 +15,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/pricing',
     '/portfolio',
     '/blog',
+    '/blog/omnichannel-marketing-custom-ecommerce-nextjs-2026',
+    '/blog/b2b-enterprise-web-design-cro-noida-2026',
     '/blog/enterprise-web-security-soc2-hipaa-nextjs-2026',
     '/blog/ai-search-optimization-geo-brand-citations-2026',
     '/blog/enterprise-nextjs-microservices-app-router-2026',

@@ -3,6 +3,38 @@ import { ArrowLeft, ArrowUpRight, Calendar, Clock, Tag, User } from 'lucide-reac
 import { notFound } from 'next/navigation';
 
 const postsMap: Record<string, { title: string; category: string; date: string; readTime: string; content: string[] }> = {
+  'omnichannel-marketing-custom-ecommerce-nextjs-2026': {
+    title: 'Omnichannel Marketing Systems & Headless E-Commerce Architecture in 2026: Next.js 14 Playbook',
+    category: 'E-Commerce Growth',
+    date: 'Sep 30, 2026',
+    readTime: '8 min read',
+    content: [
+      'In 2026, scaling D2C brands and multi-channel retailers across Noida, Delhi NCR, and India requires an integrated web architecture connecting headless e-commerce storefronts with automated WhatsApp, email, and social ad funnels.',
+      'Decoupling Next.js 14 storefronts from backend commerce APIs (Shopify Headless, Commerce Layer, or custom Node.js microservices) yields sub-second page loads and zero purchase friction.',
+      'Core Capabilities of Next-Gen Omnichannel E-Commerce Platforms:',
+      '1. Instant Sub-Second Checkout Hydration: Eliminating cart abandonment by streaming product catalog pages and pre-filling saved payment methods dynamically.',
+      '2. Automated WhatsApp Cart Recovery & Re-engagement: Triggering automated WhatsApp messages with personalized discount incentives within 15 minutes of cart abandonment.',
+      '3. Unified Data Layer & Meta CAPI Integration: Syncing customer purchase events across Meta Ads, Google Analytics 4, and Klaviyo CRM for accurate ROAS attribution.',
+      '4. Localized SEO & Dynamic Multi-Currency Support: Dominating local search rankings for regional shopping queries while supporting multi-currency global transactions.',
+      'At Digitacurve, our Noida e-commerce engineering team builds custom Next.js storefronts and high-converting omnichannel sales funnels.',
+    ],
+  },
+  'b2b-enterprise-web-design-cro-noida-2026': {
+    title: 'High-Converting B2B Enterprise Web Design & CRO Blueprint 2026: Driving 4x Inbound Sales Pipeline',
+    category: 'B2B Web Design',
+    date: 'Sep 30, 2026',
+    readTime: '8 min read',
+    content: [
+      'B2B enterprise buyers in 2026 demand modern, lightning-fast web experiences that communicate immediate strategic value. Slow, generic corporate websites lose high-value inbound RFPs to agile competitors who invest in performance web engineering.',
+      'Combining Next.js 14 performance, micro-copy conversion optimization, and instant calendar booking tools quadruples inbound sales call volume.',
+      'Strategic Elements of Modern High-Converting B2B Web Portals:',
+      '1. Sub-Second Performance & CWV Mastery: Achieving 95+ Google PageSpeed scores on mobile devices to ensure corporate buyers never experience page load delay.',
+      '2. Dual-Path CTA & Lead Routing: Offering both instant WhatsApp project consultation and automated calendar booking links for high-intent corporate prospects.',
+      '3. Interactive Value Calculators & Case Study Filters: Allowing B2B buyers to calculate ROI and filter relevant enterprise case studies by industry vertical.',
+      '4. Schema-Enhanced Brand Authority: Embedding Verified Local Business, Service, and FAQ JSON-LD schema to capture prime visibility on Google and AI search engines.',
+      'Digitacurve partners with ambitious B2B enterprises, IT service providers, and industrial brands in Noida and across India to design market-leading web experiences.',
+    ],
+  },
   'enterprise-web-security-soc2-hipaa-nextjs-2026': {
     title: 'Enterprise Web Security & SOC 2 / HIPAA Compliant Next.js Web Development (2026 Shield Playbook)',
     category: 'Web Security',
