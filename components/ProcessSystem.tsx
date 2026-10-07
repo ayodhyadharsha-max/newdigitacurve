@@ -54,14 +54,14 @@ export default function ProcessSystem() {
   const CurrentIcon = steps[activeStep].icon;
 
   return (
-    <section className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-b border-blue-900/30">
+    <section className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-b border-slate-200">
       <div className="space-y-4 mb-8 sm:mb-12">
-        <p className="text-xs font-mono text-blue-400 tracking-widest uppercase">
+        <p className="text-xs font-mono text-blue-600 tracking-widest uppercase font-bold">
           HOW WE WORK / ONE CONNECTED METHOD
         </p>
-        <h2 className="text-3xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-[0.95] text-white uppercase">
+        <h2 className="text-3xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-[0.95] text-slate-900 uppercase">
           A STRUCTURED<br />
-          <span className="text-blue-500 italic font-light">WAY TO MOVE.</span>
+          <span className="text-blue-600 italic font-light">WAY TO MOVE.</span>
         </h2>
       </div>
 
@@ -74,15 +74,15 @@ export default function ProcessSystem() {
               onClick={() => setActiveStep(idx)}
               className={`w-full text-left p-6 rounded-2xl border transition-all duration-300 flex items-start justify-between gap-4 relative overflow-hidden ${
                 activeStep === idx
-                  ? 'bg-blue-950/80 border-blue-500 shadow-xl shadow-blue-600/20'
-                  : 'bg-[#050B14] border-blue-900/40 hover:border-blue-700/60'
+                  ? 'bg-blue-50/90 border-blue-500 shadow-md'
+                  : 'bg-white border-slate-200 hover:border-blue-400 shadow-sm'
               }`}
             >
               {/* Active Glow Accent Bar */}
               {activeStep === idx && (
                 <motion.div
                   layoutId="activeGlowBar"
-                  className="absolute left-0 top-0 bottom-0 w-1.5 bg-blue-500 shadow-lg shadow-blue-500"
+                  className="absolute left-0 top-0 bottom-0 w-1.5 bg-blue-600 shadow-sm"
                 />
               )}
 
@@ -91,16 +91,16 @@ export default function ProcessSystem() {
                   className={`font-mono text-xs font-bold px-2.5 py-1 rounded transition-colors ${
                     activeStep === idx
                       ? 'bg-blue-600 text-white'
-                      : 'bg-blue-950 text-blue-400 border border-blue-800/50'
+                      : 'bg-slate-100 text-slate-700 border border-slate-200'
                   }`}
                 >
                   {step.num}
                 </span>
                 <div>
-                  <h3 className="text-xl font-black text-white uppercase tracking-tight">
+                  <h3 className="text-xl font-black text-slate-900 uppercase tracking-tight">
                     {step.title}
                   </h3>
-                  <p className="text-xs text-slate-300 leading-relaxed mt-1 font-light">
+                  <p className="text-xs text-slate-600 leading-relaxed mt-1 font-light">
                     {step.desc}
                   </p>
                 </div>
@@ -108,8 +108,8 @@ export default function ProcessSystem() {
               <ArrowUpRight
                 className={`w-5 h-5 transition-transform duration-300 ${
                   activeStep === idx
-                    ? 'text-blue-400 translate-x-0.5 -translate-y-0.5'
-                    : 'text-slate-600'
+                    ? 'text-blue-600 translate-x-0.5 -translate-y-0.5'
+                    : 'text-slate-400'
                 }`}
               />
             </button>
@@ -118,7 +118,7 @@ export default function ProcessSystem() {
 
         {/* Right Radar Blueprint Animated Card */}
         <div className="lg:col-span-6">
-          <div className="bg-[#050B14] border border-blue-900/70 rounded-2xl p-8 h-full min-h-[420px] flex flex-col justify-between relative overflow-hidden group hover:border-blue-500/80 transition-all shadow-2xl">
+          <div className="bg-slate-950 border border-slate-800 rounded-2xl p-8 h-full min-h-[420px] flex flex-col justify-between relative overflow-hidden group hover:border-blue-500/80 transition-all shadow-xl">
             {/* Animated Radar Scanning Line */}
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
               {/* Concentric Circles */}
@@ -146,7 +146,7 @@ export default function ProcessSystem() {
 
             {/* Top Animated Header */}
             <div className="flex items-center justify-between text-xs font-mono text-blue-400 z-10">
-              <span className="bg-slate-950/80 px-3 py-1 rounded-full border border-blue-900/60 backdrop-blur-md">
+              <span className="bg-slate-900 px-3 py-1 rounded-full border border-blue-900/60 backdrop-blur-md">
                 MD—SYSTEM / {steps[activeStep].num}
               </span>
               <AnimatePresence mode="wait">
@@ -198,7 +198,7 @@ export default function ProcessSystem() {
             </div>
 
             {/* Bottom Animated Status Bar */}
-            <div className="flex items-center justify-between text-[10px] font-mono text-slate-400 z-10 border-t border-blue-900/50 pt-4 bg-slate-950/60 p-2 rounded-xl backdrop-blur-md">
+            <div className="flex items-center justify-between text-[10px] font-mono text-slate-400 z-10 border-t border-blue-900/50 pt-4 bg-slate-900/80 p-2 rounded-xl backdrop-blur-md">
               <span className="flex items-center gap-1.5 text-blue-400">
                 <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
                 DIGITACURVE RADAR ACTIVE
@@ -220,17 +220,17 @@ export default function ProcessSystem() {
       </div>
 
       {/* Progress Timeline Control Bar */}
-      <div className="bg-[#050B14] border border-blue-900/50 rounded-xl p-4 flex items-center justify-between gap-4">
+      <div className="bg-white border border-slate-200 rounded-xl p-4 flex items-center justify-between gap-4 shadow-sm">
         <div className="flex-1 grid grid-cols-4 gap-2">
           {steps.map((_, i) => (
             <div
               key={i}
               onClick={() => setActiveStep(i)}
-              className="h-2 rounded-full bg-slate-900 overflow-hidden cursor-pointer relative"
+              className="h-2 rounded-full bg-slate-100 overflow-hidden cursor-pointer relative"
             >
               <div
-                className={`h-full bg-blue-500 transition-all duration-500 ${
-                  activeStep === i ? 'w-full shadow-lg shadow-blue-500' : activeStep > i ? 'w-full opacity-60' : 'w-0'
+                className={`h-full bg-blue-600 transition-all duration-500 ${
+                  activeStep === i ? 'w-full shadow-sm' : activeStep > i ? 'w-full opacity-60' : 'w-0'
                 }`}
               />
             </div>
@@ -239,15 +239,15 @@ export default function ProcessSystem() {
 
         <button
           onClick={() => setIsPaused(!isPaused)}
-          className="flex items-center gap-2 bg-slate-900 border border-blue-900/60 hover:border-blue-500 px-4 py-2 rounded-full text-xs font-mono text-slate-200 transition-all"
+          className="flex items-center gap-2 bg-slate-100 border border-slate-200 hover:border-blue-400 px-4 py-2 rounded-full text-xs font-mono text-slate-700 transition-all"
         >
           {isPaused ? (
             <>
-              RESUME <Play className="w-3.5 h-3.5 text-blue-400 fill-blue-400" />
+              RESUME <Play className="w-3.5 h-3.5 text-blue-600 fill-blue-600" />
             </>
           ) : (
             <>
-              PAUSE <Pause className="w-3.5 h-3.5 text-blue-400 fill-blue-400" />
+              PAUSE <Pause className="w-3.5 h-3.5 text-blue-600 fill-blue-600" />
             </>
           )}
         </button>

@@ -23,20 +23,20 @@ export default function WorkingStandards() {
   ];
 
   return (
-    <section className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-b border-blue-900/30 space-y-16">
+    <section className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-b border-slate-200 space-y-16">
       {/* Header */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-end">
         <div className="lg:col-span-8 space-y-3">
-          <p className="text-xs font-mono text-blue-400 tracking-widest uppercase">
+          <p className="text-xs font-mono text-blue-600 tracking-widest uppercase font-bold">
             04 / CLIENT EXPERIENCE
           </p>
-          <h2 className="text-3xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-[0.95] text-white uppercase">
+          <h2 className="text-3xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-[0.95] text-slate-900 uppercase">
             WHAT WORKING TOGETHER<br />
-            <span className="text-blue-500 italic font-light">SHOULD FEEL LIKE.</span>
+            <span className="text-blue-600 italic font-light">SHOULD FEEL LIKE.</span>
           </h2>
         </div>
         <div className="lg:col-span-4">
-          <p className="text-slate-300 text-xs sm:text-sm leading-relaxed font-light">
+          <p className="text-slate-600 text-xs sm:text-sm leading-relaxed font-light">
             Strong agency relationships are built on clarity before hype. These are Digitacurve's working standards—not attributed client testimonials.
           </p>
         </div>
@@ -47,19 +47,19 @@ export default function WorkingStandards() {
         {standards.map((std, idx) => (
           <div
             key={idx}
-            className="bg-[#050B14] border border-blue-900/60 rounded-2xl p-5 sm:p-8 flex flex-col justify-between hover:border-blue-500/80 transition-all duration-300 group space-y-4"
+            className="bg-white border border-slate-200 rounded-2xl p-5 sm:p-8 flex flex-col justify-between hover:border-blue-500 transition-all duration-300 group space-y-4 shadow-md"
           >
-            <div className="flex justify-between items-center text-xs font-mono text-blue-400">
-              <span className="bg-blue-950 border border-blue-800/50 px-2.5 py-1 rounded font-bold">
+            <div className="flex justify-between items-center text-xs font-mono text-blue-600 font-bold">
+              <span className="bg-blue-50 border border-blue-200 px-2.5 py-1 rounded">
                 {std.num}
               </span>
-              <span className="text-blue-500 text-sm">✦</span>
+              <span className="text-blue-600 text-sm">✦</span>
             </div>
             <div className="space-y-2">
-              <h3 className="text-lg sm:text-2xl font-black text-white uppercase tracking-tight group-hover:text-blue-400 transition-colors">
+              <h3 className="text-lg sm:text-2xl font-black text-slate-900 uppercase tracking-tight group-hover:text-blue-600 transition-colors">
                 {std.title}
               </h3>
-              <p className="text-xs text-slate-300 leading-relaxed font-light">
+              <p className="text-xs text-slate-600 leading-relaxed font-light">
                 {std.desc}
               </p>
             </div>
@@ -68,18 +68,18 @@ export default function WorkingStandards() {
       </div>
 
       {/* Testimonial Gate Banner */}
-      <div className="bg-[#050B14] border border-blue-900/40 rounded-2xl p-6 flex flex-col md:flex-row md:items-center justify-between gap-4 text-xs">
+      <div className="bg-white border border-slate-200 rounded-2xl p-6 flex flex-col md:flex-row md:items-center justify-between gap-4 text-xs shadow-md">
         <div className="flex flex-col sm:flex-row sm:items-center gap-4">
-          <span className="font-mono text-blue-400 font-bold uppercase tracking-wider">
+          <span className="font-mono text-blue-600 font-bold uppercase tracking-wider">
             REAL CLIENT VOICES
           </span>
-          <span className="text-slate-400 font-light">
+          <span className="text-slate-600 font-light">
             Approved client quotes can be added here as soon as the exact wording, name, role and permission are supplied.
           </span>
         </div>
         <Link
           href="/company/contact"
-          className="text-blue-400 hover:text-white font-mono font-bold flex items-center gap-1 shrink-0 transition-colors"
+          className="text-blue-600 hover:text-blue-800 font-mono font-bold flex items-center gap-1 shrink-0 transition-colors"
         >
           SHARE APPROVED FEEDBACK <ArrowUpRight className="w-3.5 h-3.5" />
         </Link>

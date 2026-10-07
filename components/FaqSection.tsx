@@ -35,18 +35,18 @@ export default function FaqSection() {
   ];
 
   return (
-    <section className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-b border-blue-900/30">
+    <section className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-b border-slate-200">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
         {/* Left Section Header */}
         <div className="lg:col-span-5 space-y-4">
-          <p className="text-xs font-mono text-blue-400 tracking-widest uppercase">
+          <p className="text-xs font-mono text-blue-600 tracking-widest uppercase font-bold">
             CLEAR ANSWERS / FREQUENTLY ASKED
           </p>
-          <h2 className="text-4xl sm:text-6xl font-black tracking-tight leading-[0.95] text-white uppercase">
+          <h2 className="text-4xl sm:text-6xl font-black tracking-tight leading-[0.95] text-slate-900 uppercase">
             CLEAR ANSWERS.<br />
-            <span className="text-blue-500 italic font-light">NO SALES FOG.</span>
+            <span className="text-blue-600 italic font-light">NO SALES FOG.</span>
           </h2>
-          <p className="text-slate-300 text-sm leading-relaxed font-light">
+          <p className="text-slate-600 text-sm leading-relaxed font-light">
             Everything you need to know about working with Digitacurve before starting a project.
           </p>
         </div>
@@ -56,22 +56,22 @@ export default function FaqSection() {
           {faqs.map((faq, idx) => (
             <div
               key={idx}
-              className="bg-[#050B14] border border-blue-900/40 rounded-2xl overflow-hidden transition-all duration-300"
+              className="bg-white border border-slate-200 rounded-2xl overflow-hidden transition-all duration-300 shadow-sm hover:border-blue-400"
             >
               <button
                 onClick={() => setOpenIndex(openIndex === idx ? null : idx)}
-                className="w-full p-6 text-left flex items-center justify-between gap-4 font-bold text-white hover:text-blue-400 transition-colors"
+                className="w-full p-6 text-left flex items-center justify-between gap-4 font-bold text-slate-900 hover:text-blue-600 transition-colors"
               >
                 <span className="text-sm sm:text-base font-black tracking-tight uppercase">
                   {faq.q}
                 </span>
-                <span className="w-8 h-8 rounded-full bg-blue-950 border border-blue-800/50 flex items-center justify-center text-blue-400 shrink-0">
+                <span className="w-8 h-8 rounded-full bg-blue-50 border border-blue-200 flex items-center justify-center text-blue-600 shrink-0">
                   {openIndex === idx ? <Minus className="w-4 h-4" /> : <Plus className="w-4 h-4" />}
                 </span>
               </button>
 
               {openIndex === idx && (
-                <div className="px-6 pb-6 text-xs sm:text-sm text-slate-300 leading-relaxed font-light border-t border-blue-900/20 pt-4">
+                <div className="px-6 pb-6 text-xs sm:text-sm text-slate-600 leading-relaxed font-light border-t border-slate-100 pt-4">
                   {faq.a}
                 </div>
               )}

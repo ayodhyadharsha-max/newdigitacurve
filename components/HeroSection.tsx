@@ -49,7 +49,7 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <section className="relative min-h-[90vh] bg-white overflow-hidden flex items-center py-8 lg:py-16">
+    <section className="relative min-h-[90vh] bg-[#030712] overflow-hidden flex items-center py-8 lg:py-16">
       {/* Background / Right-Side Video Container (digitacurve.mov / digitacurve.mp4) */}
       <div className="absolute top-0 right-0 w-full lg:w-[58%] h-full z-0 overflow-hidden pointer-events-none">
         <video
@@ -67,7 +67,7 @@ export default function HeroSection() {
         </video>
 
         {/* Blueprint Radar Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t lg:bg-gradient-to-r from-white via-white/70 lg:via-white/30 to-transparent z-10 pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-t lg:bg-gradient-to-r from-[#030712] via-[#030712]/40 lg:via-transparent to-transparent z-10 pointer-events-none" />
 
         {/* System Nodes Box Overlay on Right */}
         <div className="absolute inset-0 p-3 sm:p-8 flex flex-col justify-between z-10 pointer-events-none max-w-full overflow-hidden">

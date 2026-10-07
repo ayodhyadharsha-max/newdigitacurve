@@ -67,11 +67,11 @@ export default function BrandUniverse() {
   ];
 
   return (
-    <section id="work" className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-b border-blue-900/30 overflow-hidden">
+    <section id="work" className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-b border-slate-200 overflow-hidden">
       {/* Electric Blue Header Banner */}
-      <div className="bg-blue-600 rounded-3xl p-8 sm:p-12 mb-16 text-white relative overflow-hidden shadow-2xl shadow-blue-600/30">
+      <div className="bg-blue-600 rounded-3xl p-8 sm:p-12 mb-16 text-white relative overflow-hidden shadow-xl shadow-blue-600/30">
         <div className="max-w-2xl space-y-4 relative z-10">
-          <p className="text-xs font-mono text-blue-200 tracking-widest uppercase">
+          <p className="text-xs font-mono text-blue-200 tracking-widest uppercase font-bold">
             03 / BRAND ROSTER
           </p>
           <h2 className="text-3xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-[0.95] uppercase">
@@ -86,7 +86,7 @@ export default function BrandUniverse() {
         <div className="mt-8 relative z-10">
           <Link
             href="/portfolio"
-            className="inline-flex items-center gap-2 bg-slate-950 hover:bg-black text-white text-xs font-mono font-bold px-6 py-3.5 rounded-full transition-all"
+            className="inline-flex items-center gap-2 bg-slate-900 hover:bg-black text-white text-xs font-mono font-bold px-6 py-3.5 rounded-full shadow-md transition-all"
           >
             EXPLORE THE FULL ROSTER <ArrowUpRight className="w-4 h-4 text-blue-400" />
           </Link>
@@ -97,16 +97,16 @@ export default function BrandUniverse() {
       <div className="space-y-16">
         {/* Group 1: National + Digital Brands */}
         <div className="space-y-6">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-blue-900/40 pb-4">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-200 pb-4">
             <div className="flex items-center gap-3">
-              <span className="text-xs font-mono text-blue-400 bg-blue-950 border border-blue-800/50 px-2.5 py-1 rounded">
+              <span className="text-xs font-mono text-blue-600 bg-blue-50 border border-blue-200 px-2.5 py-1 rounded font-bold">
                 01
               </span>
-              <h3 className="text-2xl font-black text-white uppercase tracking-tight">
+              <h3 className="text-2xl font-black text-slate-900 uppercase tracking-tight">
                 NATIONAL + DIGITAL BRANDS
               </h3>
             </div>
-            <p className="text-xs text-slate-400 font-mono">
+            <p className="text-xs text-slate-500 font-mono font-medium">
               Consumer, mobility, finance, fashion and quick-commerce names.
             </p>
           </div>
@@ -117,7 +117,7 @@ export default function BrandUniverse() {
               <Link
                 key={idx}
                 href="/portfolio"
-                className="w-64 h-40 bg-white rounded-2xl p-4 flex flex-col justify-between shadow-2xl hover:scale-105 transition-transform duration-300 group cursor-pointer border border-slate-200 shrink-0"
+                className="w-64 h-40 bg-white rounded-2xl p-4 flex flex-col justify-between shadow-md hover:scale-105 transition-transform duration-300 group cursor-pointer border border-slate-200 shrink-0"
               >
                 <div className="flex-1 flex items-center justify-center p-2 bg-slate-900 rounded-xl overflow-hidden">
                   <img
@@ -138,17 +138,17 @@ export default function BrandUniverse() {
 
         {/* Group 2: Cafés + Hospitality (Same Exact Format Cards) */}
         <div className="space-y-6">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-blue-900/40 pb-4">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-200 pb-4">
             <div className="flex items-center gap-3">
-              <span className="text-xs font-mono text-blue-400 bg-blue-950 border border-blue-800/50 px-2.5 py-1 rounded">
+              <span className="text-xs font-mono text-blue-600 bg-blue-50 border border-blue-200 px-2.5 py-1 rounded font-bold">
                 02
               </span>
-              <h3 className="text-2xl font-black text-white uppercase tracking-tight">
+              <h3 className="text-2xl font-black text-slate-900 uppercase tracking-tight">
                 CAFÉS + HOSPITALITY
               </h3>
             </div>
-            <p className="text-xs text-slate-400 font-mono">
-              A focused hospitality row for café & dining names.
+            <p className="text-xs text-slate-500 font-mono font-medium">
+              A focused hospitality row for café &amp; dining names.
             </p>
           </div>
 
@@ -158,7 +158,7 @@ export default function BrandUniverse() {
               <Link
                 key={idx}
                 href="/portfolio"
-                className="w-64 h-40 bg-white rounded-2xl p-4 flex flex-col justify-between shadow-2xl hover:scale-105 transition-transform duration-300 group cursor-pointer border border-slate-200 shrink-0"
+                className="w-64 h-40 bg-white rounded-2xl p-4 flex flex-col justify-between shadow-md hover:scale-105 transition-transform duration-300 group cursor-pointer border border-slate-200 shrink-0"
               >
                 <div className="flex-1 flex items-center justify-center p-2 bg-slate-900 rounded-xl overflow-hidden">
                   <img
