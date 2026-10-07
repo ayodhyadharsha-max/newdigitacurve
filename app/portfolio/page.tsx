@@ -1,9 +1,9 @@
 import Link from 'next/link';
-import { ArrowUpRight, FolderGit2, ExternalLink, Sparkles } from 'lucide-react';
+import { ExternalLink, ArrowUpRight, FolderGit2 } from 'lucide-react';
 
 export const metadata = {
-  title: 'Portfolio & Work Showcase | Digitacurve',
-  description: 'Explore Digitacurve client projects, custom web platforms, performance growth case studies, and brand identities.',
+  title: 'Portfolio & Case Studies | Next.js Websites & SEO Projects Noida - Digitacurve',
+  description: 'Explore Digitacurve portfolio of high-converting Next.js web applications, real estate lead engines, healthcare portals, and PPC ad campaigns.',
   alternates: {
     canonical: 'https://www.digitacurve.com/portfolio',
   },
@@ -12,41 +12,25 @@ export const metadata = {
 export default function PortfolioPage() {
   const projects = [
     {
-      title: 'Digitacurve Living Studio',
-      category: 'Web Platform & Motion Identity',
-      metric: 'Sub-second LCP & High Conversion',
-      desc: 'Our modern brand showcase platform featuring interactive sector grids, fluid motion video identity, and pan-India coverage maps.',
-      tech: ['Next.js 14', 'Tailwind CSS', 'TypeScript', 'Framer Motion'],
-      link: '/',
-    },
-    {
-      title: 'Noida Luxury Real Estate Portal',
+      title: 'Luxury Real Estate Lead Generation Engine',
       category: 'Real Estate Solution',
-      metric: '+240% Qualified Inbound Inquiries',
-      desc: 'High-converting property portal designed for premium residential projects in Noida NCR with automated CRM lead sync.',
-      tech: ['Next.js', 'PostgreSQL', 'Tailwind', 'WhatsApp API'],
+      metric: '3.4x Conversion Lift',
+      desc: 'Next.js 14 property showcase portal integrated with WhatsApp Instant Route, dynamic location filters, and high-converting floorplan downloads.',
+      tech: ['Next.js 14', 'TypeScript', 'Tailwind CSS', 'WhatsApp API'],
       link: '/solutions/real-estate',
     },
     {
-      title: 'Multi-Specialty Care Hub',
-      category: 'Healthcare System',
-      metric: '1,200+ Monthly Online Appointments',
-      desc: 'Digital patient portal with direct doctor scheduling, tele-consultation booking, and emergency clinic finder.',
-      tech: ['React', 'TypeScript', 'Node.js', 'SMS Gateway'],
+      title: 'Multi-Specialty Clinic Patient Booking System',
+      category: 'Healthcare & Clinics',
+      metric: '850+ Monthly Inquiries',
+      desc: 'Sub-second doctor appointment booking portal with HIPAA compliant lead routing, doctor profiles, and local SEO Google Map dominance.',
+      tech: ['React', 'Next.js', 'Local SEO', 'CRM Webhook'],
       link: '/solutions/healthcare',
     },
     {
-      title: 'Pan-India Tour & Travel Engine',
-      category: 'Travel & Tourism',
-      metric: '3.8x Conversion Rate Boost',
-      desc: 'Dynamic holiday package booking portal integrated with Razorpay payment processing and custom itinerary builder.',
-      tech: ['Next.js', 'Razorpay', 'Tailwind', 'Google Maps'],
-      link: '/solutions/travel-tourism',
-    },
-    {
-      title: 'Rooftop Solar Lead Platform',
-      category: 'Solar Energy',
-      metric: '₹1.2 Cr Pipeline Generated',
+      title: 'Rooftop Solar ROI Calculator & Funnel',
+      category: 'Clean Energy & Solar',
+      metric: '₹42L Monthly Pipeline Generated',
       desc: 'Solar ROI savings calculator widget and landing page suite targeting residential and industrial rooftop solar buyers.',
       tech: ['React', 'Tailwind CSS', 'Meta Ads', 'Google Ads'],
       link: '/solutions/solar-energy',
@@ -62,20 +46,20 @@ export default function PortfolioPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-[#030712] text-white selection:bg-blue-600 selection:text-white">
-      <section className="relative pt-24 pb-20 overflow-hidden border-b border-blue-900/30">
+    <div className="min-h-screen bg-white text-slate-900 selection:bg-blue-600 selection:text-white">
+      <section className="relative pt-24 pb-20 overflow-hidden border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-6">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-blue-950/80 border border-blue-800/60 text-blue-400 font-mono text-xs font-semibold">
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-blue-50 border border-blue-200 text-blue-600 font-mono text-xs font-bold">
             <FolderGit2 className="w-3.5 h-3.5" />
             <span>PORTFOLIO &amp; CASE STUDIES</span>
           </div>
-          <h1 className="text-5xl sm:text-7xl font-black tracking-tight leading-[0.95] uppercase">
+          <h1 className="text-5xl sm:text-7xl font-black tracking-tight leading-[0.95] uppercase text-slate-900">
             OUR PROVEN <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-400">
+            <span className="text-blue-600 italic">
               WORK ROSTER.
             </span>
           </h1>
-          <p className="text-slate-300 text-lg sm:text-xl font-light leading-relaxed max-w-2xl">
+          <p className="text-slate-600 text-lg sm:text-xl font-light leading-relaxed max-w-2xl">
             A selection of web platforms, performance campaigns, and industry solutions built by Digitacurve.
           </p>
         </div>
@@ -87,32 +71,32 @@ export default function PortfolioPage() {
           {projects.map((project, idx) => (
             <div
               key={idx}
-              className="p-8 rounded-3xl bg-[#050B14] border border-blue-900/40 hover:border-blue-500/60 transition-all duration-300 flex flex-col justify-between space-y-6 group"
+              className="p-8 rounded-3xl bg-white border border-slate-200 hover:border-blue-500 transition-all duration-300 flex flex-col justify-between space-y-6 group shadow-md"
             >
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-mono text-blue-400 bg-blue-950 border border-blue-800/50 px-3 py-1 rounded-full">
+                  <span className="text-xs font-mono text-blue-600 bg-blue-50 border border-blue-200 px-3 py-1 rounded-full font-bold">
                     {project.category}
                   </span>
-                  <span className="text-xs font-mono text-emerald-400 font-bold">{project.metric}</span>
+                  <span className="text-xs font-mono text-emerald-600 font-bold">{project.metric}</span>
                 </div>
-                <h2 className="text-2xl font-black tracking-tight text-white group-hover:text-blue-400 transition-colors">
+                <h2 className="text-2xl font-black tracking-tight text-slate-900 group-hover:text-blue-600 transition-colors">
                   {project.title}
                 </h2>
-                <p className="text-slate-400 text-sm leading-relaxed">{project.desc}</p>
+                <p className="text-slate-600 text-sm leading-relaxed font-light">{project.desc}</p>
               </div>
 
-              <div className="space-y-4 pt-4 border-t border-blue-900/30">
+              <div className="space-y-4 pt-4 border-t border-slate-100">
                 <div className="flex flex-wrap gap-2">
                   {project.tech.map((t, i) => (
-                    <span key={i} className="text-[10px] font-mono text-slate-400 bg-slate-900 px-2.5 py-1 rounded border border-blue-950">
+                    <span key={i} className="text-[10px] font-mono text-slate-700 bg-slate-100 px-2.5 py-1 rounded border border-slate-200">
                       {t}
                     </span>
                   ))}
                 </div>
                 <Link
                   href={project.link}
-                  className="inline-flex items-center gap-2 text-xs font-bold text-blue-400 hover:text-blue-300 transition-colors pt-2"
+                  className="inline-flex items-center gap-2 text-xs font-bold text-blue-600 hover:text-blue-800 transition-colors pt-2"
                 >
                   VIEW PROJECT DETAILS <ExternalLink className="w-3.5 h-3.5" />
                 </Link>
@@ -123,13 +107,13 @@ export default function PortfolioPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 text-center bg-[#000B29]/60 border-t border-blue-900/30">
+      <section className="py-20 text-center bg-slate-50 border-t border-slate-200">
         <div className="max-w-3xl mx-auto px-4 space-y-6">
-          <h2 className="text-4xl font-black uppercase">WANT YOUR BRAND FEATURED HERE?</h2>
-          <p className="text-slate-300 text-sm">Let Digitacurve engineer your next web application or growth campaign.</p>
+          <h2 className="text-4xl font-black uppercase text-slate-900">WANT YOUR BRAND FEATURED HERE?</h2>
+          <p className="text-slate-600 text-sm font-light">Let Digitacurve engineer your next web application or growth campaign.</p>
           <Link
             href="/company/contact"
-            className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-bold text-sm px-9 py-4 rounded-full shadow-lg shadow-blue-600/30 transition-all hover:scale-105"
+            className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm px-9 py-4 rounded-full shadow-lg shadow-blue-600/30 transition-all hover:scale-105"
           >
             START A PROJECT WITH US <ArrowUpRight className="w-4 h-4" />
           </Link>

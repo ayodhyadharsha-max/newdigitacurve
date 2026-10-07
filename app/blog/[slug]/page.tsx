@@ -611,18 +611,18 @@ export default function BlogPostDetail({ params }: { params: { slug: string } })
   }
 
   return (
-    <div className="min-h-screen bg-[#030712] text-white selection:bg-blue-600 selection:text-white">
+    <div className="min-h-screen bg-white text-slate-900 selection:bg-blue-600 selection:text-white">
       <article className="pt-24 pb-24 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <Link
           href="/blog"
-          className="inline-flex items-center gap-2 text-xs font-mono text-blue-400 hover:text-blue-300 transition-colors mb-8"
+          className="inline-flex items-center gap-2 text-xs font-mono text-blue-600 hover:text-blue-800 transition-colors mb-8 font-bold"
         >
           <ArrowLeft className="w-4 h-4" /> BACK TO ALL ARTICLES
         </Link>
 
-        <div className="space-y-6 border-b border-blue-900/30 pb-12">
-          <div className="flex flex-wrap items-center gap-4 text-xs font-mono text-slate-400">
-            <span className="text-blue-400 bg-blue-950 border border-blue-800/50 px-3 py-1 rounded-full flex items-center gap-1">
+        <div className="space-y-6 border-b border-slate-200 pb-12">
+          <div className="flex flex-wrap items-center gap-4 text-xs font-mono text-slate-500 font-medium">
+            <span className="text-blue-600 bg-blue-50 border border-blue-200 px-3 py-1 rounded-full flex items-center gap-1 font-bold">
               <Tag className="w-3 h-3" /> {post.category}
             </span>
             <span className="flex items-center gap-1">
@@ -631,31 +631,31 @@ export default function BlogPostDetail({ params }: { params: { slug: string } })
             <span className="flex items-center gap-1">
               <Clock className="w-3.5 h-3.5" /> {post.readTime}
             </span>
-            <span className="flex items-center gap-1 text-slate-300">
-              <User className="w-3.5 h-3.5 text-blue-400" /> Digitacurve Team
+            <span className="flex items-center gap-1 text-slate-700 font-bold">
+              <User className="w-3.5 h-3.5 text-blue-600" /> Digitacurve Team
             </span>
           </div>
 
-          <h1 className="text-4xl sm:text-6xl font-black tracking-tight leading-[1.05] uppercase text-white">
+          <h1 className="text-4xl sm:text-6xl font-black tracking-tight leading-[1.05] uppercase text-slate-900">
             {post.title}
           </h1>
         </div>
 
-        <div className="py-12 space-y-6 text-slate-300 text-base leading-relaxed font-light">
+        <div className="py-12 space-y-6 text-slate-700 text-base sm:text-lg leading-relaxed font-light">
           {post.content.map((paragraph, idx) => (
             <p key={idx}>{paragraph}</p>
           ))}
         </div>
 
         {/* Article Footer CTA */}
-        <div className="p-8 rounded-3xl bg-[#050B14] border border-blue-900/50 mt-12 space-y-4 text-center">
-          <h3 className="text-2xl font-black uppercase text-white">READY TO IMPLEMENT THESE STRATEGIES?</h3>
-          <p className="text-slate-400 text-xs max-w-xl mx-auto">
+        <div className="p-8 rounded-3xl bg-slate-50 border border-slate-200 mt-12 space-y-4 text-center shadow-md">
+          <h3 className="text-2xl font-black uppercase text-slate-900">READY TO IMPLEMENT THESE STRATEGIES?</h3>
+          <p className="text-slate-600 text-xs max-w-xl mx-auto font-light">
             Partner with Digitacurve to elevate your web application engineering and digital marketing performance.
           </p>
           <Link
             href="/company/contact"
-            className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs px-8 py-3.5 rounded-full shadow-lg shadow-blue-600/30 transition-all"
+            className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs px-8 py-3.5 rounded-full shadow-lg shadow-blue-600/30 transition-all"
           >
             WORK WITH DIGITACURVE <ArrowUpRight className="w-4 h-4" />
           </Link>

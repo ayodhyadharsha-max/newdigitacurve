@@ -310,20 +310,20 @@ const blogPosts = [
 
 export default function BlogListingPage() {
   return (
-    <div className="min-h-screen bg-[#030712] text-white selection:bg-blue-600 selection:text-white">
-      <section className="relative pt-24 pb-20 overflow-hidden border-b border-blue-900/30">
+    <div className="min-h-screen bg-white text-slate-900 selection:bg-blue-600 selection:text-white">
+      <section className="relative pt-24 pb-20 overflow-hidden border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-6">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-blue-950/80 border border-blue-800/60 text-blue-400 font-mono text-xs font-semibold">
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-blue-50 border border-blue-200 text-blue-600 font-mono text-xs font-bold">
             <BookOpen className="w-3.5 h-3.5" />
             <span>DIGITACURVE INSIGHTS</span>
           </div>
-          <h1 className="text-5xl sm:text-7xl font-black tracking-tight leading-[0.95] uppercase">
+          <h1 className="text-5xl sm:text-7xl font-black tracking-tight leading-[0.95] uppercase text-slate-900">
             GROWTH &amp; TECH <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-400">
+            <span className="text-blue-600 italic">
               ARTICLES.
             </span>
           </h1>
-          <p className="text-slate-300 text-lg sm:text-xl font-light leading-relaxed max-w-2xl">
+          <p className="text-slate-600 text-lg sm:text-xl font-light leading-relaxed max-w-2xl">
             Practical insights on web engineering, performance advertising, and digital positioning.
           </p>
         </div>
@@ -335,11 +335,11 @@ export default function BlogListingPage() {
           {blogPosts.map((post, idx) => (
             <div
               key={idx}
-              className="p-8 rounded-3xl bg-[#050B14] border border-blue-900/40 hover:border-blue-500/60 transition-all duration-300 flex flex-col justify-between space-y-6 group"
+              className="p-8 rounded-3xl bg-white border border-slate-200 hover:border-blue-500 transition-all duration-300 flex flex-col justify-between space-y-6 group shadow-md"
             >
               <div className="space-y-4">
-                <div className="flex items-center justify-between text-xs font-mono text-slate-400">
-                  <span className="text-blue-400 bg-blue-950 border border-blue-800/50 px-3 py-1 rounded-full flex items-center gap-1">
+                <div className="flex items-center justify-between text-xs font-mono text-slate-500 font-medium">
+                  <span className="text-blue-600 bg-blue-50 border border-blue-200 px-3 py-1 rounded-full flex items-center gap-1 font-bold">
                     <Tag className="w-3 h-3" /> {post.category}
                   </span>
                   <div className="flex items-center gap-4">
@@ -352,16 +352,16 @@ export default function BlogListingPage() {
                   </div>
                 </div>
 
-                <h2 className="text-2xl font-black tracking-tight text-white group-hover:text-blue-400 transition-colors leading-tight">
+                <h2 className="text-2xl font-black tracking-tight text-slate-900 group-hover:text-blue-600 transition-colors leading-tight">
                   {post.title}
                 </h2>
-                <p className="text-slate-400 text-sm leading-relaxed">{post.excerpt}</p>
+                <p className="text-slate-600 text-sm leading-relaxed font-light">{post.excerpt}</p>
               </div>
 
-              <div className="pt-4 border-t border-blue-900/30">
+              <div className="pt-4 border-t border-slate-100">
                 <Link
                   href={`/blog/${post.slug}`}
-                  className="inline-flex items-center gap-2 text-xs font-bold text-blue-400 hover:text-blue-300 transition-colors"
+                  className="inline-flex items-center gap-2 text-xs font-bold text-blue-600 hover:text-blue-800 transition-colors"
                 >
                   READ ARTICLE <ArrowUpRight className="w-4 h-4" />
                 </Link>
