@@ -55,9 +55,9 @@ export default function Footer() {
           <div className="lg:col-span-4 space-y-5">
             <Link href="/" className="inline-block">
               <img
-                src="/media/logo-v2.png?v=2"
+                src="/media/logo-dark.png?v=5"
                 alt="Digitacurve Logo"
-                className="h-9 w-auto object-contain"
+                className="h-9 sm:h-10 w-auto object-contain"
               />
             </Link>
             <p className="text-slate-600 text-xs leading-relaxed font-light">

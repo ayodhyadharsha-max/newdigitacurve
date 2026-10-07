@@ -44,7 +44,7 @@ export default function NavigationMenu({ isOpen, onClose }: NavigationMenuProps)
       {/* Header inside overlay */}
       <div className="flex items-center justify-between border-b border-slate-200 pb-4 sm:pb-6 shrink-0">
         <div className="text-xs tracking-widest text-blue-600 font-mono flex items-center gap-2 sm:gap-3">
-          <img src="/media/logo-v2.png?v=2" alt="Digitacurve" className="h-5 sm:h-6 w-auto object-contain" />
+          <img src="/media/logo-dark.png?v=5" alt="Digitacurve" className="h-6 sm:h-7 w-auto object-contain" />
           <span className="text-[10px] sm:text-xs">DIGITACURVE / NOIDA BASE → INDIA</span>
         </div>
         <button

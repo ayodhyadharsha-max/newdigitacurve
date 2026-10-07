@@ -17,7 +17,7 @@ export default function Header() {
           {/* Brand Logo - DIGITACURVE */}
           <Link href="/" className="flex items-center group shrink-0">
             <img
-              src="/media/logo-v2.png?v=2"
+              src="/media/logo-dark.png?v=5"
               alt="Digitacurve Logo"
               className="h-9 sm:h-10 w-auto object-contain group-hover:scale-105 transition-transform"
             />
