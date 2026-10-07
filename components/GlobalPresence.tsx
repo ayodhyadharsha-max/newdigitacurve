@@ -28,7 +28,7 @@ export default function GlobalPresence() {
           alt={hub.country}
           loading="eager"
           decoding="async"
-          className="max-h-28 sm:max-h-32 w-auto max-w-full object-contain filter drop-shadow-[0_0_10px_rgba(255,255,255,0.3)] group-hover:drop-shadow-[0_0_18px_rgba(59,130,246,0.6)] group-hover:scale-105 transition-all duration-500 opacity-95 group-hover:opacity-100"
+          className="max-h-28 sm:max-h-32 w-auto max-w-full object-contain filter drop-shadow-[0_0_12px_rgba(255,255,255,0.4)] group-hover:drop-shadow-[0_0_20px_rgba(59,130,246,0.7)] group-hover:scale-105 transition-all duration-500 opacity-95 group-hover:opacity-100"
         />
       </div>
       <div>
@@ -40,36 +40,41 @@ export default function GlobalPresence() {
   );
 
   return (
-    <section className="py-20 sm:py-28 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-t border-blue-900/30 text-white">
-      {/* Section Header */}
-      <div className="space-y-3 mb-16 text-center max-w-3xl mx-auto">
-        <p className="text-xs font-mono text-blue-400 tracking-widest uppercase font-bold">
-          GLOBAL FOOTPRINT &amp; CLIENT REACH
-        </p>
-        <h2 className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight uppercase text-white leading-[0.95]">
-          SERVING CLIENTS<br />
-          <span className="text-blue-500 italic font-light">ACROSS THE GLOBE.</span>
-        </h2>
-      </div>
+    <div className="w-full bg-[#030712] text-white border-y border-blue-900/40 relative overflow-hidden">
+      {/* Background ambient glow */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[350px] bg-blue-950/30 blur-[150px] pointer-events-none rounded-full" />
 
-      <div className="space-y-12 sm:space-y-16">
-        {/* Row 1: 3 Countries */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 sm:gap-14 items-end">
-          {row1Hubs.map(renderHub)}
+      <section className="py-20 sm:py-28 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto relative z-10">
+        {/* Section Header */}
+        <div className="space-y-3 mb-16 text-center max-w-3xl mx-auto">
+          <p className="text-xs font-mono text-blue-400 tracking-widest uppercase font-bold">
+            GLOBAL FOOTPRINT &amp; CLIENT REACH
+          </p>
+          <h2 className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight uppercase text-white leading-[0.95]">
+            SERVING CLIENTS<br />
+            <span className="text-blue-500 italic font-light">ACROSS THE GLOBE.</span>
+          </h2>
         </div>
 
-        {/* Row 2: 3 Countries */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 sm:gap-14 items-end">
-          {row2Hubs.map(renderHub)}
-        </div>
+        <div className="space-y-12 sm:space-y-16">
+          {/* Row 1: 3 Countries */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 sm:gap-14 items-end">
+            {row1Hubs.map(renderHub)}
+          </div>
 
-        {/* Row 3: 1 Country Centered */}
-        <div className="flex justify-center items-end">
-          <div className="w-full sm:w-1/3">
-            {row3Hubs.map(renderHub)}
+          {/* Row 2: 3 Countries */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 sm:gap-14 items-end">
+            {row2Hubs.map(renderHub)}
+          </div>
+
+          {/* Row 3: 1 Country Centered */}
+          <div className="flex justify-center items-end">
+            <div className="w-full sm:w-1/3">
+              {row3Hubs.map(renderHub)}
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   );
 }
