@@ -4,6 +4,9 @@ import { ArrowUpRight, HeartPulse, Calendar, ShieldCheck, Stethoscope, Activity 
 export const metadata = {
   title: 'Healthcare Digital Solutions | Digitacurve',
   description: 'Digital solutions for hospitals, clinics, and medical practitioners including online appointment booking, doctor profiles, and local search visibility.',
+  alternates: {
+    canonical: 'https://www.digitacurve.com/solutions/healthcare',
+  },
 };
 
 export default function HealthcareSolutionPage() {

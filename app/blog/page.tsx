@@ -4,6 +4,9 @@ import { ArrowUpRight, BookOpen, Calendar, Clock, Tag } from 'lucide-react';
 export const metadata = {
   title: 'Insights & Articles | Digitacurve Blog',
   description: 'Actionable strategies on modern web development, SEO ranking, performance marketing, and digital growth from the Digitacurve team.',
+  alternates: {
+    canonical: 'https://www.digitacurve.com/blog',
+  },
 };
 
 const blogPosts = [

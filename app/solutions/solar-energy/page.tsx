@@ -4,6 +4,9 @@ import { ArrowUpRight, Sun, Calculator, Zap, TrendingUp, CheckCircle2 } from 'lu
 export const metadata = {
   title: 'Solar Energy Digital Solutions | Digitacurve',
   description: 'Solar company websites, ROI calculator widgets, high-converting solar lead generation landing pages, and PPC campaigns.',
+  alternates: {
+    canonical: 'https://www.digitacurve.com/solutions/solar-energy',
+  },
 };
 
 export default function SolarEnergySolutionPage() {

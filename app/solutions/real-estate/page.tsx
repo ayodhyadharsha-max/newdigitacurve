@@ -4,6 +4,9 @@ import { ArrowUpRight, Building2, Key, Users, Layers, ShieldCheck, PhoneCall } f
 export const metadata = {
   title: 'Real Estate Digital Solutions | Digitacurve',
   description: 'High-converting real estate websites, property showcase portals, lead capture systems, and CRM integrations for developers and agencies.',
+  alternates: {
+    canonical: 'https://www.digitacurve.com/solutions/real-estate',
+  },
 };
 
 export default function RealEstateSolutionPage() {

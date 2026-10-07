@@ -4,6 +4,9 @@ import { ArrowUpRight, Check, Zap, Sparkles, ShieldCheck } from 'lucide-react';
 export const metadata = {
   title: 'Transparent Pricing & Packages | Digitacurve',
   description: 'Flexible, value-focused web development and digital marketing pricing packages designed for startups, SMEs, and growing enterprises.',
+  alternates: {
+    canonical: 'https://www.digitacurve.com/pricing',
+  },
 };
 
 export default function PricingPage() {

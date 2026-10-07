@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     'PPC Google Ads Agency',
   ],
   alternates: {
-    canonical: 'https://www.digitacurve.com',
+    canonical: './',
   },
   icons: {
     icon: [

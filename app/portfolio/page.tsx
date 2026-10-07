@@ -4,6 +4,9 @@ import { ArrowUpRight, FolderGit2, ExternalLink, Sparkles } from 'lucide-react';
 export const metadata = {
   title: 'Portfolio & Work Showcase | Digitacurve',
   description: 'Explore Digitacurve client projects, custom web platforms, performance growth case studies, and brand identities.',
+  alternates: {
+    canonical: 'https://www.digitacurve.com/portfolio',
+  },
 };
 
 export default function PortfolioPage() {

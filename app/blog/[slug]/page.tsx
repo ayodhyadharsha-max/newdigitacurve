@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { ArrowLeft, ArrowUpRight, Calendar, Clock, Tag, User } from 'lucide-react';
 import { notFound } from 'next/navigation';
+import type { Metadata } from 'next';
 
 const postsMap: Record<string, { title: string; category: string; date: string; readTime: string; content: string[] }> = {
   'omnichannel-marketing-custom-ecommerce-nextjs-2026': {
@@ -572,6 +573,34 @@ export function generateStaticParams() {
   return Object.keys(postsMap).map((slug) => ({
     slug,
   }));
+}
+
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+  const post = postsMap[params.slug];
+  if (!post) {
+    return {
+      title: 'Article Not Found | Digitacurve Blog',
+    };
+  }
+  const excerpt = post.content[0] || post.title;
+  return {
+    title: post.title,
+    description: excerpt,
+    alternates: {
+      canonical: `https://www.digitacurve.com/blog/${params.slug}`,
+    },
+    openGraph: {
+      title: post.title,
+      description: excerpt,
+      url: `https://www.digitacurve.com/blog/${params.slug}`,
+      type: 'article',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description: excerpt,
+    },
+  };
 }
 
 export default function BlogPostDetail({ params }: { params: { slug: string } }) {
