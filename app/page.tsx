@@ -12,7 +12,7 @@ import FaqSection from '@/components/FaqSection';
 
 export default function Home() {
   return (
-    <div className="bg-[#030712] text-white">
+    <div className="bg-white text-slate-900">
       <HeroSection />
       <MarqueeBanner />
       <RosterPulse />

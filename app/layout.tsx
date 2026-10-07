@@ -224,14 +224,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark scroll-smooth">
+    <html lang="en" className="light scroll-smooth">
       <head>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className={`${inter.className} bg-[#030712] text-slate-100 antialiased selection:bg-blue-600 selection:text-white`}>
+      <body className={`${inter.className} bg-white text-slate-900 antialiased selection:bg-blue-600 selection:text-white`}>
         <SmoothScroll>
           <Header />
           <main className="relative z-10">{children}</main>

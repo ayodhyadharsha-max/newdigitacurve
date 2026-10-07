@@ -40,16 +40,16 @@ export default function NavigationMenu({ isOpen, onClose }: NavigationMenuProps)
   ];
 
   return (
-    <div className="fixed inset-0 z-50 w-full h-[100dvh] bg-[#000B29]/98 backdrop-blur-2xl flex flex-col justify-between p-4 sm:p-6 md:p-12 text-white animate-in fade-in duration-300 overflow-y-auto overscroll-contain">
+    <div className="fixed inset-0 z-50 w-full h-[100dvh] bg-white/98 backdrop-blur-2xl flex flex-col justify-between p-4 sm:p-6 md:p-12 text-slate-900 animate-in fade-in duration-300 overflow-y-auto overscroll-contain">
       {/* Header inside overlay */}
-      <div className="flex items-center justify-between border-b border-blue-900/50 pb-4 sm:pb-6 shrink-0">
-        <div className="text-xs tracking-widest text-blue-400 font-mono flex items-center gap-2 sm:gap-3">
+      <div className="flex items-center justify-between border-b border-slate-200 pb-4 sm:pb-6 shrink-0">
+        <div className="text-xs tracking-widest text-blue-600 font-mono flex items-center gap-2 sm:gap-3">
           <img src="/media/logo-v2.png?v=2" alt="Digitacurve" className="h-5 sm:h-6 w-auto object-contain" />
           <span className="text-[10px] sm:text-xs">DIGITACURVE / NOIDA BASE → INDIA</span>
         </div>
         <button
           onClick={onClose}
-          className="flex items-center gap-1.5 bg-blue-600/20 border border-blue-500/40 hover:bg-blue-600 px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full text-xs font-bold transition-all shrink-0"
+          className="flex items-center gap-1.5 bg-blue-50 border border-blue-200 hover:bg-blue-600 hover:text-white text-blue-700 px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full text-xs font-bold transition-all shrink-0"
         >
           CLOSE <X className="w-4 h-4" />
         </button>
@@ -62,30 +62,30 @@ export default function NavigationMenu({ isOpen, onClose }: NavigationMenuProps)
             key={idx}
             href={link.href}
             onClick={onClose}
-            className="group flex items-center justify-between p-3 sm:p-3.5 rounded-xl border border-blue-900/40 hover:border-blue-500/60 bg-[#050B14]/80 hover:bg-blue-900/30 transition-all duration-300"
+            className="group flex items-center justify-between p-3 sm:p-3.5 rounded-xl border border-slate-200 hover:border-blue-500/60 bg-slate-50 hover:bg-blue-50/60 transition-all duration-300"
           >
             <div className="flex items-center gap-3">
-              <span className="text-[10px] font-mono text-blue-400 bg-blue-950/80 border border-blue-800/50 px-2 py-0.5 rounded">
+              <span className="text-[10px] font-mono text-blue-600 bg-blue-50 border border-blue-200 px-2 py-0.5 rounded font-bold">
                 {link.number}
               </span>
-              <span className="text-base sm:text-lg font-black tracking-tight group-hover:text-blue-400 transition-colors">
+              <span className="text-base sm:text-lg font-black tracking-tight text-slate-900 group-hover:text-blue-600 transition-colors">
                 {link.label}
               </span>
             </div>
-            <ArrowUpRight className="w-4 h-4 sm:w-5 sm:h-5 text-blue-400 opacity-80 sm:opacity-0 group-hover:opacity-100 group-hover:translate-x-1 group-hover:-translate-y-1 transition-all shrink-0" />
+            <ArrowUpRight className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600 opacity-80 sm:opacity-0 group-hover:opacity-100 group-hover:translate-x-1 group-hover:-translate-y-1 transition-all shrink-0" />
           </Link>
         ))}
       </nav>
 
       {/* Footer Links */}
-      <div className="flex flex-wrap items-center justify-between gap-3 border-t border-blue-900/50 pt-4 sm:pt-6 text-[10px] sm:text-xs text-slate-400 font-mono shrink-0">
+      <div className="flex flex-wrap items-center justify-between gap-3 border-t border-slate-200 pt-4 sm:pt-6 text-[10px] sm:text-xs text-slate-500 font-mono shrink-0">
         <div>DIGITACURVE AGENCY © 2026</div>
         <div className="flex items-center gap-4 sm:gap-6">
           <a
             href="https://www.instagram.com/digitacurve/"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-blue-400 flex items-center gap-1 transition-colors"
+            className="hover:text-blue-600 flex items-center gap-1 transition-colors"
           >
             INSTAGRAM <ArrowUpRight className="w-3 h-3" />
           </a>
@@ -93,7 +93,7 @@ export default function NavigationMenu({ isOpen, onClose }: NavigationMenuProps)
             href="https://wa.me/917572094201"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-blue-400 flex items-center gap-1 transition-colors"
+            className="hover:text-blue-600 flex items-center gap-1 transition-colors"
           >
             WHATSAPP <ArrowUpRight className="w-3 h-3" />
           </a>
