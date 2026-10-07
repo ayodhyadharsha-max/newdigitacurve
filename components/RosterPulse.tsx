@@ -48,17 +48,17 @@ export default function RosterPulse() {
   ];
 
   return (
-    <section className="py-16 bg-[#000B29]/60 border-b border-blue-900/30 overflow-hidden">
+    <section className="py-16 bg-white border-b border-slate-200 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-8 flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div>
-          <span className="text-xs font-mono text-blue-400 bg-blue-950 border border-blue-800/50 px-3 py-1 rounded-full">
+          <span className="text-xs font-mono text-blue-600 bg-blue-50 border border-blue-200 px-3 py-1 rounded-full font-bold">
             44 IDENTITIES
           </span>
-          <h2 className="text-xs font-mono text-slate-400 tracking-wider uppercase mt-2">
+          <h2 className="text-xs font-mono text-slate-700 tracking-wider uppercase mt-2 font-bold">
             NATIONAL · HOSPITALITY · BEAUTY · REAL ESTATE · HEALTHCARE
           </h2>
         </div>
-        <div className="text-xs font-mono text-slate-500">
+        <div className="text-xs font-mono text-slate-500 font-medium">
           MD—BRAND ROSTER TICKER
         </div>
       </div>
@@ -69,7 +69,7 @@ export default function RosterPulse() {
           <Link
             key={idx}
             href="/portfolio"
-            className="w-64 h-40 bg-white rounded-2xl p-4 flex flex-col justify-between shadow-2xl hover:scale-105 transition-transform duration-300 group cursor-pointer border border-slate-200 shrink-0"
+            className="w-64 h-40 bg-white rounded-2xl p-4 flex flex-col justify-between shadow-md hover:scale-105 transition-transform duration-300 group cursor-pointer border border-slate-200 shrink-0"
           >
             {/* Top Real Image Logo Display */}
             <div className="flex-1 flex items-center justify-center p-2 bg-slate-900 rounded-xl overflow-hidden">
