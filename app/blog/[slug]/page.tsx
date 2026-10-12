@@ -4,6 +4,73 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 
 const postsMap: Record<string, { title: string; category: string; date: string; readTime: string; content: string[] }> = {
+  'generative-engine-optimization-chatgpt-search-perplexity-gemini-2026': {
+    title: 'Generative Engine Optimization (GEO) & Answer Engine Playbook 2026: How to Rank #1 on ChatGPT Search, Perplexity & Gemini',
+    category: 'GEO & AI Search',
+    date: 'Oct 12, 2026',
+    readTime: '9 min read',
+    content: [
+      'The landscape of web discovery has undergone a seismic revolution in late 2026. Over 45% of high-intent B2B and consumer queries are now resolved directly within generative answer engines, including ChatGPT Search, Perplexity Pro, and Google Gemini 2.5, bypassing the traditional ten blue search links entirely.',
+      'To maintain organic dominance and capture high-value customer inquiries, forward-thinking brands must transition from traditional keyword-centric SEO to Generative Engine Optimization (GEO) and Answer Engine Optimization (AEO).',
+      'The 4 Critical Ranking Vectors of Generative Engine Optimization (GEO):',
+      '1. Entity-Fact JSON-LD Schema Triples: Search LLMs do not index arbitrary keywords; they extract structured relational entities. Explicitly declaring Organization, Service, PostalAddress, founder, and knowsAbout schema graphs provides AI crawlers with machine-verifiable factual answers.',
+      '2. High Information-Density Content Architecture: LLMs rely on Retrieval-Augmented Generation (RAG) pipelines that score passages by semantic information density. Content structured with direct declarative answers, step-by-step methodologies, and empirical metrics is 4.7x more likely to be cited as an authoritative source.',
+      '3. Sub-Second SSR & Edge Hydration: AI crawlers like GPTBot, PerplexityBot, and Google-Extended prioritize fast, server-rendered HTML. Delayed client-side hydration or heavy JavaScript execution causes timeouts and missing indexation in real-time search synthesis.',
+      '4. Distributed Digital Ecosystem Authority: Generative engines cross-reference web consensus across industry directories, verified client reviews, press publications, and technical code repositories to evaluate citation safety and brand trust.',
+      'At Digitacurve, our Noida-based digital engineering team specializes in architecting full-stack GEO systems, schema graphs, and high-performance Next.js web applications that position brands as primary cited authorities across conversational AI search engines.',
+    ],
+  },
+  'local-seo-google-maps-3-pack-ranking-noida-delhi-ncr-2026': {
+    title: 'Local SEO & Google Maps 3-Pack Dominance 2026: Hyper-Local Ranking Blueprint for Noida, Delhi NCR & India',
+    category: 'Local SEO & Growth',
+    date: 'Oct 12, 2026',
+    readTime: '8 min read',
+    content: [
+      'For service-based businesses, healthcare practices, real estate developers, and tech agencies across Noida and Delhi NCR, Google Maps 3-Pack rankings drive over 68% of high-intent customer phone calls and consultation inquiries in 2026.',
+      'Securing and defending top 3 placement on Google Maps requires a systematic convergence of Google Business Profile (GBP) optimization, hyper-local landing page silos, and algorithmic review velocity.',
+      'Pillars of the 2026 Hyper-Local Google Maps Ranking Playbook:',
+      '1. Algorithmic Google Business Profile (GBP) Optimization: Setting precision primary and secondary service categories, uploading high-resolution geo-tagged project media weekly, and publishing timely Google Updates to demonstrate active local operations.',
+      '2. Hyper-Local Sub-Service Landing Pages: Designing dedicated Next.js landing pages tailored to specific high-density sectors across Noida (e.g., Sector 62, Sector 18, Noida Expressway, Greater Noida) with localized schema markup and unique project showcases.',
+      '3. NAP Consistency & Localized Citation Ecosystem: Maintaining 100% exact Name, Address, and Phone (NAP) parity across top national and regional directories, including Justdial, IndiaMART, Sulekha, and Google Maps.',
+      '4. Automated Review Generation & Sentiment Scoring: Implementing post-service WhatsApp workflows that invite satisfied clients to leave detailed, keyword-rich Google reviews, triggering positive algorithmic ranking boosts.',
+      '5. High-Conversion Mobile Actions: Integrating sticky Click-to-Call and WhatsApp direct inquiry buttons on all mobile web experiences to convert map visitors into qualified leads immediately.',
+      'Digitacurve partners with ambitious local businesses and regional enterprises to dominate Google Local Search and build sustainable inbound lead engines.',
+    ],
+  },
+  'nextjs-15-enterprise-performance-cwv-inp-optimization-2026': {
+    title: 'Next.js 15 & React 19 Enterprise Web Architecture 2026: Sub-Second Core Web Vitals, INP Mastery & TTFB Optimization',
+    category: 'Web Architecture',
+    date: 'Oct 11, 2026',
+    readTime: '8 min read',
+    content: [
+      'In 2026, Core Web Vitals (CWV) are not merely technical benchmarks—they are decisive business metrics that directly dictate search engine ranking positions and paid advertising conversion efficiency. Industry data reveals that every 100ms decrease in page load latency improves mobile conversion rates by 8.4%.',
+      'With Google enforcing strict Interaction to Next Paint (INP) thresholds alongside Largest Contentful Paint (LCP) and Cumulative Layout Shift (CLS), enterprise web architectures must transition to Next.js 15 and React 19.',
+      'Key Architectural Strategies for Sub-Second Web Performance:',
+      '1. Sub-100ms Interaction to Next Paint (INP): Replacing heavy client-side state managers and long-running main thread JavaScript with React 19 Actions, optimistic UI updates, and non-blocking transitions.',
+      '2. React Server Components (RSC) & Streaming Edge SSR: Eliminating client-side bundle bloat by keeping heavy data fetching and business logic strictly on the server layer, sending zero unnecessary JavaScript to user devices.',
+      '3. Next-Gen Asset Delivery & AVIF Encoding: Utilizing Next.js Image with fetchPriority="high", modern AVIF compression, and responsive srcset attributes to ensure hero banners load in under 400ms.',
+      '4. Zero Cumulative Layout Shift (CLS): Implementing CSS aspect-ratio placeholders and modern font loading strategies with size-adjust to prevent visual jumping during page hydration.',
+      '5. Edge Network Caching & Stale-While-Revalidate: Serving pre-rendered static shells from global edge points with sub-40ms Time to First Byte (TTFB).',
+      'At Digitacurve, our Noida web engineering studio builds enterprise Next.js applications engineered for 98-100 Google Lighthouse scores, unmatched stability, and maximum organic visibility.',
+    ],
+  },
+  'high-converting-landing-page-cro-whatsapp-funnels-2026': {
+    title: 'High-Converting B2B & Real Estate Landing Page Architecture 2026: Quadruple ROAS with WhatsApp Funnels & CRO',
+    category: 'Conversion Optimization',
+    date: 'Oct 10, 2026',
+    readTime: '8 min read',
+    content: [
+      'Driving paid traffic through Google Ads and Meta campaigns is only half the battle. In 2026, rising customer acquisition costs (CAC) make it critical that landing pages convert cold clicks into qualified sales opportunities at peak efficiency.',
+      'Traditional landing pages featuring exhaustive 10-field static lead capture forms suffer catastrophic 80%+ drop-off rates on mobile devices in India. High-performing brands are replacing them with modern friction-free CRO systems and instant WhatsApp lead funnels.',
+      'Tactical Blueprint for 4x Landing Page Conversion Lift:',
+      '1. Dual-Path Conversion Architecture: Giving users the choice between a frictionless 2-step smart form and an instant 1-click WhatsApp inquiry button with pre-filled context.',
+      '2. Mobile-First Sticky Conversion Dock: Implementing an unobtrusive bottom-screen floating action dock with clear call-to-action triggers that remain accessible throughout the browsing experience.',
+      '3. Above-the-Fold Proof Density: Featuring tangible trust markers, verified client review counts, security certifications, and industry recognitions in prime viewport real estate.',
+      '4. Real-Time CRM Webhooks & Meta CAPI: Transmitting lead data immediately into CRM systems and firing server-side Meta Conversion API events to optimize ad bidding algorithms for high-value leads rather than cheap clicks.',
+      '5. Sub-Second Mobile Hydration: Ensuring landing pages load instantly on 4G/5G mobile connections to eliminate bounce rates before the value proposition is even read.',
+      'Digitacurve designs and implements bespoke, high-converting Next.js landing pages and automated lead capture systems for real estate leaders, healthcare institutions, and B2B enterprises.',
+    ],
+  },
   'omnichannel-marketing-custom-ecommerce-nextjs-2026': {
     title: 'Omnichannel Marketing Systems & Headless E-Commerce Architecture in 2026: Next.js 14 Playbook',
     category: 'E-Commerce Growth',
@@ -610,8 +677,38 @@ export default function BlogPostDetail({ params }: { params: { slug: string } })
     notFound();
   }
 
+  const articleJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: post.title,
+    description: post.content[0] || post.title,
+    author: {
+      '@type': 'Organization',
+      name: 'Digitacurve Team',
+      url: 'https://www.digitacurve.com',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Digitacurve',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.digitacurve.com/media/logo-v2.png',
+      },
+    },
+    datePublished: post.date,
+    dateModified: post.date,
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://www.digitacurve.com/blog/${params.slug}`,
+    },
+  };
+
   return (
     <div className="min-h-screen bg-white text-slate-900 selection:bg-blue-600 selection:text-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
       <article className="pt-24 pb-24 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <Link
           href="/blog"

@@ -11,6 +11,38 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: 'generative-engine-optimization-chatgpt-search-perplexity-gemini-2026',
+    title: 'Generative Engine Optimization (GEO) & Answer Engine Playbook 2026: How to Rank #1 on ChatGPT Search, Perplexity & Gemini',
+    category: 'GEO & AI Search',
+    date: 'Oct 12, 2026',
+    readTime: '9 min read',
+    excerpt: 'How forward-thinking brands combine entity-fact JSON-LD schema, direct answer extraction, and brand authority citations to win prime recommendation spots across ChatGPT Search, Perplexity, and Google Gemini.',
+  },
+  {
+    slug: 'local-seo-google-maps-3-pack-ranking-noida-delhi-ncr-2026',
+    title: 'Local SEO & Google Maps 3-Pack Dominance 2026: Hyper-Local Ranking Blueprint for Noida, Delhi NCR & India',
+    category: 'Local SEO & Growth',
+    date: 'Oct 12, 2026',
+    readTime: '8 min read',
+    excerpt: 'A battle-tested blueprint for local service businesses and agencies to dominate Google Maps 3-pack rankings, boost phone calls, and capture high-intent inquiries in Noida and Delhi NCR.',
+  },
+  {
+    slug: 'nextjs-15-enterprise-performance-cwv-inp-optimization-2026',
+    title: 'Next.js 15 & React 19 Enterprise Web Architecture 2026: Sub-Second Core Web Vitals, INP Mastery & TTFB Optimization',
+    category: 'Web Architecture',
+    date: 'Oct 11, 2026',
+    readTime: '8 min read',
+    excerpt: 'How enterprise engineering teams achieve sub-100ms Interaction to Next Paint (INP), sub-second Largest Contentful Paint (LCP), and 99+ Google PageSpeed scores with Next.js 15.',
+  },
+  {
+    slug: 'high-converting-landing-page-cro-whatsapp-funnels-2026',
+    title: 'High-Converting B2B & Real Estate Landing Page Architecture 2026: Quadruple ROAS with WhatsApp Funnels & CRO',
+    category: 'Conversion Optimization',
+    date: 'Oct 10, 2026',
+    readTime: '8 min read',
+    excerpt: 'The exact landing page architecture and micro-conversion psychology that top-performing B2B brands and luxury real estate developers use to convert paid ad clicks into booked deals.',
+  },
+  {
     slug: 'omnichannel-marketing-custom-ecommerce-nextjs-2026',
     title: 'Omnichannel Marketing Systems & Headless E-Commerce Architecture in 2026: Next.js 14 Playbook',
     category: 'E-Commerce Growth',
