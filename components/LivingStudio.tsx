@@ -67,11 +67,11 @@ export default function LivingStudio() {
       {/* Grid Cards (3 Cards matching the exact layout) */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {/* Card 1 - Sector Focus 01-04 */}
-        <div className="bg-white border border-slate-200 shadow-xl rounded-2xl overflow-hidden flex flex-col justify-between group hover:border-blue-500 transition-all duration-300">
+        <div className="liquid-glass-card rounded-3xl overflow-hidden flex flex-col justify-between group">
           <div className="p-6 space-y-5 flex-1">
             {/* Top Bar */}
             <div className="flex justify-between items-center text-[10px] font-mono">
-              <span className="bg-blue-50 text-blue-600 px-2.5 py-1 rounded-md border border-blue-200 font-bold">
+              <span className="liquid-glass-pill text-blue-600 px-2.5 py-1 rounded-md font-bold">
                 01 / SECTOR FOCUS
               </span>
               <span className="text-slate-500 font-bold">01-04</span>
@@ -89,7 +89,7 @@ export default function LivingStudio() {
 
             {/* 4 Grid Items */}
             <div className="grid grid-cols-2 gap-3 pt-2">
-              <Link href="/solutions/travel-tourism" className="bg-slate-50 hover:bg-blue-50 border border-slate-200 hover:border-blue-400 rounded-xl p-3 space-y-1.5 relative block transition-all hover:scale-105">
+              <Link href="/solutions/travel-tourism" className="liquid-glass hover:bg-white/95 rounded-xl p-3 space-y-1.5 relative block transition-all hover:scale-105">
                 <div className="flex justify-between items-start">
                   <Plane className="w-4 h-4 text-blue-600" />
                   <span className="text-[9px] font-mono text-slate-500 font-bold">01</span>
@@ -166,11 +166,11 @@ export default function LivingStudio() {
         </div>
 
         {/* Card 3 - Sector Focus 05-08 */}
-        <div className="bg-white border border-slate-200 shadow-xl rounded-2xl overflow-hidden flex flex-col justify-between group hover:border-blue-500 transition-all duration-300">
+        <div className="liquid-glass-card rounded-3xl overflow-hidden flex flex-col justify-between group">
           <div className="p-6 space-y-5 flex-1">
             {/* Top Bar */}
             <div className="flex justify-between items-center text-[10px] font-mono">
-              <span className="bg-blue-50 text-blue-600 px-2.5 py-1 rounded-md border border-blue-200 font-bold">
+              <span className="liquid-glass-pill text-blue-600 px-2.5 py-1 rounded-md font-bold">
                 03 / SECTOR FOCUS
               </span>
               <span className="text-slate-500 font-bold">05-08</span>
@@ -188,7 +188,7 @@ export default function LivingStudio() {
 
             {/* 4 Grid Items (Matching Card 1's exact 2x2 grid pattern) */}
             <div className="grid grid-cols-2 gap-3 pt-2">
-              <Link href="/web-development" className="bg-slate-50 hover:bg-blue-50 border border-slate-200 hover:border-blue-400 rounded-xl p-3 space-y-1.5 relative block transition-all hover:scale-105">
+              <Link href="/web-development" className="liquid-glass hover:bg-white/95 rounded-xl p-3 space-y-1.5 relative block transition-all hover:scale-105">
                 <div className="flex justify-between items-start">
                   <ShoppingBag className="w-4 h-4 text-blue-600" />
                   <span className="text-[9px] font-mono text-slate-500 font-bold">05</span>

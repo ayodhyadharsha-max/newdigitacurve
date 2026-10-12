@@ -47,10 +47,10 @@ export default function WorkingStandards() {
         {standards.map((std, idx) => (
           <div
             key={idx}
-            className="bg-white border border-slate-200 rounded-2xl p-5 sm:p-8 flex flex-col justify-between hover:border-blue-500 transition-all duration-300 group space-y-4 shadow-md"
+            className="liquid-glass-card rounded-3xl p-5 sm:p-8 flex flex-col justify-between group space-y-4"
           >
             <div className="flex justify-between items-center text-xs font-mono text-blue-600 font-bold">
-              <span className="bg-blue-50 border border-blue-200 px-2.5 py-1 rounded">
+              <span className="liquid-glass-pill px-2.5 py-1 rounded-full">
                 {std.num}
               </span>
               <span className="text-blue-600 text-sm">✦</span>
@@ -68,7 +68,7 @@ export default function WorkingStandards() {
       </div>
 
       {/* Testimonial Gate Banner */}
-      <div className="bg-white border border-slate-200 rounded-2xl p-6 flex flex-col md:flex-row md:items-center justify-between gap-4 text-xs shadow-md">
+      <div className="liquid-glass rounded-2xl p-6 flex flex-col md:flex-row md:items-center justify-between gap-4 text-xs">
         <div className="flex flex-col sm:flex-row sm:items-center gap-4">
           <span className="font-mono text-blue-600 font-bold uppercase tracking-wider">
             REAL CLIENT VOICES

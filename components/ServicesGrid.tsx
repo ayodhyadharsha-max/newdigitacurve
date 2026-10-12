@@ -51,9 +51,13 @@ export default function ServicesGrid() {
   ];
 
   return (
-    <section id="services" className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-b border-slate-200">
+    <section id="services" className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-b border-slate-200 relative overflow-hidden">
+      {/* Liquid Ambient Background Blobs */}
+      <div className="liquid-blob w-72 sm:w-96 h-72 sm:h-96 bg-blue-400/25 top-20 -left-20 animate-liquid-float" />
+      <div className="liquid-blob w-72 sm:w-96 h-72 sm:h-96 bg-indigo-300/20 bottom-10 -right-20 animate-liquid-float-slow" />
+
       {/* Section Header */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-end mb-12 lg:mb-16">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-end mb-12 lg:mb-16 relative z-10">
         <div className="lg:col-span-8 space-y-3">
           <p className="text-xs font-mono text-blue-600 tracking-widest uppercase font-bold">
             01 / CORE SERVICES
@@ -72,17 +76,17 @@ export default function ServicesGrid() {
       </div>
 
       {/* Services Grid (2 Columns on Mobile, 2 Columns on Desktop) */}
-      <div className="grid grid-cols-2 md:grid-cols-2 gap-2.5 sm:gap-6">
+      <div className="grid grid-cols-2 md:grid-cols-2 gap-2.5 sm:gap-6 relative z-10">
         {services.map((svc, idx) => (
           <Link
             key={idx}
             href={svc.link}
-            className="group bg-white border border-slate-200/90 hover:border-blue-500/80 rounded-2xl p-3.5 sm:p-8 flex flex-col justify-between min-h-[230px] sm:min-h-[320px] transition-all duration-300 hover:shadow-xl hover:shadow-blue-500/10 relative"
+            className="group liquid-glass-card rounded-2xl sm:rounded-3xl p-3.5 sm:p-8 flex flex-col justify-between min-h-[230px] sm:min-h-[320px] relative overflow-hidden"
           >
             {/* Top row */}
             <div className="flex items-start justify-between gap-1">
               <div className="flex flex-wrap items-center gap-1.5 sm:gap-2">
-                <span className="w-7 h-7 sm:w-10 sm:h-10 rounded-full border border-blue-200 bg-blue-50 flex items-center justify-center font-mono text-[10px] sm:text-xs font-bold text-blue-600">
+                <span className="w-7 h-7 sm:w-10 sm:h-10 rounded-full liquid-glass-pill flex items-center justify-center font-mono text-[10px] sm:text-xs font-bold text-blue-600">
                   {svc.number}
                 </span>
                 {svc.isAdService && (

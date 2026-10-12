@@ -9,9 +9,9 @@ export default function ManifestoSection() {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
         {/* Left Column - Founder Card */}
         <div className="lg:col-span-4 lg:sticky lg:top-28">
-          <div className="bg-white border border-slate-200 rounded-3xl p-8 shadow-xl space-y-6">
+          <div className="liquid-glass-card rounded-3xl p-8 space-y-6">
             <div className="flex items-center gap-4">
-              <div className="w-16 h-16 rounded-full bg-gradient-to-tr from-blue-600 to-indigo-600 border-2 border-blue-400 flex items-center justify-center font-black text-xl text-white shadow-lg shadow-blue-600/30">
+              <div className="w-16 h-16 rounded-full bg-gradient-to-tr from-blue-600 to-indigo-600 border-2 border-white/60 flex items-center justify-center font-black text-xl text-white shadow-lg shadow-blue-600/30">
                 RJ
               </div>
               <div>
@@ -41,7 +41,7 @@ export default function ManifestoSection() {
 
             <Link
               href="/company/contact"
-              className="w-full inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs py-3.5 rounded-full shadow-md transition-all"
+              className="w-full inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs py-3.5 rounded-full liquid-glass-button transition-all"
             >
               TALK TO RISHABH <ArrowUpRight className="w-4 h-4" />
             </Link>
@@ -63,8 +63,8 @@ export default function ManifestoSection() {
 
           <div className="space-y-8 font-sans">
             {/* Principle 01 */}
-            <div className="bg-white border border-slate-200 p-8 rounded-2xl space-y-3 hover:border-blue-500 transition-all shadow-md">
-              <span className="text-xs font-mono text-blue-600 font-bold">CHAPTER 01</span>
+            <div className="liquid-glass-card p-8 rounded-3xl space-y-3">
+              <span className="text-xs font-mono text-blue-600 liquid-glass-pill px-3 py-1 rounded-full font-bold inline-block">CHAPTER 01</span>
               <h3 className="text-2xl font-black text-slate-900 uppercase">
                 1. CLARITY BEFORE CREATIVE FLUFF.
               </h3>
@@ -74,8 +74,8 @@ export default function ManifestoSection() {
             </div>
 
             {/* Principle 02 */}
-            <div className="bg-white border border-slate-200 p-8 rounded-2xl space-y-3 hover:border-blue-500 transition-all shadow-md">
-              <span className="text-xs font-mono text-blue-600 font-bold">CHAPTER 02</span>
+            <div className="liquid-glass-card p-8 rounded-3xl space-y-3">
+              <span className="text-xs font-mono text-blue-600 liquid-glass-pill px-3 py-1 rounded-full font-bold inline-block">CHAPTER 02</span>
               <h3 className="text-2xl font-black text-slate-900 uppercase">
                 2. ONE CONNECTED GROWTH SYSTEM.
               </h3>
@@ -85,8 +85,8 @@ export default function ManifestoSection() {
             </div>
 
             {/* Principle 03 */}
-            <div className="bg-white border border-slate-200 p-8 rounded-2xl space-y-3 hover:border-blue-500 transition-all shadow-md">
-              <span className="text-xs font-mono text-blue-600 font-bold">CHAPTER 03</span>
+            <div className="liquid-glass-card p-8 rounded-3xl space-y-3">
+              <span className="text-xs font-mono text-blue-600 liquid-glass-pill px-3 py-1 rounded-full font-bold inline-block">CHAPTER 03</span>
               <h3 className="text-2xl font-black text-slate-900 uppercase">
                 3. DIRECT FOUNDER RESPONSIBILITY.
               </h3>

@@ -56,7 +56,7 @@ export default function FaqSection() {
           {faqs.map((faq, idx) => (
             <div
               key={idx}
-              className="bg-white border border-slate-200 rounded-2xl overflow-hidden transition-all duration-300 shadow-sm hover:border-blue-400"
+              className="liquid-glass-card rounded-2xl overflow-hidden transition-all duration-300"
             >
               <button
                 onClick={() => setOpenIndex(openIndex === idx ? null : idx)}
@@ -65,7 +65,7 @@ export default function FaqSection() {
                 <span className="text-sm sm:text-base font-black tracking-tight uppercase">
                   {faq.q}
                 </span>
-                <span className="w-8 h-8 rounded-full bg-blue-50 border border-blue-200 flex items-center justify-center text-blue-600 shrink-0">
+                <span className="w-8 h-8 rounded-full liquid-glass-pill flex items-center justify-center text-blue-600 shrink-0">
                   {openIndex === idx ? <Minus className="w-4 h-4" /> : <Plus className="w-4 h-4" />}
                 </span>
               </button>

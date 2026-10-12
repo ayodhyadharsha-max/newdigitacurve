@@ -12,7 +12,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="sticky top-0 z-40 w-full bg-white/90 backdrop-blur-md border-b border-slate-200/80 shadow-sm">
+      <header className="sticky top-0 z-40 w-full liquid-glass-header">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
           {/* Brand Logo - DIGITACURVE */}
           <Link href="/" className="flex items-center group shrink-0">
@@ -40,7 +40,7 @@ export default function Header() {
               </button>
 
               {isSolutionsOpen && (
-                <div className="absolute top-full left-0 w-72 bg-white border border-slate-200 rounded-2xl p-3 shadow-xl shadow-slate-900/10 animate-in fade-in slide-in-from-top-2 duration-200 z-50">
+                <div className="absolute top-full left-0 w-72 liquid-glass rounded-2xl p-3 shadow-2xl animate-in fade-in slide-in-from-top-2 duration-200 z-50">
                   <div className="text-[10px] font-mono text-blue-600 px-3 py-1.5 uppercase font-bold tracking-widest border-b border-slate-100 mb-1">
                     INDUSTRY SOLUTIONS
                   </div>
@@ -112,7 +112,7 @@ export default function Header() {
               </button>
 
               {isServicesOpen && (
-                <div className="absolute top-full left-0 w-72 bg-white border border-slate-200 rounded-2xl p-3 shadow-xl shadow-slate-900/10 animate-in fade-in slide-in-from-top-2 duration-200 z-50">
+                <div className="absolute top-full left-0 w-72 liquid-glass rounded-2xl p-3 shadow-2xl animate-in fade-in slide-in-from-top-2 duration-200 z-50">
                   <div className="text-[10px] font-mono text-blue-600 px-3 py-1.5 uppercase font-bold tracking-widest border-b border-slate-100 mb-1">
                     CORE SERVICES
                   </div>
@@ -204,14 +204,14 @@ export default function Header() {
           <div className="flex items-center gap-3">
             <Link
               href="/#free-report"
-              className="hidden sm:flex items-center gap-1.5 bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold px-4 py-2.5 rounded-full shadow-md shadow-blue-500/20 transition-all hover:scale-105"
+              className="hidden sm:flex items-center gap-1.5 bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold px-4 py-2.5 rounded-full liquid-glass-button transition-all hover:scale-105"
             >
               FREE REPORT <ArrowUpRight className="w-3.5 h-3.5" />
             </Link>
 
             <button
               onClick={() => setIsMenuOpen(true)}
-              className="lg:hidden flex items-center gap-1.5 bg-slate-100 border border-slate-200 hover:bg-slate-200 text-slate-800 text-xs font-mono font-bold px-4 py-2.5 rounded-full transition-all"
+              className="lg:hidden flex items-center gap-1.5 liquid-glass-pill text-slate-800 text-xs font-mono font-bold px-4 py-2.5 rounded-full transition-all hover:border-blue-400"
             >
               MENU <Plus className="w-3.5 h-3.5 text-blue-600" />
             </button>

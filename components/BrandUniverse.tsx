@@ -99,7 +99,7 @@ export default function BrandUniverse() {
         <div className="space-y-6">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-200 pb-4">
             <div className="flex items-center gap-3">
-              <span className="text-xs font-mono text-blue-600 bg-blue-50 border border-blue-200 px-2.5 py-1 rounded font-bold">
+              <span className="text-xs font-mono text-blue-600 liquid-glass-pill px-2.5 py-1 rounded-full font-bold">
                 01
               </span>
               <h3 className="text-2xl font-black text-slate-900 uppercase tracking-tight">
@@ -117,7 +117,7 @@ export default function BrandUniverse() {
               <Link
                 key={idx}
                 href="/portfolio"
-                className="w-64 h-40 bg-white rounded-2xl p-4 flex flex-col justify-between shadow-md hover:scale-105 transition-transform duration-300 group cursor-pointer border border-slate-200 shrink-0"
+                className="w-64 h-40 liquid-glass-card rounded-2xl p-4 flex flex-col justify-between hover:scale-105 transition-transform duration-300 group cursor-pointer shrink-0"
               >
                 <div className="flex-1 flex items-center justify-center p-2 bg-slate-900 rounded-xl overflow-hidden">
                   <img
@@ -140,7 +140,7 @@ export default function BrandUniverse() {
         <div className="space-y-6">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-200 pb-4">
             <div className="flex items-center gap-3">
-              <span className="text-xs font-mono text-blue-600 bg-blue-50 border border-blue-200 px-2.5 py-1 rounded font-bold">
+              <span className="text-xs font-mono text-blue-600 liquid-glass-pill px-2.5 py-1 rounded-full font-bold">
                 02
               </span>
               <h3 className="text-2xl font-black text-slate-900 uppercase tracking-tight">
@@ -158,7 +158,7 @@ export default function BrandUniverse() {
               <Link
                 key={idx}
                 href="/portfolio"
-                className="w-64 h-40 bg-white rounded-2xl p-4 flex flex-col justify-between shadow-md hover:scale-105 transition-transform duration-300 group cursor-pointer border border-slate-200 shrink-0"
+                className="w-64 h-40 liquid-glass-card rounded-2xl p-4 flex flex-col justify-between hover:scale-105 transition-transform duration-300 group cursor-pointer shrink-0"
               >
                 <div className="flex-1 flex items-center justify-center p-2 bg-slate-900 rounded-xl overflow-hidden">
                   <img

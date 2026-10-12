@@ -5,8 +5,12 @@ import { ArrowUpRight } from 'lucide-react';
 
 export default function FreeReportFeature() {
   return (
-    <section id="free-report" className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-b border-slate-200">
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+    <section id="free-report" className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-b border-slate-200 relative overflow-hidden">
+      {/* Liquid Ambient Blobs */}
+      <div className="liquid-blob w-80 sm:w-[420px] h-80 sm:h-[420px] bg-blue-500/20 -top-20 -right-20 animate-liquid-float" />
+      <div className="liquid-blob w-72 sm:w-96 h-72 sm:h-96 bg-cyan-400/20 -bottom-10 -left-20 animate-liquid-float-slow" />
+
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center relative z-10">
         {/* Left Copy Column */}
         <div className="lg:col-span-6 space-y-6">
           <p className="text-xs font-mono text-blue-600 tracking-widest uppercase font-bold">
@@ -26,7 +30,7 @@ export default function FreeReportFeature() {
           <div className="pt-2">
             <Link
               href="/company/contact"
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs sm:text-sm px-8 py-4 rounded-full shadow-lg shadow-blue-600/30 transition-all active:scale-95"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs sm:text-sm px-8 py-4 rounded-full liquid-glass-button transition-all active:scale-95"
             >
               PREPARE MY FREE REPORT <ArrowUpRight className="w-4 h-4" />
             </Link>
@@ -39,7 +43,7 @@ export default function FreeReportFeature() {
 
         {/* Right Column - Diagnostic Report Graphic Card */}
         <div className="lg:col-span-6">
-          <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-xl relative overflow-hidden group hover:border-blue-500 transition-all duration-500">
+          <div className="liquid-glass-card rounded-3xl p-6 sm:p-8 relative overflow-hidden group">
             {/* Header */}
             <div className="flex items-center justify-between border-b border-slate-100 pb-4 text-[10px] font-mono text-slate-500">
               <span className="text-blue-600 font-bold truncate">DIGITACURVE / BUSINESS DIAGNOSTIC</span>

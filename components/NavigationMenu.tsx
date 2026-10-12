@@ -40,32 +40,36 @@ export default function NavigationMenu({ isOpen, onClose }: NavigationMenuProps)
   ];
 
   return (
-    <div className="fixed inset-0 z-50 w-full h-[100dvh] bg-white/98 backdrop-blur-2xl flex flex-col justify-between p-4 sm:p-6 md:p-12 text-slate-900 animate-in fade-in duration-300 overflow-y-auto overscroll-contain">
+    <div className="fixed inset-0 z-50 w-full h-[100dvh] bg-white/85 backdrop-blur-3xl flex flex-col justify-between p-4 sm:p-6 md:p-12 text-slate-900 animate-in fade-in duration-300 overflow-y-auto overscroll-contain relative">
+      {/* Liquid Ambient Blobs */}
+      <div className="liquid-blob w-96 h-96 bg-blue-500/20 top-10 left-10 animate-liquid-float" />
+      <div className="liquid-blob w-96 h-96 bg-cyan-400/20 bottom-10 right-10 animate-liquid-float-slow" />
+
       {/* Header inside overlay */}
-      <div className="flex items-center justify-between border-b border-slate-200 pb-4 sm:pb-6 shrink-0">
+      <div className="flex items-center justify-between border-b border-slate-200/80 pb-4 sm:pb-6 shrink-0 relative z-10">
         <div className="text-xs tracking-widest text-blue-600 font-mono flex items-center gap-2 sm:gap-3">
           <img src="/media/logo-dark.png?v=5" alt="Digitacurve" className="h-6 sm:h-7 w-auto object-contain" />
-          <span className="text-[10px] sm:text-xs">DIGITACURVE / NOIDA BASE → INDIA</span>
+          <span className="text-[10px] sm:text-xs font-bold">DIGITACURVE / NOIDA BASE → INDIA</span>
         </div>
         <button
           onClick={onClose}
-          className="flex items-center gap-1.5 bg-blue-50 border border-blue-200 hover:bg-blue-600 hover:text-white text-blue-700 px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full text-xs font-bold transition-all shrink-0"
+          className="flex items-center gap-1.5 liquid-glass-pill hover:bg-blue-600 hover:text-white text-blue-700 px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full text-xs font-bold transition-all shrink-0"
         >
           CLOSE <X className="w-4 h-4" />
         </button>
       </div>
 
       {/* Navigation Links Grid */}
-      <nav className="my-auto py-6 sm:py-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2.5 sm:gap-3 max-w-6xl mx-auto w-full">
+      <nav className="my-auto py-6 sm:py-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2.5 sm:gap-3 max-w-6xl mx-auto w-full relative z-10">
         {navLinks.map((link, idx) => (
           <Link
             key={idx}
             href={link.href}
             onClick={onClose}
-            className="group flex items-center justify-between p-3 sm:p-3.5 rounded-xl border border-slate-200 hover:border-blue-500/60 bg-slate-50 hover:bg-blue-50/60 transition-all duration-300"
+            className="group flex items-center justify-between p-3 sm:p-3.5 rounded-2xl liquid-glass-card hover:border-blue-500/60 transition-all duration-300"
           >
             <div className="flex items-center gap-3">
-              <span className="text-[10px] font-mono text-blue-600 bg-blue-50 border border-blue-200 px-2 py-0.5 rounded font-bold">
+              <span className="text-[10px] font-mono text-blue-600 liquid-glass-pill px-2 py-0.5 rounded-md font-bold">
                 {link.number}
               </span>
               <span className="text-base sm:text-lg font-black tracking-tight text-slate-900 group-hover:text-blue-600 transition-colors">

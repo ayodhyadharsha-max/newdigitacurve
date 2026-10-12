@@ -72,10 +72,10 @@ export default function ProcessSystem() {
             <button
               key={idx}
               onClick={() => setActiveStep(idx)}
-              className={`w-full text-left p-6 rounded-2xl border transition-all duration-300 flex items-start justify-between gap-4 relative overflow-hidden ${
+              className={`w-full text-left p-6 rounded-3xl transition-all duration-300 flex items-start justify-between gap-4 relative overflow-hidden ${
                 activeStep === idx
-                  ? 'bg-blue-50/90 border-blue-500 shadow-md'
-                  : 'bg-white border-slate-200 hover:border-blue-400 shadow-sm'
+                  ? 'liquid-glass bg-blue-50/90 border-blue-500 shadow-lg shadow-blue-500/10'
+                  : 'liquid-glass-card'
               }`}
             >
               {/* Active Glow Accent Bar */}
@@ -88,10 +88,10 @@ export default function ProcessSystem() {
 
               <div className="flex items-start gap-4">
                 <span
-                  className={`font-mono text-xs font-bold px-2.5 py-1 rounded transition-colors ${
+                  className={`font-mono text-xs font-bold px-3 py-1 rounded-full transition-colors ${
                     activeStep === idx
-                      ? 'bg-blue-600 text-white'
-                      : 'bg-slate-100 text-slate-700 border border-slate-200'
+                      ? 'bg-blue-600 text-white shadow-sm'
+                      : 'liquid-glass-pill text-blue-600'
                   }`}
                 >
                   {step.num}
