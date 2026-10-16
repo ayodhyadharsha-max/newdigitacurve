@@ -64,8 +64,8 @@ export default function RosterPulse() {
       </div>
 
       {/* Auto-sliding Marquee with Image Logo Cards */}
-      <div className="flex w-max animate-marquee space-x-6 py-4">
-        {[...brandTiles, ...brandTiles, ...brandTiles].map((brand, idx) => (
+      <div className="flex w-max animate-marquee space-x-6 py-4 hover:[animation-play-state:paused]">
+        {[...brandTiles, ...brandTiles].map((brand, idx) => (
           <Link
             key={idx}
             href="/portfolio"

@@ -112,7 +112,7 @@ export default function BrandUniverse() {
           </div>
 
           {/* Auto-sliding Horizontal Marquee Rail */}
-          <div className="flex w-max animate-marquee space-x-6 py-4">
+          <div className="flex w-max animate-marquee space-x-6 py-4 hover:[animation-play-state:paused]">
             {[...nationalBrandCards, ...nationalBrandCards].map((brand, idx) => (
               <Link
                 key={idx}
@@ -153,8 +153,8 @@ export default function BrandUniverse() {
           </div>
 
           {/* Reverse Auto-sliding Marquee Rail */}
-          <div className="flex w-max animate-marquee-reverse space-x-6 py-4">
-            {[...hospitalityBrandCards, ...hospitalityBrandCards, ...hospitalityBrandCards].map((brand, idx) => (
+          <div className="flex w-max animate-marquee-reverse space-x-6 py-4 hover:[animation-play-state:paused]">
+            {[...hospitalityBrandCards, ...hospitalityBrandCards].map((brand, idx) => (
               <Link
                 key={idx}
                 href="/portfolio"
