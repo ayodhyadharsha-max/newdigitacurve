@@ -21,6 +21,7 @@ const nextConfig = {
       { source: '/index', destination: '/', permanent: true },
       { source: '/index.html', destination: '/', permanent: true },
       { source: '/solutions', destination: '/web-development', permanent: true },
+      { source: '/performance-marketing.php', destination: '/performance-marketing', permanent: true },
     ];
   },
 };
