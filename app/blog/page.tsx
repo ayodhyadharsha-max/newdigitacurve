@@ -11,6 +11,38 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: 'liquid-glassmorphism-motion-ui-conversion-cro-nextjs-2026',
+    title: 'Liquid Glassmorphism & High-Converting Motion UI in Next.js 15: Elevating Brand Authority & User Engagement in late 2026',
+    category: 'UI Engineering & CRO',
+    date: 'Oct 18, 2026',
+    readTime: '9 min read',
+    excerpt: 'How modern digital agencies and enterprise brands build immersive liquid glass aesthetics, GPU-accelerated motion rails, and sub-50ms Core Web Vitals to boost conversion rates and user dwell time.',
+  },
+  {
+    slug: 'geo-aeo-brand-entity-optimization-google-gemini-chatgpt-2026',
+    title: 'GEO & AEO Entity Optimization Playbook 2026: Establishing Verified Knowledge Graph Triples for AI Answer Engines',
+    category: 'GEO & Entity Search',
+    date: 'Oct 17, 2026',
+    readTime: '8 min read',
+    excerpt: 'The engineering blueprint to secure citation dominance on ChatGPT Search, Perplexity Pro, and Google Gemini through structured entity triples, schema graph nesting, and topical authority.',
+  },
+  {
+    slug: 'solar-epc-cleantech-lead-generation-commercial-roi-funnel-2026',
+    title: 'Commercial Solar & CleanTech Digital Growth Blueprint 2026: High-Ticket EPC Lead Funnels & Industrial Local SEO',
+    category: 'CleanTech Growth',
+    date: 'Oct 17, 2026',
+    readTime: '8 min read',
+    excerpt: 'How commercial and industrial solar EPC companies in Noida, Gujarat, and across India capture multi-crore rooftop solar projects using instant CAPEX/OPEX calculators and hyper-targeted B2B search funnels.',
+  },
+  {
+    slug: 'multi-location-franchise-local-seo-google-maps-domination-2026',
+    title: 'Multi-Location & Franchise Local SEO 2026: Scaling Google Maps 3-Pack Across 50+ Cities in India',
+    category: 'Franchise Local SEO',
+    date: 'Oct 16, 2026',
+    readTime: '8 min read',
+    excerpt: 'A multi-unit franchise ranking system for cafés, salons, diagnostic centers, and retail chains to dominate Google Maps 3-pack search in every city without suspension risks.',
+  },
+  {
     slug: 'programmatic-seo-nextjs-app-router-directory-scale-2026',
     title: 'Programmatic SEO & Scalable Dynamic Routing in Next.js 15: Building 10,000+ Indexable Landing Pages in 2026',
     category: 'Programmatic SEO',

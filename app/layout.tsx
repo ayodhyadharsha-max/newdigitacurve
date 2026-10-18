@@ -146,13 +146,16 @@ const jsonLd = {
         telephone: '+917572094201',
       },
       knowsAbout: [
-        'Next.js 14 Web Development',
+        'Next.js 15 Web Development',
         'Search Engine Optimization (SEO)',
         'Generative Engine Optimization (GEO)',
         'Answer Engine Optimization (AEO)',
+        'Programmatic SEO Architecture',
         'PPC & Meta Lead Generation',
         'Real Estate Digital Systems',
         'Healthcare Software Solutions',
+        'CleanTech & Solar EPC Lead Generation',
+        'Multi-Location Franchise Local SEO',
       ],
       hasOfferCatalog: {
         '@type': 'OfferCatalog',
