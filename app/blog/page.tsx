@@ -11,6 +11,22 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: 'nextjs-15-partial-prerendering-ppr-core-web-vitals-seo-2026',
+    title: 'Next.js 15 Partial Prerendering (PPR) & Core Web Vitals 2026: Achieving 99+ Mobile Google PageSpeed for SEO Dominance',
+    category: 'Technical SEO & Next.js',
+    date: 'Oct 19, 2026',
+    readTime: '9 min read',
+    excerpt: 'How enterprise web engineering teams combine Partial Prerendering (PPR), dynamic streaming suspense boundaries, and sub-40ms INP in Next.js 15 to dominate competitive Google Search and AI answer rankings.',
+  },
+  {
+    slug: 'b2b-fintech-saas-lead-generation-funnel-geo-search-2026',
+    title: 'B2B FinTech & SaaS Digital Growth 2026: Building High-Velocity Pipeline Funnels & Capturing Perplexity AI Citations',
+    category: 'FinTech & B2B SaaS',
+    date: 'Oct 19, 2026',
+    readTime: '8 min read',
+    excerpt: 'A technical go-to-market blueprint for FinTech, banking, and B2B SaaS platforms to capture enterprise buyer intent using interactive ROI models, SOC2/ISO trust proof, and Perplexity Pro answer optimization.',
+  },
+  {
     slug: 'liquid-glassmorphism-motion-ui-conversion-cro-nextjs-2026',
     title: 'Liquid Glassmorphism & High-Converting Motion UI in Next.js 15: Elevating Brand Authority & User Engagement in late 2026',
     category: 'UI Engineering & CRO',

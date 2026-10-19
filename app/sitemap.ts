@@ -16,6 +16,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/pricing',
     '/portfolio',
     '/blog',
+    '/blog/nextjs-15-partial-prerendering-ppr-core-web-vitals-seo-2026',
+    '/blog/b2b-fintech-saas-lead-generation-funnel-geo-search-2026',
     '/blog/liquid-glassmorphism-motion-ui-conversion-cro-nextjs-2026',
     '/blog/geo-aeo-brand-entity-optimization-google-gemini-chatgpt-2026',
     '/blog/solar-epc-cleantech-lead-generation-commercial-roi-funnel-2026',
