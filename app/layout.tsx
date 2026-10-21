@@ -151,6 +151,7 @@ const jsonLd = {
         'Search Engine Optimization (SEO)',
         'Generative Engine Optimization (GEO)',
         'Answer Engine Optimization (AEO)',
+        'Conversational Voice Search & AEO',
         'Programmatic SEO Architecture',
         'PPC & Meta Lead Generation',
         'Real Estate Digital Systems',
@@ -158,6 +159,7 @@ const jsonLd = {
         'CleanTech & Solar EPC Lead Generation',
         'Multi-Location Franchise Local SEO',
         'B2B FinTech & SaaS Lead Generation',
+        'Omnichannel Headless E-Commerce',
       ],
       hasOfferCatalog: {
         '@type': 'OfferCatalog',

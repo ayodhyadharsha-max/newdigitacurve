@@ -11,6 +11,30 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: 'ai-voice-search-answer-engine-optimization-aeo-siri-gemini-2026',
+    title: 'AI Voice Search & Conversational AEO Playbook 2026: Winning Voice Answers on Apple Intelligence, Siri & Gemini Live',
+    category: 'Voice Search & AEO',
+    date: 'Oct 21, 2026',
+    readTime: '9 min read',
+    excerpt: 'How forward-thinking brands structure natural language conversational Q&A schemas, Speakable JSON-LD, and zero-click answer snippets to dominate Apple Intelligence, Siri, and Gemini Live voice queries.',
+  },
+  {
+    slug: 'real-estate-rera-nri-investor-portal-development-noida-dubai-2026',
+    title: 'High-Ticket NRI Real Estate Portals 2026: Multi-Currency RERA Compliant Web Apps for Dubai & Noida Corridors',
+    category: 'PropTech & Real Estate',
+    date: 'Oct 21, 2026',
+    readTime: '8 min read',
+    excerpt: 'An engineering blueprint for top developers and property marketing firms to build high-converting NRI investor portals featuring live RERA verification, interactive 3D virtual tours, and multi-currency escrow calculators.',
+  },
+  {
+    slug: 'b2b-omnichannel-d2c-ecommerce-nextjs-shopify-headless-2026',
+    title: 'Omnichannel D2C & B2B Headless Commerce in Next.js 15: Sub-Second Checkout & Scalable Multi-Warehouse Architecture',
+    category: 'Headless E-Commerce',
+    date: 'Oct 20, 2026',
+    readTime: '8 min read',
+    excerpt: 'How rapid-growth consumer brands and B2B manufacturers replace slow monolithic stores with Next.js 15 headless commerce, edge caching, and automated multi-channel inventory synchronization.',
+  },
+  {
     slug: 'nextjs-15-partial-prerendering-ppr-core-web-vitals-seo-2026',
     title: 'Next.js 15 Partial Prerendering (PPR) & Core Web Vitals 2026: Achieving 99+ Mobile Google PageSpeed for SEO Dominance',
     category: 'Technical SEO & Next.js',

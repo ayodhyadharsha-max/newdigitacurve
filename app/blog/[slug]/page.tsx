@@ -4,6 +4,57 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 
 const postsMap: Record<string, { title: string; category: string; date: string; readTime: string; content: string[] }> = {
+  'ai-voice-search-answer-engine-optimization-aeo-siri-gemini-2026': {
+    title: 'AI Voice Search & Conversational AEO Playbook 2026: Winning Voice Answers on Apple Intelligence, Siri & Gemini Live',
+    category: 'Voice Search & AEO',
+    date: 'Oct 21, 2026',
+    readTime: '9 min read',
+    content: [
+      'Conversational AI voice queries have crossed an inflection point in late 2026. With Apple Intelligence deeply integrated into iOS 18 and 19 Siri, and Google Gemini Live deployed across over a billion Android devices, more than 38% of daily local and commercial inquiries are now conducted through spoken natural language rather than typed keywords.',
+      'Unlike traditional search engines that present ten blue links, voice assistants provide exactly one definitive spoken answer. Winning that single zero-click voice response requires mastering Conversational Answer Engine Optimization (AEO), Speakable Schema markup, and concise semantic factual definitions.',
+      'The 5 Strategic Pillars of Voice Search & AEO Dominance in 2026:',
+      '1. Conversational Question-Answer Synthesis: Structuring core service pages around natural human conversational speech patterns (e.g., "How much does a custom Next.js web application cost in Noida?" or "Who is the leading digital marketing agency for real estate developers in Delhi NCR?").',
+      '2. Speakable Specification Schema (JSON-LD): Implementing Schema.org SpeakableSpecification markup that explicitly identifies the exact CSS selectors containing crisp, audibly clear 25–40 word answer summaries tailored for voice synthesis engines.',
+      '3. Radical Local Intent Alignment & Google Maps 3-Pack Authority: Voice assistants overwhelmingly pull spoken business recommendations from top-rated Google Business Profiles with verified physical addresses, high review sentiment velocity, and localized service offerings.',
+      '4. Sub-50ms Edge SSR for AI Crawlers: Delivering server-rendered HTML at edge locations so voice synthesis crawlers (Applebot-Extended, Google-Extended, GPTBot) receive complete structured data without waiting for client-side JavaScript hydration.',
+      '5. Semantic Entity Confidence Graphs: Interconnecting leadership, service catalogs, case studies, and corporate location entities into a single cohesive knowledge graph that conversational LLMs cite with maximum confidence.',
+      'Digitacurve engineers high-authority web architectures that position forward-thinking brands as the primary voice answer across Siri, Google Gemini Live, and conversational AI interfaces.',
+    ],
+  },
+  'real-estate-rera-nri-investor-portal-development-noida-dubai-2026': {
+    title: 'High-Ticket NRI Real Estate Portals 2026: Multi-Currency RERA Compliant Web Apps for Dubai & Noida Corridors',
+    category: 'PropTech & Real Estate',
+    date: 'Oct 21, 2026',
+    readTime: '8 min read',
+    content: [
+      'The investment corridor connecting non-resident Indian (NRI) buyers in Dubai, Abu Dhabi, Singapore, London, and the US to premier luxury developments across Noida Expressway, Yamuna Expressway, and Gurgaon has reached record volumes in late 2026. High-ticket property investors demand instantaneous digital verification before committing multi-crore capital.',
+      'Generic developer websites fail to convert discerning international investors. Modern real estate groups require purpose-built PropTech portals engineered with interactive 3D virtual walkthroughs, automated RERA compliance verification, dynamic multi-currency financial projections, and sub-second loading performance.',
+      'Architectural Blueprint for High-Converting NRI Real Estate Portals:',
+      '1. Dynamic Multi-Currency Payment Schedule Calculators: Allowing international buyers to toggle pricing in INR, AED, USD, GBP, and EUR with real-time foreign exchange updates, stamp duty calculations, and bank loan eligibility schedules.',
+      '2. Direct RERA & Regulatory Transparency Modules: Displaying official UP-RERA and HRERA registration numbers, approved building sanctions, and live construction milestone feeds to eliminate investor skepticism.',
+      '3. Lightweight 3D Virtual Walkthroughs via WebGL: Rendering immersive architectural models and unit masterplans directly in browser viewports without requiring heavy third-party app downloads.',
+      '4. Instant WhatsApp Concierge & Video Booking Routing: Connecting qualified NRI inquiries directly to senior developer sales leaders through automated WhatsApp scheduling within 30 seconds of lead capture.',
+      '5. Hyper-Targeted Geo-Fenced PPC & SEO Landing Silos: Engineering dedicated landing pages optimized for search queries originating in the UAE, GCC, and North America (e.g., "luxury apartments Noida Expressway for NRI investors", "commercial studio suites Yamuna Expressway").',
+      'Digitacurve collaborates with leading real estate builders, marketing consortiums, and luxury developers across Noida and Delhi NCR to build high-converting PropTech portals that accelerate international sales.',
+    ],
+  },
+  'b2b-omnichannel-d2c-ecommerce-nextjs-shopify-headless-2026': {
+    title: 'Omnichannel D2C & B2B Headless Commerce in Next.js 15: Sub-Second Checkout & Scalable Multi-Warehouse Architecture',
+    category: 'Headless E-Commerce',
+    date: 'Oct 20, 2026',
+    readTime: '8 min read',
+    content: [
+      'In late 2026, fast-scaling Direct-to-Consumer (D2C) brands and B2B wholesale enterprises in India and worldwide are aggressively moving away from rigid, monolithic e-commerce platforms. Monolithic stores suffer from slow checkout speeds, fragile third-party plugin conflicts, and poor Core Web Vitals that throttle organic search discovery.',
+      'Modern commerce leaders are adopting headless commerce architectures powered by Next.js 15 App Router, pairing modern frontend speed with headless backends (Shopify Plus, Medusa, custom ERP microservices) to achieve lightning-fast sub-second browsing and 35%+ higher conversion rates.',
+      'Core Engineering Pillars of Enterprise Headless Commerce:',
+      '1. Sub-Second Product Catalog Browsing: Pre-generating popular collection and product detail pages at the edge using Incremental Static Regeneration (ISR), providing instant catalog filtering and search without backend database bottlenecks.',
+      '2. Frictionless One-Click Localized Checkout: Integrating instant headless checkout gateways supporting UPI, Apple Pay, EMI options, and Cash on Delivery (COD) with automated address verification and OTP validation.',
+      '3. Dynamic Multi-Warehouse Inventory Sync: Real-time inventory routing connected to regional warehouses across Delhi NCR, Mumbai, and Bengaluru, displaying accurate delivery estimates ("Delivery in 24 hours to Noida Sector 62") directly on product cards.',
+      '4. Product & MerchantReturnPolicy Schema Graphs: Injecting automated JSON-LD structured data declaring live stock status, localized pricing, customer review aggregations, and transparent return policies to earn rich Google Merchant listings.',
+      '5. Omnichannel B2B Tiered Pricing & GST Invoicing: Allowing B2B buyers to toggle wholesale pricing tiers, enter verified GSTIN credentials, and download automated corporate tax invoices upon checkout.',
+      'At Digitacurve, our web engineering studio designs custom headless e-commerce platforms that transform store performance into a defensible competitive advantage.',
+    ],
+  },
   'nextjs-15-partial-prerendering-ppr-core-web-vitals-seo-2026': {
     title: 'Next.js 15 Partial Prerendering (PPR) & Core Web Vitals 2026: Achieving 99+ Mobile Google PageSpeed for SEO Dominance',
     category: 'Technical SEO & Next.js',
