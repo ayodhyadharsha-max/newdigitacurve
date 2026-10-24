@@ -160,6 +160,8 @@ const jsonLd = {
         'Multi-Location Franchise Local SEO',
         'B2B FinTech & SaaS Lead Generation',
         'Omnichannel Headless E-Commerce',
+        'Autonomous AI Agent Workflows',
+        'Hospitality Direct Booking Engine Architecture',
       ],
       hasOfferCatalog: {
         '@type': 'OfferCatalog',

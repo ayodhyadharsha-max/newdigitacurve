@@ -11,6 +11,30 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: 'ai-agentic-workflow-automation-n8n-langchain-enterprise-2026',
+    title: 'Autonomous AI Agent Workflows & LangChain Orchestration 2026: Cutting Enterprise Operational Latency by 80%',
+    category: 'AI Systems & Automation',
+    date: 'Oct 24, 2026',
+    readTime: '9 min read',
+    excerpt: 'A production engineering guide for service enterprises and B2B leaders to deploy autonomous multi-agent systems, self-hosted n8n workflows, and real-time CRM vector search in late 2026.',
+  },
+  {
+    slug: 'healthcare-telemedicine-hospital-portal-nextjs-hipaa-abdm-2026',
+    title: 'Enterprise Hospital & Telemedicine Web Applications 2026: ABDM M1-M3 Integration & Zero-Trust Patient Portals',
+    category: 'Healthcare Software',
+    date: 'Oct 23, 2026',
+    readTime: '8 min read',
+    excerpt: 'How premier hospital networks and diagnostic chains build sub-second patient portals with ABDM Ayushman Bharat Digital Mission compliance, automated slot booking, and encrypted health records.',
+  },
+  {
+    slug: 'hospitality-luxury-resort-hotel-booking-engine-seo-2026',
+    title: 'Luxury Hospitality & Resort Booking Engines 2026: Direct Commission-Free Reservations & Google Hotel Ads SEO',
+    category: 'Hospitality Growth',
+    date: 'Oct 22, 2026',
+    readTime: '8 min read',
+    excerpt: 'How boutique luxury resorts, heritage hotels, and multi-property hospitality groups bypass OTA commission fees with lightning-fast Next.js direct reservation engines and Google Free Booking Links.',
+  },
+  {
     slug: 'ai-voice-search-answer-engine-optimization-aeo-siri-gemini-2026',
     title: 'AI Voice Search & Conversational AEO Playbook 2026: Winning Voice Answers on Apple Intelligence, Siri & Gemini Live',
     category: 'Voice Search & AEO',
