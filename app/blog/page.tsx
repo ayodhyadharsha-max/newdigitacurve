@@ -11,6 +11,38 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: 'vibe-coding-autonomous-ai-developer-swarms-nextjs-2026',
+    title: 'The Rise of "Vibe Coding" & Autonomous AI Swarms in Late 2026: Why Legacy Software Agencies Are Going Extinct',
+    category: 'Viral Tech & AI Engineering',
+    date: 'Oct 28, 2026',
+    readTime: '9 min read',
+    excerpt: 'How Andrej Karpathy\'s "Vibe Coding" thesis and autonomous AI developer swarms are obsoleting legacy hourly-rate software shops, delivering production Next.js apps in 48 hours.',
+  },
+  {
+    slug: 'google-zero-click-searchgpt-perplexity-survival-guide-2026',
+    title: "Google's 65% Zero-Click Crisis & SearchGPT: The 2026 Playbook to Steal Millions in AI Answer Engine Traffic",
+    category: 'Viral Growth & GEO',
+    date: 'Oct 27, 2026',
+    readTime: '9 min read',
+    excerpt: 'With 65% of Google searches ending with zero clicks, discover the exact Generative Engine Optimization (GEO) reverse-RAG playbook to capture high-intent traffic on ChatGPT Search and Perplexity.',
+  },
+  {
+    slug: 'agentic-commerce-autonomous-whatsapp-checkout-funnels-2026',
+    title: 'Why Traditional Shopping Carts Are Dead in 2026: The Agentic WhatsApp Commerce Revolution',
+    category: 'E-Commerce & Viral CRO',
+    date: 'Oct 26, 2026',
+    readTime: '8 min read',
+    excerpt: 'How leading D2C and consumer brands are abandoning 72% cart abandonment web stores for autonomous 1-click Click-to-WhatsApp checkout protocols with 40%+ conversion rates.',
+  },
+  {
+    slug: 'india-green-hydrogen-solar-rooftop-commercial-epc-boom-2026',
+    title: "India's ₹50,000 Crore CleanTech & Solar Rooftop Mandate 2026: How EPC Contractors Capture Mega Industrial Contracts",
+    category: 'CleanTech & B2B Pipeline',
+    date: 'Oct 25, 2026',
+    readTime: '8 min read',
+    excerpt: 'India\'s accelerated green energy transition has unlocked ₹50,000 Cr in C&I solar rooftop CAPEX. Here is how top EPC contractors engineer high-ticket B2B digital acquisition funnels.',
+  },
+  {
     slug: 'ai-agentic-workflow-automation-n8n-langchain-enterprise-2026',
     title: 'Autonomous AI Agent Workflows & LangChain Orchestration 2026: Cutting Enterprise Operational Latency by 80%',
     category: 'AI Systems & Automation',
