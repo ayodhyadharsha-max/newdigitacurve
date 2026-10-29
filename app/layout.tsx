@@ -130,6 +130,26 @@ const jsonLd = {
         addressRegion: 'Uttar Pradesh',
         addressCountry: 'IN',
       },
+      geo: {
+        '@type': 'GeoCoordinates',
+        latitude: 28.5355,
+        longitude: 77.3910,
+      },
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: '4.9',
+        reviewCount: '58',
+        bestRating: '5',
+        worstRating: '1',
+      },
+      openingHoursSpecification: [
+        {
+          '@type': 'OpeningHoursSpecification',
+          dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+          opens: '09:00',
+          closes: '20:00',
+        },
+      ],
       areaServed: [
         'India',
         'United States',
@@ -154,9 +174,13 @@ const jsonLd = {
         'SearchGPT & GEO Citation Engineering',
         'Answer Engine Optimization (AEO)',
         'Conversational Voice Search & AEO',
+        'Multi-Modal Voice & Visual Search (MSO)',
         'Programmatic SEO Architecture',
         'PPC & Meta Lead Generation',
         'Agentic WhatsApp Commerce Protocols',
+        'Quick Commerce Headless Logistics Architecture',
+        'DPDP Act India Enterprise Compliance',
+        'SEBI SM REIT & Fractional PropTech Portals',
         'Real Estate Digital Systems',
         'Healthcare Software Solutions',
         'CleanTech & Solar EPC Lead Generation',
@@ -223,6 +247,22 @@ const jsonLd = {
           acceptedAnswer: {
             '@type': 'Answer',
             text: 'Digitacurve provides Next.js web development, mobile app development, technical SEO, Google Ads, Meta Ads, and real estate/healthcare industry solutions.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'How fast does Digitacurve build and deploy Next.js web applications?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Through spec-driven autonomous agentic engineering and modern Next.js 15 Partial Prerendering architecture, Digitacurve delivers production-grade enterprise web applications in days to weeks instead of traditional multi-month agency delays.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'What is Generative Engine Optimization (GEO) and why is it essential in 2026?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Generative Engine Optimization (GEO) ensures your brand is directly cited and recommended by AI answer engines such as ChatGPT Search, Perplexity Pro, and Google AI Overviews by structuring high factual density content, JSON-LD entity graphs, and conversational question-answering schemas.',
           },
         },
       ],

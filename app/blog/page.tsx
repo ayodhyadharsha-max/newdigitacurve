@@ -11,6 +11,38 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: 'multimodal-ai-voice-search-apple-intelligence-gemini-live-seo-2026',
+    title: 'Multi-Modal Visual & Voice Search 2026: Winning Siri, Gemini Live & Apple Intelligence Organic Answers',
+    category: 'Voice & Multi-Modal Search',
+    date: 'Oct 29, 2026',
+    readTime: '9 min read',
+    excerpt: 'How visual search (Apple Visual Intelligence, Google Lens) and conversational audio (Gemini Live) dominate consumer queries, and the exact speakable schema strategy to win organic answers.',
+  },
+  {
+    slug: 'quick-commerce-d2c-dark-store-logistics-headless-nextjs-2026',
+    title: 'The Quick Commerce Boom 2026: How Indian D2C Brands Build Sub-10-Minute Micro-Funnels & Dark Store Stacks',
+    category: 'Quick Commerce & Headless',
+    date: 'Oct 29, 2026',
+    readTime: '8 min read',
+    excerpt: 'As quick commerce captures 45% of impulse retail in India, see how ambitious D2C brands build headless Next.js micro-storefronts integrated with 3PL dark stores to reclaim customer margins.',
+  },
+  {
+    slug: 'dpdp-act-india-2026-enterprise-web-compliance-nextjs-privacy',
+    title: "India's DPDP Act Enforcement 2026: Enterprise Web Security, Zero-Leak Consent & Data Sovereignty Architecture",
+    category: 'Enterprise Compliance & Security',
+    date: 'Oct 29, 2026',
+    readTime: '8 min read',
+    excerpt: 'With strict enforcement of the DPDP Act and ₹250 Cr statutory liabilities, learn how enterprise brands engineer zero-leak consent management and sovereign Indian cloud architectures.',
+  },
+  {
+    slug: 'fractional-real-estate-sm-reit-proptech-portal-sebi-2026',
+    title: 'SEBI SM REITs & Fractional Real Estate Portals 2026: Engineering High-Ticket NRI PropTech Platforms',
+    category: 'PropTech & FinTech Portals',
+    date: 'Oct 29, 2026',
+    readTime: '8 min read',
+    excerpt: 'SEBI\'s SM REIT guidelines have unlocked ₹10 Lakh commercial real estate syndication. Here is the engineering blueprint for developers to build trusted NRI investment portals.',
+  },
+  {
     slug: 'vibe-coding-autonomous-ai-developer-swarms-nextjs-2026',
     title: 'The Rise of "Vibe Coding" & Autonomous AI Swarms in Late 2026: Why Legacy Software Agencies Are Going Extinct',
     category: 'Viral Tech & AI Engineering',
