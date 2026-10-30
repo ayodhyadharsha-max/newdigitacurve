@@ -169,6 +169,7 @@ const jsonLd = {
         'Next.js 15 Web Development',
         'Next.js 15 Partial Prerendering (PPR)',
         'Autonomous Vibe Coding & Agentic Swarms',
+        'Test-Time Compute Architecture & Sub-500ms Edge Performance',
         'Search Engine Optimization (SEO)',
         'Generative Engine Optimization (GEO)',
         'SearchGPT & GEO Citation Engineering',
@@ -177,7 +178,10 @@ const jsonLd = {
         'Multi-Modal Voice & Visual Search (MSO)',
         'Programmatic SEO Architecture',
         'PPC & Meta Lead Generation',
+        'Server-Side Meta CAPI & Zero-Party Data Infrastructure',
         'Agentic WhatsApp Commerce Protocols',
+        'Autonomous WhatsApp Inbound Lead Qualification',
+        'Agent-Ready UX for Autonomous Web Browsers',
         'Quick Commerce Headless Logistics Architecture',
         'DPDP Act India Enterprise Compliance',
         'SEBI SM REIT & Fractional PropTech Portals',
@@ -263,6 +267,22 @@ const jsonLd = {
           acceptedAnswer: {
             '@type': 'Answer',
             text: 'Generative Engine Optimization (GEO) ensures your brand is directly cited and recommended by AI answer engines such as ChatGPT Search, Perplexity Pro, and Google AI Overviews by structuring high factual density content, JSON-LD entity graphs, and conversational question-answering schemas.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'How does Digitacurve optimize websites for autonomous AI agent browsers (Computer Use)?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Digitacurve builds Agent-Ready UX platforms with pristine semantic HTML5 hierarchy, comprehensive ARIA accessibility roles, machine-readable JSON-LD pricing catalogs, and frictionless native forms so autonomous AI agents (Claude Computer Use, OpenAI Operator) can effortlessly navigate, evaluate, and purchase.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'Why is server-side Meta Conversions API (CAPI) superior to traditional browser pixels in 2026?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'With the complete phaseout of third-party cookies and aggressive browser ad blockers, client-side pixels lose over 50% of conversion signals. Server-Side Meta CAPI sends cryptographically hashed conversion events directly from the Next.js runtime to ad servers, restoring 100% event fidelity and cutting CAC by up to 60%.',
           },
         },
       ],

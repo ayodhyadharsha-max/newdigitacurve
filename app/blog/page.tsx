@@ -11,6 +11,38 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: 'test-time-compute-ai-search-sub-500ms-nextjs-geo-2026',
+    title: 'The Test-Time Compute Era 2026: Why AI Answer Engines Only Cite Sub-500ms Next.js Web Architectures',
+    category: 'AI Architecture & GEO Engineering',
+    date: 'Oct 30, 2026',
+    readTime: '9 min read',
+    excerpt: 'Reasoning AI models (o1/o3, Claude 3.7, Gemini 2.5) enforce strict 1.5s retrieval budgets. Discover why slow hydration fails and how Next.js 15 PPR edge pages capture top citations.',
+  },
+  {
+    slug: 'death-of-cold-email-autonomous-whatsapp-inbound-agents-2026',
+    title: 'The Death of Cold Email in Late 2026: Building ₹10 Cr Enterprise Pipelines via Autonomous WhatsApp Inbound Agents',
+    category: 'B2B Pipeline & AI Automation',
+    date: 'Oct 30, 2026',
+    readTime: '8 min read',
+    excerpt: 'With 96% of cold emails blocked by AI spam filters, see how high-growth B2B firms convert 98% open-rate Click-to-WhatsApp funnels into ₹10 Cr enterprise pipelines.',
+  },
+  {
+    slug: 'agentic-browsing-computer-use-ai-agent-ready-ux-nextjs-2026',
+    title: 'Designing for Autonomous AI Browsers & "Computer Use" 2026: The Agent-Ready UX Playbook That Sells to Bots',
+    category: 'Agentic UX & Viral Tech',
+    date: 'Oct 30, 2026',
+    readTime: '9 min read',
+    excerpt: 'Autonomous "Computer Use" agents now execute B2B vendor discovery and software procurement. Here is the Agent-Ready UX framework to ensure AI bots can navigate and purchase seamlessly.',
+  },
+  {
+    slug: 'zero-party-data-meta-capi-server-side-whatsapp-growth-2026',
+    title: 'Zero-Party Data Dominance 2026: Server-Side Meta CAPI & WhatsApp Cloud API Stacks Slashing CAC by 60%',
+    category: 'Performance Marketing & CAPI',
+    date: 'Oct 30, 2026',
+    readTime: '8 min read',
+    excerpt: 'In the post-cookie landscape, client pixels lose 50% signal. Learn how server-side Meta Conversions API and WhatsApp Cloud API telemetry restore 100% fidelity and cut ad CAC by 60%.',
+  },
+  {
     slug: 'multimodal-ai-voice-search-apple-intelligence-gemini-live-seo-2026',
     title: 'Multi-Modal Visual & Voice Search 2026: Winning Siri, Gemini Live & Apple Intelligence Organic Answers',
     category: 'Voice & Multi-Modal Search',

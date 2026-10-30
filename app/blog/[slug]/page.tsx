@@ -4,6 +4,74 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 
 const postsMap: Record<string, { title: string; category: string; date: string; readTime: string; content: string[] }> = {
+  'test-time-compute-ai-search-sub-500ms-nextjs-geo-2026': {
+    title: 'The Test-Time Compute Era 2026: Why AI Answer Engines Only Cite Sub-500ms Next.js Web Architectures',
+    category: 'AI Architecture & GEO Engineering',
+    date: 'Oct 30, 2026',
+    readTime: '9 min read',
+    content: [
+      'In late 2026, the proliferation of "Test-Time Compute" reasoning models (OpenAI o1/o3, Claude 3.7 Thinking, Gemini 2.5 Pro) has permanently altered how AI answer engines evaluate web sources. Conversational search engines no longer scrape pages asynchronously; reasoning agents actively execute multi-step tool calls and live headless browser crawls to synthesize user answers. Web applications taking longer than 500ms to achieve Time-to-First-Byte (TTFB) or suffering from client-side hydration delays are aggressively timed out and discarded from AI citations in favor of ultra-fast static edge architectures.',
+      'Traditional WordPress and heavy single-page React applications that rely on client-side API waterfalls are experiencing a 70% collapse in AI citation frequency. When an autonomous AI researcher like Perplexity Pro or ChatGPT Search evaluates a query, it allocates a strict 1.5-second total retrieval budget. If a website takes 900ms just to return raw HTML and another 800ms to hydrate dynamic content, the crawler\'s retrieval pipeline aborts and attributes the citation to a competitor whose Next.js 15 Partial Prerendering (PPR) edge-cached page returned structured facts in 120ms.',
+      'The Core Pillars of Sub-500ms GEO Infrastructure in 2026:',
+      '1. Edge-Prerendered Factual Triples: Pre-rendering all technical data, benchmarks, and pricing matrices directly into static HTML at Vercel\'s global edge nodes, ensuring AI search crawlers receive complete structured entities in under 150ms globally.',
+      '2. Partial Prerendering (PPR) with React Server Components: Keeping static knowledge graphs, schema blocks, and article text instantly available without executing blocking database calls during crawler requests.',
+      '3. Zero-JavaScript HTML Shells for AI Bots: Detecting user agents like GPTBot, OAI-SearchBot, and PerplexityBot at the edge middleware and serving pristine, semantic HTML with zero hydration overhead to maximize AI parsing velocity.',
+      '4. Reverse-RAG Content Chunking: Structuring every subsection with 40-word standalone definitional answers followed by verifiable statistical benchmarks, matching the exact token window sizes favored by retrieval embeddings.',
+      '5. Automated Core Web Vitals Guardrails: Enforcing sub-0.8s Largest Contentful Paint (LCP) and zero Cumulative Layout Shift (CLS) through automated CI/CD audits, preventing DOM recalculation delays during automated browser evaluation.',
+      'At Digitacurve, our Noida engineering studio builds Next.js platforms specifically benchmarked for the Test-Time Compute era, ensuring your company remains the top authoritative citation across ChatGPT Search, Perplexity, and Google Gemini.',
+    ],
+  },
+  'death-of-cold-email-autonomous-whatsapp-inbound-agents-2026': {
+    title: 'The Death of Cold Email in Late 2026: Building ₹10 Cr Enterprise Pipelines via Autonomous WhatsApp Inbound Agents',
+    category: 'B2B Pipeline & AI Automation',
+    date: 'Oct 30, 2026',
+    readTime: '8 min read',
+    content: [
+      'In late 2026, cold email outbound is officially dead. Stricter Google Workspace and Microsoft 365 AI filters now divert over 96% of unsolicited cold pitches into spam or quarantine folders, while response rates have cratered below 0.4%. High-growth B2B firms, industrial equipment manufacturers, and luxury real estate syndicates in India and the UAE have pivoted entirely to high-intent Click-to-WhatsApp inbound funnels managed by autonomous AI qualification agents, driving open rates of 98% and qualifying ₹10 Cr enterprise pipelines in minutes.',
+      'The fundamental failure of legacy outbound marketing was friction: expecting busy C-level decision-makers to read generic 8-paragraph email sequences and schedule meetings via clunky calendar links days in advance. In late 2026, buyers demand real-time responsiveness. When an enterprise prospect clicks a high-intent Google or LinkedIn ad, an autonomous WhatsApp AI agent greets them within 5 seconds, verifies project scale, answers technical questions, and dispatches a verified feasibility proposal directly into their chat.',
+      'How Enterprise Autonomous WhatsApp Inbound Architecture Works:',
+      '1. Sub-5-Second Instant Engagement: Eliminating lead decay by initiating personalized, conversational qualification the moment a high-intent user taps a WhatsApp CTA on your website or ad.',
+      '2. RAG-Powered Corporate Knowledge Grounding: Equipping the WhatsApp agent with vector search access to corporate whitepapers, technical pricing rate cards, and compliance certificates, ensuring zero hallucination on complex enterprise queries.',
+      '3. Automated Budget & Scope Triage: Autonomously determining prospect budget, project timeline, and decision-making authority through natural Hindi and English dialogue without tedious static web forms.',
+      '4. Bi-Directional CRM & Calendar Sync: Directly pushing qualified prospect dossiers into HubSpot, Salesforce, or Zoho CRM, and automatically reserving executive meeting slots on senior leadership calendars.',
+      '5. Zero-Spam Enterprise WhatsApp Cloud API Compliance: Operating via official WhatsApp Business Platform green-badge channels with strict opt-in consent protocols, preventing phone number bans while preserving brand prestige.',
+      'Digitacurve engineers bespoke autonomous WhatsApp inbound engines that transform passive web visitors into high-value B2B contracts for scaling enterprises.',
+    ],
+  },
+  'agentic-browsing-computer-use-ai-agent-ready-ux-nextjs-2026': {
+    title: 'Designing for Autonomous AI Browsers & "Computer Use" 2026: The Agent-Ready UX Playbook That Sells to Bots',
+    category: 'Agentic UX & Viral Tech',
+    date: 'Oct 30, 2026',
+    readTime: '9 min read',
+    content: [
+      'With the widespread adoption of autonomous "Computer Use" agents (Anthropic Claude Computer Use, OpenAI Operator, and Gemini Autonomous Action) in late 2026, web traffic patterns have undergone a historic shift. B2B software procurement, vendor price comparisons, and corporate travel bookings are now routinely delegated to autonomous AI agents that visually inspect websites, click interactive elements, fill forms, and select optimal service providers without human supervision. Websites designed exclusively for human eyes with ambiguous UI patterns fail silently, losing high-ticket sales to "Agent-Ready" web platforms.',
+      'When an AI agent visits your website to evaluate vendor capability, it does not browse casually. It parses semantic HTML hierarchy, scans ARIA accessibility landmarks, checks explicit pricing transparencies, and tests interactive elements. If a website hides pricing behind forced telephone gates, employs confusing custom select dropdowns that break accessibility trees, or uses aggressive popups that trap mouse focus, the AI agent flags the vendor as unusable and selects an alternative competitor.',
+      'The 5 Rules of Agent-Ready Web Architecture in 2026:',
+      '1. Semantic Accessibility & ARIA Roles as Machine API: Writing flawless semantic HTML5 (<main>, <article>, <section>, <nav>, <button>) with descriptive aria-label and aria-expanded attributes so vision-and-accessibility based AI agents can navigate with 100% precision.',
+      '2. Machine-Readable Structured Pricing & Spec Sheets: Publishing clear JSON-LD schema catalogs (OfferCatalog, Service, Product) alongside transparent HTML tables so autonomous agents can extract pricing tiers in milliseconds without needing to guess.',
+      '3. Frictionless Form Navigation & Clear Labeling: Structuring contact and booking forms with standard native input types, autocomplete attributes, and unambiguous error states so agentic autofill never encounters validation deadlocks.',
+      '4. Elimination of Trapping Popups & Layout Jitter: Removing blocking overlay modals and layout shifts that disorient autonomous agent mouse coordinate calculators and screen vision parsers.',
+      '5. Instant Programmatic Booking Endpoints: Providing direct webhooks or simplified calendar endpoints that allow authorized procurement agents to reserve discovery calls programmatically in a single HTTP transaction.',
+      'Digitacurve engineers high-converting web applications with Agent-Ready UX standards, ensuring your business is effortlessly discovered, navigated, and purchased by both human buyers and autonomous AI agents.',
+    ],
+  },
+  'zero-party-data-meta-capi-server-side-whatsapp-growth-2026': {
+    title: 'Zero-Party Data Dominance 2026: Server-Side Meta CAPI & WhatsApp Cloud API Stacks Slashing CAC by 60%',
+    category: 'Performance Marketing & CAPI',
+    date: 'Oct 30, 2026',
+    readTime: '8 min read',
+    content: [
+      'In late 2026, the complete sunsetting of third-party tracking cookies across all modern desktop and mobile browsers, combined with Apple\'s Private Click Measurement (PCM), has rendered traditional browser-based pixel tracking obsolete. Performance marketing campaigns relying solely on client-side Facebook or Google tags suffer from 40%–55% signal loss, leading ad algorithms to bid blind and inflating Customer Acquisition Costs (CAC) to unsustainable levels. Elite direct-response brands and high-ticket service companies now dominate through Server-Side Meta Conversions API (CAPI) and WhatsApp Cloud API telemetry.',
+      'By tracking conversions directly from the server runtime rather than the client browser, server-side data infrastructure restores 100% event fidelity. When a user submits an inquiry, requests an audit, or completes a purchase, the Next.js server sends a cryptographically hashed event payload directly to Meta and Google servers via secure HTTPS endpoints. Ad algorithms receive immediate, unblocked conversion attribution, allowing machine learning models to optimize for high-value paying customers rather than low-intent clicks.',
+      'The Enterprise Server-Side Tracking Blueprint:',
+      '1. Edge-Based Meta CAPI Event Dispatch: Firing server-side Lead, Purchase, and Contact events directly from Next.js server actions within 50 milliseconds of form submission, completely bypassing browser ad blockers and iOS tracking restrictions.',
+      '2. WhatsApp Offline Conversion Telemetry: Feeding high-value offline milestones (e.g. "Signed Contract", "Token Payment Received") from your WhatsApp CRM back into Meta Ads Manager, training lookalike models on actual revenue rather than cheap leads.',
+      '3. High Event Quality Match Scores (9.0+/10): Hashing phone numbers, email addresses, and geographical coordinates in SHA-256 before transmission, maximizing user matching efficiency and dramatically lowering Cost Per Acquisition.',
+      '4. Zero-Party Preference Capture: Using interactive calculators and conversational WhatsApp questionnaires to collect direct customer preferences, sizing, and budget parameters with explicit voluntary consent.',
+      '5. Full DPDP Act & Privacy Shield Compliance: Ensuring all telemetry processing adheres to India\'s DPDP Act mandates, anonymizing IP addresses and upholding data sovereignty.',
+      'Digitacurve architects advanced server-side tracking pipelines and WhatsApp Cloud API conversion funnels that maximize ad spend efficiency and drive explosive, measurable ROI for ambitious brands.',
+    ],
+  },
   'multimodal-ai-voice-search-apple-intelligence-gemini-live-seo-2026': {
     title: 'Multi-Modal Visual & Voice Search 2026: Winning Siri, Gemini Live & Apple Intelligence Organic Answers',
     category: 'Voice & Multi-Modal Search',
@@ -1090,14 +1158,25 @@ export default function BlogPostDetail({ params }: { params: { slug: string } })
     '@type': 'BlogPosting',
     headline: post.title,
     description: post.content[0] || post.title,
-    author: {
-      '@type': 'Organization',
-      name: 'Digitacurve Team',
-      url: 'https://www.digitacurve.com',
-    },
+    articleBody: post.content.join('\n\n'),
+    inLanguage: 'en-US',
+    author: [
+      {
+        '@type': 'Person',
+        name: 'Rishabh Jaiswal',
+        jobTitle: 'Founder & Strategy Lead',
+        url: 'https://www.digitacurve.com',
+      },
+      {
+        '@type': 'Organization',
+        name: 'Digitacurve Team',
+        url: 'https://www.digitacurve.com',
+      },
+    ],
     publisher: {
       '@type': 'Organization',
       name: 'Digitacurve',
+      url: 'https://www.digitacurve.com',
       logo: {
         '@type': 'ImageObject',
         url: 'https://www.digitacurve.com/media/logo-v2.png',
@@ -1108,6 +1187,10 @@ export default function BlogPostDetail({ params }: { params: { slug: string } })
     mainEntityOfPage: {
       '@type': 'WebPage',
       '@id': `https://www.digitacurve.com/blog/${params.slug}`,
+    },
+    speakable: {
+      '@type': 'SpeakableSpecification',
+      cssSelector: ['h1', '.aeo-direct-answer', '.article-body-content'],
     },
   };
 
@@ -1137,7 +1220,7 @@ export default function BlogPostDetail({ params }: { params: { slug: string } })
               <Clock className="w-3.5 h-3.5" /> {post.readTime}
             </span>
             <span className="flex items-center gap-1 text-slate-700 font-bold">
-              <User className="w-3.5 h-3.5 text-blue-600" /> Digitacurve Team
+              <User className="w-3.5 h-3.5 text-blue-600" /> Rishabh Jaiswal & Team
             </span>
           </div>
 
@@ -1146,8 +1229,19 @@ export default function BlogPostDetail({ params }: { params: { slug: string } })
           </h1>
         </div>
 
-        <div className="py-12 space-y-6 text-slate-700 text-base sm:text-lg leading-relaxed font-light">
-          {post.content.map((paragraph, idx) => (
+        {/* AEO / GEO Direct Answer Box */}
+        <div className="aeo-direct-answer my-8 p-6 rounded-2xl bg-gradient-to-br from-blue-50/90 via-indigo-50/40 to-slate-50 border border-blue-200/90 shadow-sm">
+          <div className="flex items-center gap-2 text-xs font-mono font-bold text-blue-700 uppercase tracking-wider mb-2.5">
+            <span className="w-2 h-2 rounded-full bg-blue-600 animate-pulse"></span>
+            AEO & GEO Direct Answer (Executive Key Takeaway)
+          </div>
+          <p className="text-slate-800 text-sm sm:text-base font-medium leading-relaxed">
+            {post.content[0]}
+          </p>
+        </div>
+
+        <div className="article-body-content py-8 space-y-6 text-slate-700 text-base sm:text-lg leading-relaxed font-light">
+          {post.content.slice(1).map((paragraph, idx) => (
             <p key={idx}>{paragraph}</p>
           ))}
         </div>
@@ -1156,14 +1250,24 @@ export default function BlogPostDetail({ params }: { params: { slug: string } })
         <div className="p-8 rounded-3xl bg-slate-50 border border-slate-200 mt-12 space-y-4 text-center shadow-md">
           <h3 className="text-2xl font-black uppercase text-slate-900">READY TO IMPLEMENT THESE STRATEGIES?</h3>
           <p className="text-slate-600 text-xs max-w-xl mx-auto font-light">
-            Partner with Digitacurve to elevate your web application engineering and digital marketing performance.
+            Partner directly with Rishabh Jaiswal and the Digitacurve engineering team in Noida to scale your Next.js systems, autonomous AI pipelines, and digital market leadership.
           </p>
-          <Link
-            href="/company/contact"
-            className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs px-8 py-3.5 rounded-full shadow-lg shadow-blue-600/30 transition-all"
-          >
-            WORK WITH DIGITACURVE <ArrowUpRight className="w-4 h-4" />
-          </Link>
+          <div className="flex flex-wrap justify-center gap-4 pt-2">
+            <Link
+              href="/company/contact"
+              className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs px-8 py-3.5 rounded-full shadow-lg shadow-blue-600/30 transition-all"
+            >
+              WORK WITH DIGITACURVE <ArrowUpRight className="w-4 h-4" />
+            </Link>
+            <a
+              href="https://wa.me/917572094201?text=Hi%20Rishabh,%20I%20want%20to%20discuss%20our%20web%20and%20AI%20growth%20strategy"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs px-8 py-3.5 rounded-full shadow-lg shadow-emerald-600/30 transition-all"
+            >
+              WHATSAPP FOUNDER DIRECTLY <ArrowUpRight className="w-4 h-4" />
+            </a>
+          </div>
         </div>
       </article>
     </div>
