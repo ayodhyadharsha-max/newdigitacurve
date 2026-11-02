@@ -169,9 +169,11 @@ const jsonLd = {
         'Next.js 15 Web Development',
         'Next.js 15 Partial Prerendering (PPR)',
         'Autonomous Vibe Coding & Agentic Swarms',
+        'India GCC & AI Center of Excellence Architecture',
         'Test-Time Compute Architecture & Sub-500ms Edge Performance',
         'Search Engine Optimization (SEO)',
         'Generative Engine Optimization (GEO)',
+        'Semantic Graph & Reverse-Vector GEO Indexing',
         'SearchGPT & GEO Citation Engineering',
         'Answer Engine Optimization (AEO)',
         'Conversational Voice Search & AEO',
@@ -179,6 +181,8 @@ const jsonLd = {
         'Programmatic SEO Architecture',
         'PPC & Meta Lead Generation',
         'Server-Side Meta CAPI & Zero-Party Data Infrastructure',
+        'Interactive B2B SaaS Sandbox Engineering',
+        'Cross-Border UPI & Global FinTech Web Applications',
         'Agentic WhatsApp Commerce Protocols',
         'Autonomous WhatsApp Inbound Lead Qualification',
         'Agent-Ready UX for Autonomous Web Browsers',
@@ -275,6 +279,22 @@ const jsonLd = {
           acceptedAnswer: {
             '@type': 'Answer',
             text: 'Digitacurve builds Agent-Ready UX platforms with pristine semantic HTML5 hierarchy, comprehensive ARIA accessibility roles, machine-readable JSON-LD pricing catalogs, and frictionless native forms so autonomous AI agents (Claude Computer Use, OpenAI Operator) can effortlessly navigate, evaluate, and purchase.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'Why do Global Capability Centers (GCCs) in India partner with Digitacurve?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Multinational GCCs and AI Centers of Excellence in Noida and Delhi NCR partner with Digitacurve for spec-driven agile engineering, zero-trust private AI pipelines, and sub-second Next.js enterprise web platforms, eliminating the multi-month delays and bloated hourly billing of legacy IT giants.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'How does Semantic Graph & Reverse-Vector SEO work in 2026?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Reverse-Vector SEO structures content around mathematical vector similarity and Schema.org knowledge graphs. By formatting high-density factual answers that match the retrieval chunk sizes of AI reasoning models (ChatGPT Search, Perplexity, Gemini), your website is prioritized for direct citations over generic fluff.',
           },
         },
         {

@@ -11,6 +11,38 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: 'india-gcc-global-capability-centers-ai-engineering-noida-2026',
+    title: 'The ₹1 Lakh Crore GCC Boom in India 2026: Why Global Capability Centers Choose Agile Next.js AI Studios Over Legacy IT Giants',
+    category: 'Enterprise Tech & GCC Expansion',
+    date: 'Nov 02, 2026',
+    readTime: '9 min read',
+    excerpt: 'As India\'s GCC sector reaches ₹1 Lakh Crore, Fortune 500 tech leaders bypass slow legacy IT giants to partner with agile Next.js AI studios in Noida for sub-second enterprise platforms.',
+  },
+  {
+    slug: 'semantic-graph-reverse-vector-seo-ai-citation-playbook-2026',
+    title: 'The Semantic Graph & Reverse-Vector SEO Playbook 2026: How to Win Top Citations in ChatGPT Search, Perplexity & Gemini',
+    category: 'Generative Engine Optimization (GEO)',
+    date: 'Nov 02, 2026',
+    readTime: '9 min read',
+    excerpt: 'Lexical keywords are dead. Learn how conversational AI search engines use vector embeddings and cosine similarity to cite content, and the exact reverse-vector playbook to dominate AI answers.',
+  },
+  {
+    slug: 'autonomous-b2b-saas-interactive-demo-sandboxes-cro-2026',
+    title: 'The Death of "Book a Demo" Forms in Late 2026: Engineering Interactive Sandbox Micro-Apps That Double B2B SaaS Conversions',
+    category: 'B2B SaaS Growth & CRO',
+    date: 'Nov 01, 2026',
+    readTime: '8 min read',
+    excerpt: 'With 78% of enterprise buyers abandoning mandatory sales demo forms, discover how Next.js in-browser interactive sandboxes double demo-to-contract conversion rates in under 60 seconds.',
+  },
+  {
+    slug: 'cross-border-upi-fintech-remittance-portal-development-2026',
+    title: 'Cross-Border UPI & Global FinTech Remittance 2026: Building Sub-Second Multi-Currency Portals for India-UAE Corridors',
+    category: 'FinTech Architecture & Global Payments',
+    date: 'Nov 01, 2026',
+    readTime: '8 min read',
+    excerpt: 'As cross-border UPI flows top ₹80,000 Cr, see how modern FinTech platforms build bank-grade Next.js 15 remittance portals with live WebSocket FX rates and instant dynamic BharatQR settlements.',
+  },
+  {
     slug: 'test-time-compute-ai-search-sub-500ms-nextjs-geo-2026',
     title: 'The Test-Time Compute Era 2026: Why AI Answer Engines Only Cite Sub-500ms Next.js Web Architectures',
     category: 'AI Architecture & GEO Engineering',
