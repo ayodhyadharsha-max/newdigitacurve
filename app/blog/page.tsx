@@ -11,6 +11,38 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: 'india-semiconductor-chip-fab-supply-chain-b2b-portal-2026',
+    title: 'India\'s ₹35,000 Crore Semiconductor Fab Revolution 2026: Building Enterprise Web Platforms for High-Tech Supply Chain Contractors',
+    category: 'DeepTech & High-Value B2B',
+    date: 'Nov 03, 2026',
+    readTime: '9 min read',
+    excerpt: 'India\'s chip fab boom has unlocked ₹35,000 Cr in precision supply chains. Here is how cleanroom and industrial engineering vendors build secure B2B portals to win semiconductor contracts.',
+  },
+  {
+    slug: 'sovereign-slm-private-edge-ai-enterprise-portals-2026',
+    title: 'Sovereign On-Premise SLMs & Edge AI Portals 2026: Eliminating Shadow AI Risks & DPDP Liabilities in Indian Enterprises',
+    category: 'Enterprise AI & Data Sovereignty',
+    date: 'Nov 03, 2026',
+    readTime: '8 min read',
+    excerpt: 'Avoid DPDP Act penalties and IP leaks by deploying sovereign on-premise Small Language Models (SLMs) running sub-80ms local inference within custom Next.js enterprise intranets.',
+  },
+  {
+    slug: 'generative-ui-genui-dynamic-component-synthesis-cro-nextjs-2026',
+    title: 'Generative UI (GenUI) & Dynamic Real-Time Component Synthesis in Next.js 15: The New Frontier of CRO 2026',
+    category: 'Next.js Engineering & Generative UI',
+    date: 'Nov 03, 2026',
+    readTime: '8 min read',
+    excerpt: 'Static landing pages are obsolete. Discover how Next.js 15 edge middleware synthesizes real-time interactive components tailored to buyer intent, lifting conversions by up to 160%.',
+  },
+  {
+    slug: 'ev-fleet-telematics-battery-swapping-iot-portal-2026',
+    title: 'India\'s Commercial EV Fleet & Battery Swapping Boom 2026: Engineering Real-Time IoT Telematics & Billing Portals',
+    category: 'Clean Mobility & IoT Platforms',
+    date: 'Nov 03, 2026',
+    readTime: '8 min read',
+    excerpt: 'As commercial EV adoption tops 60% in Indian metros, see how battery swapping operators architect real-time IoT telematics, predictive battery health alerts, and UPI AutoPay billing engines.',
+  },
+  {
     slug: 'india-gcc-global-capability-centers-ai-engineering-noida-2026',
     title: 'The ₹1 Lakh Crore GCC Boom in India 2026: Why Global Capability Centers Choose Agile Next.js AI Studios Over Legacy IT Giants',
     category: 'Enterprise Tech & GCC Expansion',

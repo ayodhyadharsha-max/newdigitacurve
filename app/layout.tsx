@@ -170,6 +170,10 @@ const jsonLd = {
         'Next.js 15 Partial Prerendering (PPR)',
         'Autonomous Vibe Coding & Agentic Swarms',
         'India GCC & AI Center of Excellence Architecture',
+        'India Semiconductor Supply Chain B2B Portals',
+        'Sovereign On-Premise SLM & Enterprise AI Intranets',
+        'Generative UI (GenUI) & Dynamic CRO Synthesis',
+        'Commercial EV Fleet & Battery Swapping Telematics Portals',
         'Test-Time Compute Architecture & Sub-500ms Edge Performance',
         'Search Engine Optimization (SEO)',
         'Generative Engine Optimization (GEO)',
@@ -295,6 +299,22 @@ const jsonLd = {
           acceptedAnswer: {
             '@type': 'Answer',
             text: 'Reverse-Vector SEO structures content around mathematical vector similarity and Schema.org knowledge graphs. By formatting high-density factual answers that match the retrieval chunk sizes of AI reasoning models (ChatGPT Search, Perplexity, Gemini), your website is prioritized for direct citations over generic fluff.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'What is Generative UI (GenUI) and how does Digitacurve implement it?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Generative UI (GenUI) uses Next.js 15 Partial Prerendering and edge middleware to dynamically synthesize bespoke interactive React components (custom calculators, sector case studies, pricing tables) in real time based on buyer intent, lifting enterprise conversion rates by up to 160%.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'How do sovereign on-premise Small Language Models (SLMs) prevent DPDP Act liabilities?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'By hosting quantized, fine-tuned open models (Llama 3.3, Gemma 2, Sarvam Indic) on isolated private VPCs with zero-egress runtimes, Indian enterprises achieve sub-80ms local inference while ensuring customer PII and sensitive trade secrets never leak to public commercial AI providers.',
           },
         },
         {
