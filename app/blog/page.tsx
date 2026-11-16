@@ -11,6 +11,38 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: 'self-healing-web-applications-autonomous-agentic-bug-fix-swarms-2026',
+    title: 'Self-Healing Production Web Applications 2026: Deploying Autonomous Agentic Bug-Fix Swarms in Next.js 15',
+    category: 'Agentic AI & DevOps Engineering',
+    date: 'Nov 16, 2026',
+    readTime: '9 min read',
+    excerpt: 'Eliminate 3 AM pager duty. Discover how enterprise Next.js systems deploy autonomous LangGraph agent swarms to detect exceptions, write tests, and patch bugs in under 90 seconds.',
+  },
+  {
+    slug: 'india-ai-data-center-hyperscale-epc-digital-portal-2026',
+    title: 'India\'s ₹75,000 Crore AI Data Center Boom 2026: Digital Infrastructure Platforms for Hyperscale EPC Contractors',
+    category: 'Enterprise Infrastructure & B2B Pipeline',
+    date: 'Nov 16, 2026',
+    readTime: '9 min read',
+    excerpt: 'Greater Noida and Navi Mumbai are seeing ₹75,000 Cr in AI data center campuses. Learn how electrical EPCs and liquid cooling providers win tenders with high-security digital qualification portals.',
+  },
+  {
+    slug: 'sub-300ms-conversational-ai-voice-agents-webrtc-whatsapp-2026',
+    title: 'Sub-300ms Conversational AI Voice Agents 2026: Replacing Legacy IVRs with WebRTC & WhatsApp Voice Funnels',
+    category: 'Voice AI & Conversational CRO',
+    date: 'Nov 15, 2026',
+    readTime: '8 min read',
+    excerpt: 'Say goodbye to "Press 1 for Sales". Forward-thinking brands deploy bilingual (Hindi/English) full-duplex WebRTC and WhatsApp AI voice agents that qualify high-intent leads in sub-300ms.',
+  },
+  {
+    slug: 'programmatic-geo-dynamic-ai-cited-knowledge-hubs-2026',
+    title: 'Programmatic GEO in Late 2026: Engineering Dynamic AI-Cited Knowledge Hubs That Capture Millions in Search Traffic',
+    category: 'Generative Engine Optimization (GEO)',
+    date: 'Nov 15, 2026',
+    readTime: '8 min read',
+    excerpt: 'Thin programmatic SEO is dead. See how leading digital enterprises engineer high-density, reverse-vector knowledge hubs with Schema entity graphs that capture top citations in ChatGPT Search and Perplexity.',
+  },
+  {
     slug: 'india-semiconductor-chip-fab-supply-chain-b2b-portal-2026',
     title: 'India\'s ₹35,000 Crore Semiconductor Fab Revolution 2026: Building Enterprise Web Platforms for High-Tech Supply Chain Contractors',
     category: 'DeepTech & High-Value B2B',

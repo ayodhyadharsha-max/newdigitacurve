@@ -169,11 +169,15 @@ const jsonLd = {
         'Next.js 15 Web Development',
         'Next.js 15 Partial Prerendering (PPR)',
         'Autonomous Vibe Coding & Agentic Swarms',
+        'Self-Healing Production Web Applications & Autonomous DevOps',
         'India GCC & AI Center of Excellence Architecture',
         'India Semiconductor Supply Chain B2B Portals',
+        'AI Hyperscale Data Center EPC Infrastructure Portals',
         'Sovereign On-Premise SLM & Enterprise AI Intranets',
         'Generative UI (GenUI) & Dynamic CRO Synthesis',
+        'Sub-300ms Conversational AI Voice Agents (WebRTC & WhatsApp)',
         'Commercial EV Fleet & Battery Swapping Telematics Portals',
+        'Programmatic Generative Engine Optimization (GEO) Knowledge Hubs',
         'Test-Time Compute Architecture & Sub-500ms Edge Performance',
         'Search Engine Optimization (SEO)',
         'Generative Engine Optimization (GEO)',
@@ -315,6 +319,22 @@ const jsonLd = {
           acceptedAnswer: {
             '@type': 'Answer',
             text: 'By hosting quantized, fine-tuned open models (Llama 3.3, Gemma 2, Sarvam Indic) on isolated private VPCs with zero-egress runtimes, Indian enterprises achieve sub-80ms local inference while ensuring customer PII and sensitive trade secrets never leak to public commercial AI providers.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'How do self-healing Next.js web applications work?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Self-healing applications deploy autonomous AI agentic swarms (LangGraph + GitHub Actions + Sentry) that catch production runtime exceptions, isolate failing code in ephemeral worktree branches, write automated Vitest regression tests, and submit verified pull requests in under 90 seconds.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'What are sub-300ms conversational AI voice agents and how do they replace IVRs?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Sub-300ms conversational voice agents use browser WebRTC and WhatsApp native VoIP channels powered by speech-to-speech AI models to conduct natural, bilingual (Hindi/English) voice consultations, verify lead budgets, and book executive meetings with zero hold times.',
           },
         },
         {
