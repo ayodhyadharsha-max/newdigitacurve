@@ -11,6 +11,38 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: 'enterprise-zero-trust-security-ai-agentic-web-apps-nextjs-2026',
+    title: 'Enterprise Zero-Trust Security for AI Agentic Web Apps 2026: Defending Next.js 15 Against OWASP LLM Top 10',
+    category: 'Enterprise Security & AI Governance',
+    date: 'Nov 17, 2026',
+    readTime: '9 min read',
+    excerpt: 'Defend autonomous Next.js 15 apps against prompt injection, SSRF, and data leaks. Explore the 5 pillars of Zero-Trust AI security and edge guardrail middleware.',
+  },
+  {
+    slug: 'open-source-reasoning-models-deepseek-r1-enterprise-nextjs-2026',
+    title: 'Open-Source Reasoning Models (DeepSeek-R1 & Qwen 2.5) for Enterprise 2026: Slashing API Bills by 85% with Private Next.js Hubs',
+    category: 'Open-Source AI & Cost Optimization',
+    date: 'Nov 17, 2026',
+    readTime: '9 min read',
+    excerpt: 'Ditch ₹30L monthly API bills. See how enterprises deploy self-hosted DeepSeek-R1 and Qwen 2.5 on private vLLM clusters with Next.js 15 for 85% cost savings and 100% data sovereignty.',
+  },
+  {
+    slug: 'luxury-ecommerce-fine-jewelry-nextjs-3d-webgl-portal-2026',
+    title: 'High-Ticket Luxury E-Commerce & Fine Jewelry Portals 2026: Next.js 3D WebGL Virtual Try-On & Sub-Second Checkout Architecture',
+    category: 'Luxury E-Commerce & 3D WebGL',
+    date: 'Nov 17, 2026',
+    readTime: '8 min read',
+    excerpt: 'Selling ₹1L-₹10L diamond jewelry online requires radical trust. Learn how Next.js 15 headless portals use 60fps 3D WebGL try-on and BIS Hallmark verification to slash cart abandonment.',
+  },
+  {
+    slug: 'local-seo-3-google-maps-immersive-view-spatial-entity-delhi-ncr-2026',
+    title: 'Local SEO 3.0 & Google Maps Immersive View 2026: Spatial Entity Schema & Hyper-Local Domination in Delhi NCR',
+    category: 'Local SEO & Spatial Entity Graph',
+    date: 'Nov 17, 2026',
+    readTime: '8 min read',
+    excerpt: 'Local search is now spatial. Discover how multi-location healthcare and luxury venues in Noida and Gurgaon dominate Google Maps Immersive View using spatial coordinate schemas.',
+  },
+  {
     slug: 'self-healing-web-applications-autonomous-agentic-bug-fix-swarms-2026',
     title: 'Self-Healing Production Web Applications 2026: Deploying Autonomous Agentic Bug-Fix Swarms in Next.js 15',
     category: 'Agentic AI & DevOps Engineering',

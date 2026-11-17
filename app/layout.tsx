@@ -169,6 +169,10 @@ const jsonLd = {
         'Next.js 15 Web Development',
         'Next.js 15 Partial Prerendering (PPR)',
         'Autonomous Vibe Coding & Agentic Swarms',
+        'Enterprise Zero-Trust AI Agent Security & OWASP LLM Defense',
+        'Open-Source Reasoning Models (DeepSeek-R1 & Qwen 2.5) Architecture',
+        'Luxury Goods & Fine Jewelry 3D WebGL Headless E-Commerce',
+        'Local SEO 3.0 & Google Maps Immersive View Spatial Entity Schema',
         'Self-Healing Production Web Applications & Autonomous DevOps',
         'India GCC & AI Center of Excellence Architecture',
         'India Semiconductor Supply Chain B2B Portals',
@@ -335,6 +339,22 @@ const jsonLd = {
           acceptedAnswer: {
             '@type': 'Answer',
             text: 'Sub-300ms conversational voice agents use browser WebRTC and WhatsApp native VoIP channels powered by speech-to-speech AI models to conduct natural, bilingual (Hindi/English) voice consultations, verify lead budgets, and book executive meetings with zero hold times.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'How does Digitacurve implement Zero-Trust Security for AI Agentic Web Apps?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Digitacurve integrates deterministic edge guardrails, ephemeral least-privilege scoped JWTs, cryptographic output PII scrubbing, and immutable audit logs within Next.js 15 Server Actions to protect against OWASP LLM prompt injection and data exfiltration vulnerabilities.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'Can open-source reasoning models like DeepSeek-R1 replace commercial AI APIs for enterprises?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Yes. By self-hosting open-weight reasoning models (DeepSeek-R1, Qwen 2.5) on private vLLM clusters connected to custom Next.js enterprise portals, companies slash recurring API bills by up to 85% while achieving sub-60ms latency, zero per-token metered costs, and 100% DPDP data sovereignty.',
           },
         },
         {
