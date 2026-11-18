@@ -233,26 +233,57 @@ const jsonLd = {
         itemListElement: [
           {
             '@type': 'Offer',
+            name: 'Essential Growth Plan',
+            price: '24999',
+            priceCurrency: 'INR',
+            description: 'Custom 5–7 Page Next.js 15 Website, Sub-second LCP, Google Maps 3-Pack SEO & WhatsApp integration',
             itemOffered: {
               '@type': 'Service',
-              name: 'Web Development',
-              description: 'Custom Next.js 14 and React Web Application Development',
+              name: 'Essential Web Development & Local SEO',
             },
           },
           {
             '@type': 'Offer',
+            name: 'Business Scaler Plan',
+            price: '49999',
+            priceCurrency: 'INR',
+            description: 'Up to 12-Page Next.js Portal, Google & Meta Ads setup with Server-Side CAPI, CRM routing & SEO strategy',
             itemOffered: {
               '@type': 'Service',
-              name: 'Mobile App Development',
-              description: 'iOS, Android, React Native & Flutter Mobile Apps',
+              name: 'Business Scaler Web & Performance Marketing',
             },
           },
           {
             '@type': 'Offer',
+            name: 'Enterprise Custom Growth',
+            price: 'Custom',
+            priceCurrency: 'INR',
+            description: 'Bespoke Next.js microservices, AI Agent APIs, machine-readable manifests, headless commerce & DPDP compliance',
             itemOffered: {
               '@type': 'Service',
-              name: 'SEO & Performance Marketing',
-              description: 'Technical SEO, Google Ads, Meta Ads, and Lead Funnels',
+              name: 'Enterprise Custom Software & AEO/GEO Engineering',
+            },
+          },
+          {
+            '@type': 'Offer',
+            name: 'WordPress to Next.js 15 Migration',
+            price: 'Custom',
+            priceCurrency: 'INR',
+            description: 'Zero-downtime re-platforming from legacy WordPress to sub-second Next.js 15, retaining 100% SEO rank equity',
+            itemOffered: {
+              '@type': 'Service',
+              name: 'WordPress to Next.js Modernization',
+            },
+          },
+          {
+            '@type': 'Offer',
+            name: 'Real Estate & PropTech Lead Engine',
+            price: 'Custom',
+            priceCurrency: 'INR',
+            description: 'High-ticket luxury buyer acquisition funnels for Gurugram & Noida real estate developers and channel partners',
+            itemOffered: {
+              '@type': 'Service',
+              name: 'Real Estate PropTech Performance Marketing',
             },
           },
         ],
@@ -412,6 +443,22 @@ const jsonLd = {
           acceptedAnswer: {
             '@type': 'Answer',
             text: 'With the complete phaseout of third-party cookies and aggressive browser ad blockers, client-side pixels lose over 50% of conversion signals. Server-Side Meta CAPI sends cryptographically hashed conversion events directly from the Next.js runtime to ad servers, restoring 100% event fidelity and cutting CAC by up to 60%.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'What is the cost of website development and SEO in Delhi NCR (Noida, Gurugram, Delhi) with Digitacurve?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Digitacurve offers transparent fixed pricing: Essential Growth at ₹24,999 (one-time build for custom Next.js 15 site with sub-second LCP and Google Maps 3-pack SEO), Business Scaler at ₹49,999 (custom web portal + Google/Meta Ads funnel and CRM routing), and custom milestone-based scopes for enterprise applications with zero hidden plugin fees.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'How quickly can a Next.js 15 website and performance marketing funnel generate qualified inquiries?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Due to sub-second load times and high-intent commercial keyword targeting, businesses deploying with Digitacurve typically begin capturing verified WhatsApp and email inquiries within 7 to 14 days of ad launch and Google Local 3-Pack indexing.',
           },
         },
       ],

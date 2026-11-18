@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { X, Send, ArrowUpRight, MessageSquare } from 'lucide-react';
+import { X, Send, ArrowUpRight, MessageSquare, Phone } from 'lucide-react';
 
 interface Message {
   id: string;
@@ -43,11 +43,16 @@ export default function MeetAiWidget() {
 
     // Simulate AI response
     setTimeout(() => {
-      let responseText = "Based on your request, our Digitacurve team led by Rishabh Jaiswal recommends starting with a comprehensive Website & Digital Readiness Audit. You can schedule a call or get your free report!";
-      if (query.toLowerCase().includes('website') || query.toLowerCase().includes('build')) {
-        responseText = "For website design & development, Digitacurve creates custom, high-converting React/Next.js sites focused on speed, clear messaging, and conversion paths.";
-      } else if (query.toLowerCase().includes('lead') || query.toLowerCase().includes('ads')) {
-        responseText = "Digitacurve engineers targeted Google & Meta ad campaigns connected directly to landing pages & WhatsApp conversion paths for maximum ROI.";
+      let responseText = "Based on your request, our Digitacurve team led by Rishabh Jaiswal recommends starting with a comprehensive Website & Digital Readiness Audit. You can WhatsApp RJ directly at +91 75720 94201 or request a free proposal!";
+      const q = query.toLowerCase();
+      if (q.includes('price') || q.includes('cost') || q.includes('rate') || q.includes('package')) {
+        responseText = "Digitacurve provides 100% transparent pricing: Essential Growth at ₹24,999 (one-time build), Business Scaler at ₹49,999 (build + growth), and custom Enterprise tiers. WhatsApp Founder RJ directly at +91 75720 94201 for an instant customized estimate!";
+      } else if (q.includes('seo') || q.includes('rank') || q.includes('google') || q.includes('traffic')) {
+        responseText = "For SEO & Google Maps 3-Pack domination, Digitacurve implements spatial entity schema, AEO, and high-intent commercial keyword hubs across Noida, Delhi & Gurugram. Connect on WhatsApp (+91 75720 94201) to get a free live keyword audit!";
+      } else if (q.includes('website') || q.includes('build') || q.includes('next') || q.includes('developer')) {
+        responseText = "For website development, Digitacurve crafts custom Next.js 15 platforms with sub-second LCP (<0.8s), zero WordPress plugin bloat, and automated WhatsApp CRM lead routing. Message RJ on WhatsApp (+91 75720 94201) to discuss your scope.";
+      } else if (q.includes('lead') || q.includes('ads') || q.includes('marketing')) {
+        responseText = "Digitacurve engineers high-ROAS Google Search & Meta Ad funnels with Server-Side CAPI, targeting high-intent buyers while filtering junk leads. WhatsApp RJ at +91 75720 94201 to launch your campaign.";
       }
 
       setMessages((prev) => [
@@ -169,24 +174,39 @@ export default function MeetAiWidget() {
         </div>
       )}
 
-      {/* Floating Toggle Launcher Button */}
-      <button
-        onClick={() => setIsOpen(!isOpen)}
-        className="group bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full liquid-glass-button border border-white/40 flex items-center gap-3 transition-all hover:scale-105 shadow-xl shadow-blue-600/30"
-      >
-        <div className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center font-black text-xs text-white">
-          DC
-        </div>
-        <div className="hidden sm:flex flex-col items-start pr-2">
-          <span className="text-xs font-black tracking-tight leading-none">
-            DIGITACURVE AI
+      {/* Action Buttons: WhatsApp Quick Contact + AI Widget Toggle */}
+      <div className="flex items-center gap-2.5">
+        <a
+          href="https://wa.me/917572094201?text=Hi%20Digitacurve%2C%20I%20want%20to%20discuss%20web%20development%20and%20SEO%20growth%20for%20my%20business"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Direct WhatsApp Inquiry with Founder Rishabh Jaiswal"
+          className="group bg-emerald-600 hover:bg-emerald-700 text-white p-3 rounded-full border border-emerald-400/40 flex items-center gap-2 transition-all hover:scale-105 active:scale-95 shadow-xl shadow-emerald-600/30"
+        >
+          <Phone className="w-4 h-4 text-white" />
+          <span className="hidden sm:inline text-xs font-black tracking-tight leading-none pr-1">
+            WHATSAPP
           </span>
-          <span className="text-[9px] font-mono text-blue-100 uppercase">
-            ASK ANYTHING
-          </span>
-        </div>
-        <MessageSquare className="w-5 h-5 text-white" />
-      </button>
+        </a>
+
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className="group bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full liquid-glass-button border border-white/40 flex items-center gap-3 transition-all hover:scale-105 shadow-xl shadow-blue-600/30"
+        >
+          <div className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center font-black text-xs text-white">
+            DC
+          </div>
+          <div className="hidden sm:flex flex-col items-start pr-2">
+            <span className="text-xs font-black tracking-tight leading-none">
+              DIGITACURVE AI
+            </span>
+            <span className="text-[9px] font-mono text-blue-100 uppercase">
+              ASK ANYTHING
+            </span>
+          </div>
+          <MessageSquare className="w-5 h-5 text-white" />
+        </button>
+      </div>
     </div>
   );
 }
