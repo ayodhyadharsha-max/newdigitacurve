@@ -11,6 +11,38 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: 'india-gpuaas-sovereign-ai-cloud-compute-portal-2026',
+    title: 'India\'s ₹1.2 Lakh Crore GPUaaS & Sovereign AI Cloud Boom 2026: Engineering High-Throughput Next.js Compute Management Portals',
+    category: 'AI Infrastructure & Cloud Compute',
+    date: 'Nov 18, 2026',
+    readTime: '9 min read',
+    excerpt: 'India\'s GPU cloud market has crossed ₹1.2 Lakh Crore. Explore how high-performance Next.js 15 consoles provide sub-50ms Blackwell B200 telemetry and Slurm scheduling.',
+  },
+  {
+    slug: 'sub-10ms-ai-prompt-firewall-semantic-waf-nextjs-2026',
+    title: 'Sub-10ms AI Prompt Firewalls & Semantic WAFs 2026: Hardening Next.js 15 Edge Middleware Against Prompt Injections',
+    category: 'Cybersecurity & AI Firewall',
+    date: 'Nov 18, 2026',
+    readTime: '8 min read',
+    excerpt: 'Neutralize prompt injection attacks at the edge before they hit your LLM. Learn how Next.js 15 Edge Middleware deploys sub-10ms deterministic guardrails to protect enterprise AI apps.',
+  },
+  {
+    slug: 'treds-invoice-financing-supply-chain-fintech-portal-2026',
+    title: 'TReDS Invoice Financing & Supply Chain Factoring Portals 2026: Building Sub-Minute Next.js FinTech Credit Disbursal Platforms',
+    category: 'FinTech Platforms & MSME Credit',
+    date: 'Nov 18, 2026',
+    readTime: '8 min read',
+    excerpt: 'India\'s TReDS factoring market has surpassed ₹3 Lakh Crore. Here is how modern FinTech platforms automate GSTN e-Invoices, Account Aggregator scoring, and instant 180s loan disbursals.',
+  },
+  {
+    slug: 'swarm-search-multi-agent-discovery-agent-apis-2026',
+    title: 'Swarm Search & Multi-Agent Discovery 2026: Architecting Machine-Readable Agent APIs That Win Autonomous Bot Transactions',
+    category: 'Generative Engine Optimization (GEO)',
+    date: 'Nov 18, 2026',
+    readTime: '8 min read',
+    excerpt: 'Human single-tab search is over. Discover how autonomous multi-agent swarms discover vendors and how to structure machine-readable OpenAPI and JSON-LD Agent APIs that win bot sales.',
+  },
+  {
     slug: 'enterprise-zero-trust-security-ai-agentic-web-apps-nextjs-2026',
     title: 'Enterprise Zero-Trust Security for AI Agentic Web Apps 2026: Defending Next.js 15 Against OWASP LLM Top 10',
     category: 'Enterprise Security & AI Governance',
