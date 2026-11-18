@@ -11,6 +11,38 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: 'delhi-ncr-gurugram-cyber-city-nextjs-web-development-seo-agency-2026',
+    title: 'Top Web Development & SEO Agency in Gurugram Cyber City 2026: Next.js 15 Enterprise Systems for Tech Giants & Unicorns',
+    category: 'Gurugram & Cyber City Tech',
+    date: 'Nov 18, 2026',
+    readTime: '9 min read',
+    excerpt: 'Serving tech startups and corporate giants in DLF Cyber City and Golf Course Road with sub-second Next.js 15 platforms, interactive sandboxes, and Generative Engine Optimization.',
+  },
+  {
+    slug: 'delhi-corporate-web-development-seo-performance-marketing-agency-2026',
+    title: 'Corporate Web Development & Performance Marketing Agency in Delhi 2026: Scaling South Delhi & Aerocity Brands',
+    category: 'Delhi Enterprise & Growth',
+    date: 'Nov 18, 2026',
+    readTime: '9 min read',
+    excerpt: 'How premier brands in South Delhi, Nehru Place, and Aerocity scale revenue with Next.js 15 web engineering, Server-Side Meta CAPI funnels, and high-ROAS performance marketing.',
+  },
+  {
+    slug: 'noida-expressway-greater-noida-it-corridor-web-software-development-2026',
+    title: 'Noida Sector 62 & Greater Noida Expressway Web Development Hub 2026: Custom SaaS, AI & Digital Engineering',
+    category: 'Noida IT Corridor & SaaS',
+    date: 'Nov 18, 2026',
+    readTime: '8 min read',
+    excerpt: 'Headquartered in Noida, Digitacurve engineers enterprise SaaS portals, autonomous AI workflows, and global technical SEO for IT leaders across Sector 62 and Noida Expressway.',
+  },
+  {
+    slug: 'delhi-ncr-local-seo-google-maps-3-pack-ranking-noida-delhi-gurgaon-2026',
+    title: 'The Ultimate Delhi NCR Local SEO Playbook 2026: Ranking #1 on Google Maps 3-Pack Across Noida, Delhi & Gurugram',
+    category: 'Delhi NCR Local SEO Domination',
+    date: 'Nov 18, 2026',
+    readTime: '8 min read',
+    excerpt: 'Dominate high-intent local foot traffic across Noida, South Delhi, and Gurugram with micro-geofenced location hubs, spatial entity schema, and Google Maps Immersive View optimization.',
+  },
+  {
     slug: 'india-gpuaas-sovereign-ai-cloud-compute-portal-2026',
     title: 'India\'s ₹1.2 Lakh Crore GPUaaS & Sovereign AI Cloud Boom 2026: Engineering High-Throughput Next.js Compute Management Portals',
     category: 'AI Infrastructure & Cloud Compute',
