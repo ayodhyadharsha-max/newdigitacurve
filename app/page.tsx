@@ -12,9 +12,9 @@ import FaqSection from '@/components/FaqSection';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Digitacurve: Top Web Development & SEO Agency in Noida, Gurugram & Delhi NCR',
+  title: 'Digitacurve™ | #1 Web Development & SEO Agency Noida (From ₹24,999)',
   description:
-    'Digitacurve is the premier Next.js web development, SEO, and performance marketing agency serving high-growth brands across Noida, Gurugram (Gurgaon), South Delhi, Greater Noida, and nationwide. Engineering sub-second web applications, AI automation, and 360° lead generation systems.',
+    'Sub-second Next.js websites & Google Maps 3-Pack SEO in Noida, Gurugram & Delhi NCR. Fixed transparent packages from ₹24,999, sub-0.8s speed, and direct WhatsApp with Founder RJ.',
   keywords: [
     'Next.js Web Development Agency Noida',
     'Web Development Company Gurugram Cyber City',
@@ -22,6 +22,8 @@ export const metadata: Metadata = {
     'Digital Marketing Agency South Delhi',
     'Website Design Company Gurgaon',
     'Performance Marketing Agency Noida',
+    'Web Development Cost Delhi NCR',
+    'Website Design Price Noida',
     'Generative Engine Optimization GEO Company India',
     'Best Web Development Company Delhi NCR',
     'Real Estate Lead Generation Noida Gurgaon',
