@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from 'react';
 import Link from 'next/link';
-import { ArrowUpRight } from 'lucide-react';
+import { ArrowUpRight, Phone } from 'lucide-react';
 
 export default function HeroSection() {
   const videoRef = useRef<HTMLVideoElement | null>(null);
@@ -163,17 +163,25 @@ export default function HeroSection() {
 
           {/* Action CTAs */}
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2.5 pt-1">
+            <a
+              href="https://wa.me/917572094201?text=Hi%20Digitacurve%2C%20I%20want%20to%20discuss%20a%20website%20or%20SEO%20growth%20project%20for%20my%20business"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs px-5 py-3.5 sm:px-6 sm:py-4 rounded-xl shadow-lg shadow-emerald-600/30 flex items-center justify-center gap-2 transition-all active:scale-95"
+            >
+              <Phone className="w-4 h-4" /> CHAT ON WHATSAPP RJ
+            </a>
             <Link
-              href="#free-report"
+              href="/pricing"
               className="bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs px-5 py-3.5 sm:px-6 sm:py-4 rounded-xl shadow-lg shadow-blue-600/30 flex items-center justify-center gap-2 transition-all active:scale-95"
             >
-              GET MY FREE REPORT <ArrowUpRight className="w-4 h-4" />
+              PACKAGES (₹24,999) <ArrowUpRight className="w-4 h-4" />
             </Link>
             <Link
               href="/company/contact"
               className="bg-white border-2 border-slate-300 hover:border-slate-900 text-slate-900 font-bold text-xs px-5 py-3.5 sm:px-6 sm:py-4 rounded-xl flex items-center justify-center gap-2 transition-all"
             >
-              START A PROJECT <ArrowUpRight className="w-4 h-4 text-slate-600" />
+              SEND INQUIRY <ArrowUpRight className="w-4 h-4 text-slate-600" />
             </Link>
           </div>
 

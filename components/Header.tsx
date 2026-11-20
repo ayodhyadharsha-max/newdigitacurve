@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { ArrowUpRight, Plus, ChevronDown, Building2, HeartPulse, Plane, Sun, Code, Search, Target, Share2, Smartphone } from 'lucide-react';
+import { ArrowUpRight, Plus, ChevronDown, Building2, HeartPulse, Plane, Sun, Code, Search, Target, Share2, Smartphone, Phone } from 'lucide-react';
 import NavigationMenu from './NavigationMenu';
 
 export default function Header() {
@@ -201,7 +201,18 @@ export default function Header() {
           </nav>
 
           {/* Right Action CTAs */}
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2 sm:gap-3">
+            <a
+              href="https://wa.me/917572094201?text=Hi%20Digitacurve%2C%20I%20want%20to%20discuss%20a%20website%20or%20SEO%20project%20for%20my%20business"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1.5 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold px-3 py-2 sm:px-4 sm:py-2.5 rounded-full transition-all hover:scale-105 shadow-md shadow-emerald-600/25 shrink-0"
+              aria-label="Chat on WhatsApp"
+            >
+              <Phone className="w-3.5 h-3.5" />
+              <span>WHATSAPP</span>
+            </a>
+
             <Link
               href="/#free-report"
               className="hidden sm:flex items-center gap-1.5 bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold px-4 py-2.5 rounded-full liquid-glass-button transition-all hover:scale-105"
@@ -211,7 +222,7 @@ export default function Header() {
 
             <button
               onClick={() => setIsMenuOpen(true)}
-              className="lg:hidden flex items-center gap-1.5 liquid-glass-pill text-slate-800 text-xs font-mono font-bold px-4 py-2.5 rounded-full transition-all hover:border-blue-400"
+              className="lg:hidden flex items-center gap-1.5 liquid-glass-pill text-slate-800 text-xs font-mono font-bold px-3.5 py-2 rounded-full transition-all hover:border-blue-400"
             >
               MENU <Plus className="w-3.5 h-3.5 text-blue-600" />
             </button>

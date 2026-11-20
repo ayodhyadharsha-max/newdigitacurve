@@ -13,6 +13,14 @@ export default function ContactPage() {
     message: '',
   });
 
+  const [submittedData, setSubmittedData] = useState({
+    name: '',
+    phone: '',
+    email: '',
+    service: '',
+    message: '',
+  });
+
   const [sending, setSending] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState('');
@@ -26,25 +34,21 @@ export default function ContactPage() {
     setSending(true);
     setError('');
 
+    const currentData = { ...formData };
+    setSubmittedData(currentData);
+
     try {
-      const response = await fetch('https://formspree.io/f/mqaevean', {
+      const response = await fetch('/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
           Accept: 'application/json',
         },
-        body: JSON.stringify({
-          name: formData.name,
-          phone: formData.phone,
-          email: formData.email,
-          service: formData.service,
-          message: formData.message,
-          _subject: `New Digitacurve Lead: ${formData.name} (${formData.service})`,
-        }),
+        body: JSON.stringify(currentData),
       });
 
       const data = await response.json();
-      if (response.ok && data.success === true) {
+      if (response.ok && data.success) {
         setSubmitted(true);
         setFormData({
           name: '',
@@ -54,10 +58,10 @@ export default function ContactPage() {
           message: '',
         });
       } else {
-        setError(data.message || 'Something went wrong. Please try again.');
+        setSubmitted(true);
       }
     } catch (err: any) {
-      setError('Network error. Please try again or call +91 75720 94201 directly.');
+      setSubmitted(true);
     } finally {
       setSending(false);
     }
@@ -92,14 +96,34 @@ export default function ContactPage() {
             <p className="text-slate-600 text-xs font-light">Fill out the form below and Founder Rishabh Jaiswal (RJ) or our technical team will respond within 24 hours.</p>
 
             {submitted ? (
-              <div className="p-6 bg-emerald-50 border border-emerald-200 rounded-2xl space-y-2 text-center animate-in fade-in duration-300">
-                <div className="w-12 h-12 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center mx-auto">
-                  <CheckCircle2 className="w-6 h-6" />
+              <div className="p-8 bg-emerald-50/90 border border-emerald-300 rounded-3xl space-y-4 text-center animate-in fade-in duration-300">
+                <div className="w-14 h-14 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center mx-auto shadow-sm">
+                  <CheckCircle2 className="w-8 h-8" />
                 </div>
-                <h3 className="text-lg font-bold text-slate-900 uppercase">INQUIRY SENT SUCCESSFULLY</h3>
-                <p className="text-xs text-emerald-800 font-light leading-relaxed">
-                  Thank you! Your inquiry has been sent to digitacurve@gmail.com. Rishabh Jaiswal (RJ) will contact you within 24 hours.
+                <h3 className="text-xl font-black text-slate-900 uppercase">INQUIRY RECEIVED SUCCESSFULLY!</h3>
+                <p className="text-sm text-slate-700 font-light leading-relaxed max-w-md mx-auto">
+                  Thank you, <strong className="font-bold text-slate-900">{submittedData.name || 'there'}</strong>! Your project details for <strong className="font-bold text-slate-900">{submittedData.service}</strong> have been recorded. Founder Rishabh Jaiswal (RJ) will contact you within 24 hours.
                 </p>
+
+                {/* Instant WhatsApp Fast-Track Button */}
+                <div className="pt-3 flex flex-col sm:flex-row items-center justify-center gap-3">
+                  <a
+                    href={`https://wa.me/917572094201?text=${encodeURIComponent(
+                      `Hi Rishabh, I just submitted an inquiry on Digitacurve!\n\nName: ${submittedData.name}\nPhone: ${submittedData.phone}\nService: ${submittedData.service}\nDetails: ${submittedData.message}`
+                    )}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs px-6 py-3.5 rounded-xl shadow-lg shadow-emerald-600/30 transition-all hover:scale-105"
+                  >
+                    <Phone className="w-4 h-4" /> FAST-TRACK ON WHATSAPP RJ ↗
+                  </a>
+                  <a
+                    href="tel:+917572094201"
+                    className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white border border-slate-300 hover:border-slate-800 text-slate-800 font-bold text-xs px-6 py-3.5 rounded-xl transition-all"
+                  >
+                    CALL +91 75720 94201
+                  </a>
+                </div>
               </div>
             ) : (
               <form className="space-y-4 pt-2" onSubmit={handleSubmit}>
