@@ -108,7 +108,7 @@ export default function ContactPage() {
                 {/* Instant WhatsApp Fast-Track Button */}
                 <div className="pt-3 flex flex-col sm:flex-row items-center justify-center gap-3">
                   <a
-                    href={`https://wa.me/917572094201?text=${encodeURIComponent(
+                    href={`https://wa.me/919315822996?text=${encodeURIComponent(
                       `Hi Rishabh, I just submitted an inquiry on Digitacurve!\n\nName: ${submittedData.name}\nPhone: ${submittedData.phone}\nService: ${submittedData.service}\nDetails: ${submittedData.message}`
                     )}`}
                     target="_blank"
@@ -118,10 +118,10 @@ export default function ContactPage() {
                     <Phone className="w-4 h-4" /> FAST-TRACK ON WHATSAPP RJ ↗
                   </a>
                   <a
-                    href="tel:+917572094201"
+                    href="tel:+919315822996"
                     className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white border border-slate-300 hover:border-slate-800 text-slate-800 font-bold text-xs px-6 py-3.5 rounded-xl transition-all"
                   >
-                    CALL +91 75720 94201
+                    CALL +91 93158 22996
                   </a>
                 </div>
               </div>
@@ -235,7 +235,7 @@ export default function ContactPage() {
                 </a>
 
                 <a
-                  href="tel:+917572094201"
+                  href="tel:+919315822996"
                   className="flex items-center gap-4 p-4 rounded-2xl bg-white border border-slate-200 hover:border-blue-500 transition-colors group shadow-sm"
                 >
                   <div className="w-10 h-10 rounded-xl bg-blue-50 flex items-center justify-center text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-colors">
@@ -243,7 +243,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <div className="text-[10px] font-mono text-slate-500 font-bold">PHONE &amp; WHATSAPP</div>
-                    <div className="text-sm font-bold text-slate-900">+91 75720 94201</div>
+                    <div className="text-sm font-bold text-slate-900">+91 93158 22996</div>
                   </div>
                 </a>
 

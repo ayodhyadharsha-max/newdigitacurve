@@ -164,7 +164,7 @@ export default function HeroSection() {
           {/* Action CTAs */}
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2.5 pt-1">
             <a
-              href="https://wa.me/917572094201?text=Hi%20Digitacurve%2C%20I%20want%20to%20discuss%20a%20website%20or%20SEO%20growth%20project%20for%20my%20business"
+              href="https://wa.me/919315822996?text=Hi%20Digitacurve%2C%20I%20want%20to%20discuss%20a%20website%20or%20SEO%20growth%20project%20for%20my%20business"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs px-5 py-3.5 sm:px-6 sm:py-4 rounded-xl shadow-lg shadow-emerald-600/30 flex items-center justify-center gap-2 transition-all active:scale-95"

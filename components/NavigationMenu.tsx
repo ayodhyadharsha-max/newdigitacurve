@@ -94,7 +94,7 @@ export default function NavigationMenu({ isOpen, onClose }: NavigationMenuProps)
             INSTAGRAM <ArrowUpRight className="w-3 h-3" />
           </a>
           <a
-            href="https://wa.me/917572094201"
+            href="https://wa.me/919315822996"
             target="_blank"
             rel="noreferrer"
             className="hover:text-blue-600 flex items-center gap-1 transition-colors"

@@ -37,7 +37,7 @@ export default function Footer() {
               START A PROJECT <ArrowUpRight className="w-4 h-4" />
             </Link>
             <a
-              href="https://wa.me/917572094201"
+              href="https://wa.me/919315822996"
               target="_blank"
               rel="noreferrer"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs px-6 py-3.5 rounded-full shadow-md transition-all"
@@ -167,7 +167,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="tel:+917572094201"
+                href="tel:+919315822996"
                 className="p-2.5 bg-white border border-slate-200 hover:border-blue-500 rounded-xl flex items-center gap-3 transition-colors group shadow-sm"
               >
                 <div className="w-7 h-7 rounded-lg bg-blue-50 flex items-center justify-center text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-colors shrink-0">
@@ -175,7 +175,7 @@ export default function Footer() {
                 </div>
                 <div className="min-w-0">
                   <div className="text-[9px] font-mono text-slate-500 uppercase">CALL DIRECT</div>
-                  <div className="font-bold text-slate-900 text-[11px]">+91 75720 94201</div>
+                  <div className="font-bold text-slate-900 text-[11px]">+91 93158 22996</div>
                 </div>
               </a>
 

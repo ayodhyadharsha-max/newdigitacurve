@@ -43,16 +43,16 @@ export default function MeetAiWidget() {
 
     // Simulate AI response
     setTimeout(() => {
-      let responseText = "Based on your request, our Digitacurve team led by Rishabh Jaiswal recommends starting with a comprehensive Website & Digital Readiness Audit. You can WhatsApp RJ directly at +91 75720 94201 or request a free proposal!";
+      let responseText = "Based on your request, our Digitacurve team led by Rishabh Jaiswal recommends starting with a comprehensive Website & Digital Readiness Audit. You can WhatsApp RJ directly at +91 93158 22996 or request a free proposal!";
       const q = query.toLowerCase();
       if (q.includes('price') || q.includes('cost') || q.includes('rate') || q.includes('package')) {
-        responseText = "Digitacurve provides 100% transparent pricing: Essential Growth at ₹24,999 (one-time build), Business Scaler at ₹49,999 (build + growth), and custom Enterprise tiers. WhatsApp Founder RJ directly at +91 75720 94201 for an instant customized estimate!";
+        responseText = "Digitacurve provides 100% transparent pricing: Essential Growth at ₹24,999 (one-time build), Business Scaler at ₹49,999 (build + growth), and custom Enterprise tiers. WhatsApp Founder RJ directly at +91 93158 22996 for an instant customized estimate!";
       } else if (q.includes('seo') || q.includes('rank') || q.includes('google') || q.includes('traffic')) {
-        responseText = "For SEO & Google Maps 3-Pack domination, Digitacurve implements spatial entity schema, AEO, and high-intent commercial keyword hubs across Noida, Delhi & Gurugram. Connect on WhatsApp (+91 75720 94201) to get a free live keyword audit!";
+        responseText = "For SEO & Google Maps 3-Pack domination, Digitacurve implements spatial entity schema, AEO, and high-intent commercial keyword hubs across Noida, Delhi & Gurugram. Connect on WhatsApp (+91 93158 22996) to get a free live keyword audit!";
       } else if (q.includes('website') || q.includes('build') || q.includes('next') || q.includes('developer')) {
-        responseText = "For website development, Digitacurve crafts custom Next.js 15 platforms with sub-second LCP (<0.8s), zero WordPress plugin bloat, and automated WhatsApp CRM lead routing. Message RJ on WhatsApp (+91 75720 94201) to discuss your scope.";
+        responseText = "For website development, Digitacurve crafts custom Next.js 15 platforms with sub-second LCP (<0.8s), zero WordPress plugin bloat, and automated WhatsApp CRM lead routing. Message RJ on WhatsApp (+91 93158 22996) to discuss your scope.";
       } else if (q.includes('lead') || q.includes('ads') || q.includes('marketing')) {
-        responseText = "Digitacurve engineers high-ROAS Google Search & Meta Ad funnels with Server-Side CAPI, targeting high-intent buyers while filtering junk leads. WhatsApp RJ at +91 75720 94201 to launch your campaign.";
+        responseText = "Digitacurve engineers high-ROAS Google Search & Meta Ad funnels with Server-Side CAPI, targeting high-intent buyers while filtering junk leads. WhatsApp RJ at +91 93158 22996 to launch your campaign.";
       }
 
       setMessages((prev) => [
@@ -163,7 +163,7 @@ export default function MeetAiWidget() {
           <div className="px-3 py-2 bg-slate-50/80 backdrop-blur-md border-t border-slate-100 flex items-center justify-between text-[10px] text-slate-500 font-mono">
             <span>RESPONSES BY DIGITACURVE AI</span>
             <a
-              href="https://wa.me/917572094201"
+              href="https://wa.me/919315822996"
               target="_blank"
               rel="noreferrer"
               className="text-blue-600 hover:underline flex items-center gap-0.5 font-bold"
@@ -177,7 +177,7 @@ export default function MeetAiWidget() {
       {/* Action Buttons: WhatsApp Quick Contact + AI Widget Toggle */}
       <div className="flex items-center gap-2.5">
         <a
-          href="https://wa.me/917572094201?text=Hi%20Digitacurve%2C%20I%20want%20to%20discuss%20web%20development%20and%20SEO%20growth%20for%20my%20business"
+          href="https://wa.me/919315822996?text=Hi%20Digitacurve%2C%20I%20want%20to%20discuss%20web%20development%20and%20SEO%20growth%20for%20my%20business"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Direct WhatsApp Inquiry with Founder Rishabh Jaiswal"

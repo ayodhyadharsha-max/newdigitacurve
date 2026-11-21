@@ -1737,7 +1737,7 @@ export default function BlogPostDetail({ params }: { params: { slug: string } })
               WORK WITH DIGITACURVE <ArrowUpRight className="w-4 h-4" />
             </Link>
             <a
-              href="https://wa.me/917572094201?text=Hi%20Rishabh,%20I%20want%20to%20discuss%20our%20web%20and%20AI%20growth%20strategy"
+              href="https://wa.me/919315822996?text=Hi%20Rishabh,%20I%20want%20to%20discuss%20our%20web%20and%20AI%20growth%20strategy"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs px-8 py-3.5 rounded-full shadow-lg shadow-emerald-600/30 transition-all"

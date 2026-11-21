@@ -69,7 +69,7 @@ export default function AppDevelopmentPage() {
               START AN APP PROJECT <ArrowUpRight className="w-4 h-4" />
             </Link>
             <a
-              href="https://wa.me/917572094201"
+              href="https://wa.me/919315822996"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-white border-2 border-slate-200 hover:border-slate-900 text-slate-900 font-bold text-sm px-7 py-4 rounded-full transition-all"

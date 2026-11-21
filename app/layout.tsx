@@ -101,7 +101,7 @@ const jsonLd = {
       },
       contactPoint: {
         '@type': 'ContactPoint',
-        telephone: '+91-7572094201',
+        telephone: '+91-9315822996',
         contactType: 'customer service',
         email: 'contact@digitacurve.com',
       },
@@ -123,7 +123,7 @@ const jsonLd = {
       name: 'Digitacurve Digital Agency',
       image: 'https://www.digitacurve.com/media/logo-v2.png',
       priceRange: '₹₹',
-      telephone: '+917572094201',
+      telephone: '+919315822996',
       address: {
         '@type': 'PostalAddress',
         addressLocality: 'Noida',
@@ -171,7 +171,7 @@ const jsonLd = {
         '@type': 'Person',
         name: 'Rishabh Jaiswal',
         jobTitle: 'Founder & CEO',
-        telephone: '+917572094201',
+        telephone: '+919315822996',
       },
       knowsAbout: [
         'Next.js 15 Web Development',
