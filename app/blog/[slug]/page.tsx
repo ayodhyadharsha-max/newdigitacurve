@@ -1767,13 +1767,50 @@ export default function BlogPostDetail({ params }: { params: { slug: string } })
     },
   };
 
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: 'https://www.digitacurve.com',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Blog',
+        item: 'https://www.digitacurve.com/blog',
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: post.title,
+        item: `https://www.digitacurve.com/blog/${params.slug}`,
+      },
+    ],
+  };
+
   return (
     <div className="min-h-screen bg-white text-slate-900 selection:bg-blue-600 selection:text-white">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
       />
-      <article className="pt-24 pb-24 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      <article className="pt-20 pb-24 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Breadcrumb Navigation */}
+        <nav aria-label="Breadcrumb" className="mb-6 flex items-center gap-2 text-xs font-mono text-slate-500 flex-wrap">
+          <Link href="/" className="hover:text-blue-600 transition-colors">Home</Link>
+          <span>/</span>
+          <Link href="/blog" className="hover:text-blue-600 transition-colors">Blog</Link>
+          <span>/</span>
+          <span className="text-slate-800 font-semibold truncate max-w-[280px] sm:max-w-md">{post.title}</span>
+        </nav>
         <Link
           href="/blog"
           className="inline-flex items-center gap-2 text-xs font-mono text-blue-600 hover:text-blue-800 transition-colors mb-8 font-bold"

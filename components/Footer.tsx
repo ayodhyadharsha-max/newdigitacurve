@@ -197,6 +197,52 @@ export default function Footer() {
           </div>
         </div>
 
+
+        {/* Popular Search Corridors & Growth Topics Silo */}
+        <div className="pt-10 pb-6 border-t border-slate-200 mt-12">
+          <div className="text-[11px] font-mono text-blue-600 font-bold uppercase tracking-widest mb-4 flex items-center gap-2">
+            <span className="w-2 h-2 rounded-full bg-blue-600 animate-pulse" />
+            POPULAR DIGITAL SERVICES &amp; REGIONAL GROWTH HUBS (2026)
+          </div>
+          <div className="flex flex-wrap gap-x-5 gap-y-2.5 text-xs text-slate-600 font-medium leading-relaxed">
+            <Link href="/blog/influencer-marketing-agency-india-brand-collaborations-roi-2026" className="hover:text-blue-600 transition-colors">
+              Influencer Marketing Agency India
+            </Link>
+            <span className="text-slate-300">·</span>
+            <Link href="/blog/social-media-marketing-agency-ahmedabad-surat-gujarat-growth-2026" className="hover:text-blue-600 transition-colors">
+              Social Media Marketing Ahmedabad &amp; Surat
+            </Link>
+            <span className="text-slate-300">·</span>
+            <Link href="/blog/social-media-marketing-agency-pune-jaipur-roi-framework-2026" className="hover:text-blue-600 transition-colors">
+              Social Media Marketing Pune &amp; Jaipur
+            </Link>
+            <span className="text-slate-300">·</span>
+            <Link href="/blog/digital-marketing-agency-seo-company-ahmedabad-surat-vadodara-2026" className="hover:text-blue-600 transition-colors">
+              Digital Marketing &amp; SEO Gujarat (Ahmedabad, Surat, Vadodara)
+            </Link>
+            <span className="text-slate-300">·</span>
+            <Link href="/blog/digital-marketing-agency-seo-company-pune-jaipur-indore-2026" className="hover:text-blue-600 transition-colors">
+              Digital Marketing &amp; SEO Pune, Jaipur &amp; Indore
+            </Link>
+            <span className="text-slate-300">·</span>
+            <Link href="/blog/digital-marketing-website-development-company-lucknow-uttar-pradesh-2026" className="hover:text-blue-600 transition-colors">
+              Digital Marketing &amp; Web Development Lucknow
+            </Link>
+            <span className="text-slate-300">·</span>
+            <Link href="/blog/website-development-company-ahmedabad-surat-pune-jaipur-indore-2026" className="hover:text-blue-600 transition-colors">
+              Website Development Company (Shopify &amp; WordPress)
+            </Link>
+            <span className="text-slate-300">·</span>
+            <Link href="/blog/google-ads-agency-meta-ads-lead-generation-agency-india-2026" className="hover:text-blue-600 transition-colors">
+              Google Ads &amp; Meta Ads Lead Generation Agency India
+            </Link>
+            <span className="text-slate-300">·</span>
+            <Link href="/performance-marketing" className="hover:text-blue-600 transition-colors font-semibold text-blue-600">
+              Performance Marketing Agency (Instant WhatsApp)
+            </Link>
+          </div>
+        </div>
+
         {/* GIANT FOOTER WATERMARK - DIGITACURVE */}
         <div className="pt-16 pb-4 overflow-hidden border-b border-slate-200">
           <h1 className="text-[14vw] font-black tracking-tighter leading-none bg-gradient-to-b from-slate-300 via-slate-200 to-transparent bg-clip-text text-transparent hover:from-blue-600 hover:to-indigo-800 transition-all duration-500 uppercase select-none text-center">

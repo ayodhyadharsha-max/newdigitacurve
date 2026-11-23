@@ -51,6 +51,12 @@ export default function MeetAiWidget() {
         responseText = "For SEO & Google Maps 3-Pack domination, Digitacurve implements spatial entity schema, AEO, and high-intent commercial keyword hubs across Noida, Delhi & Gurugram. Connect on WhatsApp (+91 93158 22996) to get a free live keyword audit!";
       } else if (q.includes('website') || q.includes('build') || q.includes('next') || q.includes('developer')) {
         responseText = "For website development, Digitacurve crafts custom Next.js 15 platforms with sub-second LCP (<0.8s), zero WordPress plugin bloat, and automated WhatsApp CRM lead routing. Message RJ on WhatsApp (+91 93158 22996) to discuss your scope.";
+      } else if (q.includes('influencer') || q.includes('creator') || q.includes('collaboration')) {
+        responseText = "For Influencer Marketing & Brand Collaborations, Digitacurve executes verified creator discovery, contract whitelisting, and viral UGC production with measurable conversion tracking across India. WhatsApp RJ at +91 93158 22996 to discuss creator campaigns!";
+      } else if (q.includes('instagram') || q.includes('social media') || q.includes('smm') || q.includes('reels')) {
+        responseText = "For Social Media Marketing & Instagram Management, Digitacurve engineers high-retention video Reels, grid aesthetics, and direct WhatsApp commerce funnels in Ahmedabad, Surat, Pune, Jaipur, and pan-India. WhatsApp RJ directly at +91 93158 22996!";
+      } else if (q.includes('ahmedabad') || q.includes('surat') || q.includes('vadodara') || q.includes('jaipur') || q.includes('pune') || q.includes('indore') || q.includes('lucknow')) {
+        responseText = "Digitacurve provides dedicated regional digital marketing, local SEO, and sub-second website development across Gujarat (Ahmedabad, Surat, Vadodara), Maharashtra (Pune), Rajasthan (Jaipur), MP (Indore), and UP (Lucknow). Connect on WhatsApp (+91 93158 22996) for your city growth roadmap!";
       } else if (q.includes('lead') || q.includes('ads') || q.includes('marketing')) {
         responseText = "Digitacurve engineers high-ROAS Google Search & Meta Ad funnels with Server-Side CAPI, targeting high-intent buyers while filtering junk leads. WhatsApp RJ at +91 93158 22996 to launch your campaign.";
       }
