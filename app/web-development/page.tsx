@@ -1,9 +1,32 @@
 import Link from 'next/link';
-import { ArrowUpRight, Code, Cpu, Smartphone, Zap, Shield, CheckCircle2, Server, Layout } from 'lucide-react';
+import { ArrowUpRight, Code, Cpu, Smartphone, Zap, Shield, CheckCircle2, Server, Layout, ShoppingBag, Globe, MapPin } from 'lucide-react';
 
 export const metadata = {
-  title: 'Next.js 14 Web Development Company Noida & India | Custom React Apps',
-  description: 'Top Next.js 14 web development agency in Noida, Delhi NCR & India. Build sub-second high-converting web applications, React web apps, and enterprise lead portals.',
+  title: 'Website Development Company India | Next.js, Shopify & WordPress Agency',
+  description: 'Leading website development company in India. Next.js 15 web applications, Shopify e-commerce, and WordPress web development across Ahmedabad, Surat, Pune, Jaipur, Indore, Lucknow, and Delhi NCR.',
+  keywords: [
+    'website development company',
+    'website development company near me',
+    'website development services',
+    'web development agency india',
+    'website development company india',
+    'website design company india',
+    'web design agency',
+    'website designing company',
+    'wordpress website development',
+    'shopify website development',
+    'shopify development company',
+    'ecommerce website development india',
+    'ecommerce website development company',
+    'website development company ahmedabad',
+    'website development company surat',
+    'website development company pune',
+    'website development company jaipur',
+    'website development company indore',
+    'website development company lucknow',
+    'Next.js 15 Web Development',
+    'React Web Applications'
+  ],
   alternates: {
     canonical: 'https://www.digitacurve.com/web-development',
   },
@@ -13,44 +36,55 @@ export default function WebDevelopmentPage() {
   const capabilities = [
     {
       icon: Code,
-      title: 'Custom Web Applications',
-      desc: 'Bespoke web applications built with Next.js, React, and TypeScript. Optimized for speed, reliability, and enterprise scale.',
+      title: 'Custom Next.js & React Web Apps',
+      desc: 'Bespoke web applications built with Next.js 15 and TypeScript. Engineered for sub-second speeds, zero vulnerability, and enterprise scalability.',
     },
     {
-      icon: Smartphone,
-      title: 'Responsive & Mobile First',
-      desc: 'Flawless performance across all device viewports. Custom breakpoints, fluid motion, and crisp touch targets.',
+      icon: ShoppingBag,
+      title: 'Shopify & E-Commerce Web Development',
+      desc: 'Custom Shopify themes, headless e-commerce storefronts, and conversion-optimized payment funnels with Razorpay and Cashfree.',
+    },
+    {
+      icon: Globe,
+      title: 'WordPress Modernization & Headless Builds',
+      desc: 'Modernize slow legacy WordPress sites to lightning-fast Next.js edge architectures, retaining 100% of your existing search rankings.',
     },
     {
       icon: Zap,
-      title: 'Ultra-Fast Performance & CWV',
-      desc: 'Optimized Core Web Vitals, dynamic asset compression, sub-second LCP, and top-tier Google PageSpeed scores.',
+      title: 'Sub-Second Speed & Core Web Vitals',
+      desc: 'Sub-0.8s Largest Contentful Paint (LCP), 99+ mobile Google PageSpeed scores, and edge-cached serverless delivery.',
     },
     {
       icon: Server,
-      title: 'API & Backend Integration',
-      desc: 'Seamless integrations with CRMs, payment gateways (Razorpay, Stripe), headless CMS, and custom REST/GraphQL APIs.',
-    },
-    {
-      icon: Layout,
-      title: 'UI/UX & Design Systems',
-      desc: 'Clean, high-converting digital interfaces engineered to turn passive website visitors into qualified inbound leads.',
+      title: 'API & Automated CRM Integration',
+      desc: 'Seamless connections with CRMs, payment gateways, machine-readable Agent APIs, and automated WhatsApp lead triggers.',
     },
     {
       icon: Shield,
-      title: 'Security & SEO Foundation',
-      desc: 'Built-in SSL, DDoS protection, canonical structure, schema markup, and structured data ready for top search rankings.',
+      title: 'Security & SEO Architecture',
+      desc: 'Automated SSL, DDoS defense, canonical indexing, and Schema.org JSON-LD structured data for Google and AI Answer Engines.',
     },
   ];
 
+  const regionalHubs = [
+    { city: 'Ahmedabad', tag: 'Gujarat Hub', desc: 'Website development company ahmedabad, shopify website development, custom web applications.' },
+    { city: 'Surat', tag: 'Commercial Capital', desc: 'Website development company surat, ecommerce website development company, D2C portals.' },
+    { city: 'Pune', tag: 'IT & SaaS Corridor', desc: 'Website development company pune, enterprise React/Next.js systems, web design agency.' },
+    { city: 'Jaipur', tag: 'Retail & Hospitality', desc: 'Website development company jaipur, website design company india, wordpress website development.' },
+    { city: 'Indore', tag: 'Central India Hub', desc: 'Website development company indore, shopify development company, lead generation web portals.' },
+    { city: 'Lucknow', tag: 'UP Capital', desc: 'Website development company lucknow, corporate portals, website designing company.' },
+    { city: 'Delhi NCR', tag: 'Headquarters', desc: 'Noida Sector 62 & Gurugram Cyber City enterprise web applications and startup MVPs.' },
+    { city: 'Pan-India & Global', tag: 'Worldwide Delivery', desc: 'Web development agency india, website development company india, sub-second global edge CDNs.' },
+  ];
+
   const techStack = [
-    'Next.js 14 / React',
+    'Next.js 15 / React 19',
     'TypeScript',
     'Tailwind CSS',
+    'Shopify Liquid / Hydrogen',
     'Node.js / Express',
-    'PostgreSQL / MongoDB',
-    'Vercel / AWS Cloud',
-    'Framer Motion',
+    'PostgreSQL / Supabase',
+    'Vercel Edge Cloud',
     'REST & GraphQL APIs',
   ];
 
@@ -69,7 +103,7 @@ export default function WebDevelopmentPage() {
           <div className="max-w-3xl space-y-6">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-blue-50 border border-blue-200 text-blue-600 font-mono text-xs font-bold">
               <Cpu className="w-3.5 h-3.5" />
-              <span>CORE SERVICE / ENGINEERING</span>
+              <span>CORE SERVICE / WEB & E-COMMERCE ENGINEERING</span>
             </div>
             <h1 className="text-5xl sm:text-7xl font-black tracking-tight leading-[0.95] uppercase text-slate-900">
               HIGH IMPACT <br />
@@ -78,7 +112,7 @@ export default function WebDevelopmentPage() {
               </span>
             </h1>
             <p className="text-slate-600 text-lg sm:text-xl font-light leading-relaxed">
-              We design and code fast, scalable, modern web applications that project brand authority and drive tangible revenue growth for Indian and international businesses.
+              We engineer sub-second Next.js web applications, Shopify e-commerce portals, and modern digital platforms that project authority and convert traffic across India.
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
               <Link
@@ -101,8 +135,8 @@ export default function WebDevelopmentPage() {
       {/* Capabilities Grid */}
       <section className="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-slate-200">
         <div className="text-center max-w-2xl mx-auto mb-16 space-y-3">
-          <p className="text-xs font-mono text-blue-600 tracking-widest uppercase font-bold">TECHNICAL CAPABILITIES</p>
-          <h2 className="text-4xl font-black tracking-tight uppercase text-slate-900">EVERYTHING WE BUILD IS ENGINEERED TO SCALE</h2>
+          <p className="text-xs font-mono text-blue-600 tracking-widest uppercase font-bold">TECHNICAL & PLATFORM CAPABILITIES</p>
+          <h2 className="text-4xl font-black tracking-tight uppercase text-slate-900">ENGINEERED TO OUTPERFORM COMPETITORS</h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -124,8 +158,38 @@ export default function WebDevelopmentPage() {
         </div>
       </section>
 
-      {/* Tech Stack Banner */}
+      {/* Regional Engineering Hubs */}
       <section className="py-20 bg-slate-50 border-b border-slate-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-3xl mx-auto mb-14 space-y-3">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-100 text-blue-700 font-mono text-xs font-bold">
+              <MapPin className="w-3.5 h-3.5" />
+              <span>REGIONAL ENGINEERING HUBS</span>
+            </div>
+            <h2 className="text-3xl sm:text-4xl font-black tracking-tight uppercase text-slate-900">
+              WEBSITE DEVELOPMENT SERVICES ACROSS INDIA
+            </h2>
+            <p className="text-slate-600 text-sm">
+              Delivering high-converting Next.js, Shopify, and WordPress web development services tailored to local and national business goals.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+            {regionalHubs.map((hub, idx) => (
+              <div key={idx} className="p-6 rounded-2xl bg-white border border-slate-200 space-y-3 shadow-sm hover:border-blue-500 transition-all">
+                <div className="flex items-center justify-between">
+                  <h3 className="text-lg font-bold text-slate-900">{hub.city}</h3>
+                  <span className="text-[11px] font-mono px-2 py-0.5 rounded bg-blue-50 text-blue-600 font-semibold">{hub.tag}</span>
+                </div>
+                <p className="text-slate-600 text-xs leading-relaxed font-light">{hub.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Tech Stack Banner */}
+      <section className="py-20 bg-white border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-xs font-mono text-blue-600 tracking-widest uppercase text-center mb-10 font-bold">
             MODERN TECHNOLOGY STACK
@@ -134,7 +198,7 @@ export default function WebDevelopmentPage() {
             {techStack.map((tech, idx) => (
               <div
                 key={idx}
-                className="p-4 rounded-xl bg-white border border-slate-200 flex items-center gap-3 text-sm font-semibold text-slate-900 shadow-sm"
+                className="p-4 rounded-xl bg-slate-50 border border-slate-200 flex items-center gap-3 text-sm font-semibold text-slate-900 shadow-sm"
               >
                 <CheckCircle2 className="w-4 h-4 text-blue-600 shrink-0" />
                 <span>{tech}</span>
@@ -173,12 +237,22 @@ export default function WebDevelopmentPage() {
           <p className="text-slate-600 text-sm font-light">
             Let Digitacurve engineer a high-performing web application tailored specifically to your audience and business goals.
           </p>
-          <Link
-            href="/company/contact"
-            className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm px-9 py-4 rounded-full shadow-lg shadow-blue-600/30 transition-all hover:scale-105"
-          >
-            GET STARTED NOW <ArrowUpRight className="w-4 h-4" />
-          </Link>
+          <div className="flex flex-wrap justify-center gap-4">
+            <Link
+              href="/company/contact"
+              className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm px-9 py-4 rounded-full shadow-lg shadow-blue-600/30 transition-all hover:scale-105"
+            >
+              GET STARTED NOW <ArrowUpRight className="w-4 h-4" />
+            </Link>
+            <a
+              href="https://wa.me/919315822996?text=Hi%20Digitacurve%2C%20I%20want%20to%20discuss%20Website%20Development"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#20ba59] text-white font-bold text-sm px-8 py-4 rounded-full shadow-lg shadow-emerald-500/20 transition-all hover:scale-105"
+            >
+              CHAT ON WHATSAPP
+            </a>
+          </div>
         </div>
       </section>
     </div>
