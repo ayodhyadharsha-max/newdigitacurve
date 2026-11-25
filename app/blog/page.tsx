@@ -11,6 +11,14 @@ export const metadata = {
 
 const blogPosts = [
   {
+    slug: 'seo-company-digital-marketing-agency-near-me-2026-guide',
+    title: 'SEO Company & Digital Marketing Agency Near Me 2026: Pricing, Red Flags & Local Google 3-Pack Rankings',
+    category: 'Local Search & High-Intent Acquisition',
+    date: 'Nov 25, 2026',
+    readTime: '10 min read',
+    excerpt: 'Comprehensive 2026 guide on selecting an authentic local SEO and digital marketing agency near you, ranking in Google Maps 3-Pack, and avoiding scam retainers.',
+  },
+  {
     slug: 'influencer-marketing-agency-india-brand-collaborations-roi-2026',
     title: 'Top Influencer Marketing Agency in India 2026: ROI-Driven Creator Campaigns & Brand Collaborations',
     category: 'Influencer Marketing & Creators',

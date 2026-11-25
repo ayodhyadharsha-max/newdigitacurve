@@ -145,7 +145,7 @@ export default function HeroSection() {
         <div className="w-full lg:w-[48%] bg-white/95 backdrop-blur-md text-slate-900 rounded-3xl p-5 sm:p-10 shadow-2xl space-y-4 sm:space-y-6 border border-slate-200">
           {/* Metadata Top Pill */}
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 text-[10px] sm:text-[11px] font-mono text-slate-500 border-b border-slate-100 pb-3">
-            <span className="font-bold text-slate-900">DIGITACURVE / CREATIVE GROWTH STUDIO</span>
+            <span className="font-bold text-slate-900">DIGITACURVE / #1 WEB DEVELOPMENT &amp; DIGITAL MARKETING STUDIO</span>
             <span>NOIDA → INDIA</span>
           </div>
 
@@ -158,7 +158,7 @@ export default function HeroSection() {
 
           {/* Subheading Intro */}
           <p className="text-xs sm:text-base text-slate-600 font-light leading-relaxed">
-            We turn scattered websites, search, paid media and content into one clear digital system built to move business.
+            Leading Next.js website development, Google Ads PPC, and performance SEO agency. We engineer sub-second web applications and high-conversion lead generation systems across India.
           </p>
 
           {/* Action CTAs */}

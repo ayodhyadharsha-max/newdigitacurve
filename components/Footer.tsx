@@ -205,6 +205,10 @@ export default function Footer() {
             POPULAR DIGITAL SERVICES &amp; REGIONAL GROWTH HUBS (2026)
           </div>
           <div className="flex flex-wrap gap-x-5 gap-y-2.5 text-xs text-slate-600 font-medium leading-relaxed">
+            <Link href="/blog/seo-company-digital-marketing-agency-near-me-2026-guide" className="hover:text-blue-600 transition-colors font-bold text-blue-700">
+              SEO Company &amp; Digital Marketing Agency Near Me
+            </Link>
+            <span className="text-slate-300">·</span>
             <Link href="/blog/influencer-marketing-agency-india-brand-collaborations-roi-2026" className="hover:text-blue-600 transition-colors">
               Influencer Marketing Agency India
             </Link>

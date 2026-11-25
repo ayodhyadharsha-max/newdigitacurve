@@ -2,14 +2,14 @@
 
 export default function MarqueeBanner() {
   const items = [
-    'WEBSITE DESIGN',
-    'SEO',
-    'LOCAL SEO',
-    'GOOGLE ADS',
-    'META ADS',
-    'SOCIAL MEDIA',
-    'BRAND STRATEGY',
-    'LEAD GENERATION',
+    'WEBSITE DESIGN & DEV',
+    'SEO & LOCAL 3-PACK',
+    'GOOGLE ADS (PPC)',
+    'META ADS & CAPI',
+    'INFLUENCER MARKETING',
+    'SHOPIFY & E-COMMERCE',
+    'AHMEDABAD · SURAT · PUNE · JAIPUR · NOIDA',
+    'LEAD GENERATION FUNNELS',
   ];
 
   return (

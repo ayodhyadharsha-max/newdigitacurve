@@ -16,6 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/pricing',
     '/portfolio',
     '/blog',
+    '/blog/seo-company-digital-marketing-agency-near-me-2026-guide',
     '/blog/influencer-marketing-agency-india-brand-collaborations-roi-2026',
     '/blog/social-media-marketing-agency-ahmedabad-surat-gujarat-growth-2026',
     '/blog/social-media-marketing-agency-pune-jaipur-roi-framework-2026',
@@ -124,10 +125,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/company/contact',
   ];
 
+  const highPriority = ['', '/performance-marketing', '/digital-marketing', '/web-development', '/pricing', '/company/contact', '/blog'];
   return routes.map((route) => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date(),
-    changeFrequency: route === '' ? 'daily' : 'weekly',
-    priority: route === '' ? 1.0 : 0.8,
+    changeFrequency: highPriority.includes(route) ? 'daily' : 'weekly',
+    priority: route === '' ? 1.0 : highPriority.includes(route) ? 0.95 : 0.85,
   }));
 }

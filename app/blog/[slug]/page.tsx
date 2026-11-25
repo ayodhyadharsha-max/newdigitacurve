@@ -4,6 +4,19 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 
 const postsMap: Record<string, { title: string; category: string; date: string; readTime: string; content: string[] }> = {
+  'seo-company-digital-marketing-agency-near-me-2026-guide': {
+    title: "SEO Company & Digital Marketing Agency Near Me 2026: Pricing, Red Flags & Local Google 3-Pack Rankings",
+    category: "Local Search & High-Intent Acquisition",
+    date: "Nov 25, 2026",
+    readTime: "10 min read",
+    content: [
+      "In late 2026, searching for an \"SEO company near me\" or \"digital marketing agency near me\" connects business owners with thousands of agencies across India. Whether you are a clinic in Noida, a real estate firm in Gurugram, a manufacturing exporter in Ahmedabad or Surat, a tech startup in Pune, or a retail brand in Jaipur and Indore, choosing the right local marketing partner determines whether you capture high-margin inbound buyers or burn ad spend on vanity metrics. At Digitacurve, headquartered in Noida with strategic delivery across Tier 1 and Tier 2 cities, we engineer verified lead generation systems with 100% transparent pricing starting at \u20b924,999.",
+      "The Shift to Local SEO 3.0 & Google Maps 3-Pack Domination: When potential clients search for services \"near me\", over 68% of commercial clicks go directly to the top 3 Google Business Profile (GBP) map pack results. Traditional keyword stuffing in profile descriptions no longer works. Modern search engines evaluate spatial entity schema, consistent Name-Address-Phone (NAP) citations across high-authority directories, authentic customer sentiment reviews, and sub-second mobile landing page load times (LCP < 0.8s). Our local SEO company methodologies guarantee your business occupies prime Google Search and Maps real estate.",
+      "Red Flags When Evaluating a Digital Marketing Company Near Me: (1) Unrealistic Guarantees: Beware of agencies promising \"Rank #1 on Google in 7 Days\"\u2014these rely on spam backlink automation that leads to permanent Google manual action penalties. (2) Opaque Retainer Traps: Agencies charging \u20b930,000+ monthly for static WordPress maintenance without clear lead tracking or analytics dashboards. (3) Outsourcing to Junior Interns: High-touch enterprise accounts passed down to inexperienced entry-level staff. Digitacurve guarantees direct founder-led strategic execution with Rishabh Jaiswal (RJ) on every project.",
+      "Complete Near-Me Marketing Capabilities: (1) Search Engine Optimization (SEO): Technical site health audits, topical keyword clusters, and high-DA editorial outreach. (2) Google Ads & PPC: High-intent exact-match search campaigns and negative keyword scrubbing to minimize Cost Per Lead. (3) Meta Ads & Social Media Management: Instagram Reels, Facebook Lead Ads, and Server-Side Meta CAPI tracking. (4) Influencer Marketing & Creator Collaborations: Vetted micro and macro creators who drive real brand trust and sales across India.",
+      "Transparent Growth Pricing (2026): Essential Growth Package at \u20b924,999 (custom 5\u20137 page Next.js website + local SEO setup) and Business Scaler at \u20b949,999 (build + full performance advertising execution). Connect directly with Founder Rishabh Jaiswal on WhatsApp at +91 93158 22996 for an instant, confidential growth blueprint."
+    ],
+  },
   'influencer-marketing-agency-india-brand-collaborations-roi-2026': {
     title: "Top Influencer Marketing Agency in India 2026: ROI-Driven Creator Campaigns & Brand Collaborations",
     category: "Influencer Marketing & Creators",
