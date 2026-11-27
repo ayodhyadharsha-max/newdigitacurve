@@ -6,6 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
+        disallow: ['/api/', '/thank-you', '/thank-you.html'],
       },
       {
         userAgent: [
@@ -15,8 +16,12 @@ export default function robots(): MetadataRoute.Robots {
           'ClaudeBot',
           'Google-Extended',
           'Applebot-Extended',
+          'CCBot',
+          'Bytespider',
+          'Diffbot',
         ],
         allow: '/',
+        disallow: ['/api/', '/thank-you'],
       },
     ],
     sitemap: 'https://www.digitacurve.com/sitemap.xml',
