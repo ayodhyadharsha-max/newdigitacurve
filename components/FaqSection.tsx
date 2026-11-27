@@ -1,8 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import Link from 'next/link';
-import { Plus, Minus, ArrowUpRight } from 'lucide-react';
+import { Plus, Minus } from 'lucide-react';
 
 export default function FaqSection() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
@@ -15,6 +14,18 @@ export default function FaqSection() {
     {
       q: 'DO I GET DIRECT ACCESS TO THE FOUNDER?',
       a: 'Yes. Rishabh Jaiswal oversees strategy and execution directly on every project. No junior account manager pass-offs.',
+    },
+    {
+      q: 'DO YOU PROVIDE SEO, WEB DEVELOPMENT & DIGITAL MARKETING IN AHMEDABAD, SURAT, PUNE, JAIPUR, INDORE & LUCKNOW?',
+      a: 'Yes. Digitacurve operates dedicated digital growth sprints for regional powerhouses including Ahmedabad, Surat, Vadodara, Pune, Jaipur, Indore, and Lucknow. We build localized Google Maps 3-Pack authority, city-specific landing pages, and targeted local ad funnels tailored to each regional commercial market.',
+    },
+    {
+      q: 'DO YOU OFFER INFLUENCER MARKETING, CREATOR BRAND COLLABORATIONS & SOCIAL MEDIA MANAGEMENT?',
+      a: 'Absolutely. As a full-service influencer marketing agency and social media management company in India, we connect businesses with verified micro, macro, and celebrity creators. We handle end-to-end contracts, content direction, Instagram Reels, Facebook Ads campaigns, and ROI attribution.',
+    },
+    {
+      q: 'CAN YOU DELIVER SHOPIFY AND WORDPRESS WEBSITE DEVELOPMENT ALONGSIDE BESPOKE NEXT.JS BUILDS?',
+      a: 'Yes. In addition to high-performance Next.js custom software, our web development team specializes in full-stack Shopify development (Shopify Plus, custom themes, conversion checkouts) and enterprise WordPress website development with headless architectures.',
     },
     {
       q: 'WHAT DOES THE FREE BUSINESS REPORT INCLUDE?',
@@ -30,7 +41,7 @@ export default function FaqSection() {
     },
     {
       q: 'WHAT ARE YOUR PRICING STRUCTURES?',
-      a: 'We offer fixed project pricing for websites and monthly retainers for growth systems (SEO + Google/Meta Ads). No hidden fees.',
+      a: 'We offer fixed project pricing for websites starting from ₹24,999 and monthly retainers for growth systems (SEO + Google/Meta Ads). No hidden fees.',
     },
   ];
 
@@ -47,7 +58,7 @@ export default function FaqSection() {
             <span className="text-blue-600 italic font-light">NO SALES FOG.</span>
           </h2>
           <p className="text-slate-600 text-sm leading-relaxed font-light">
-            Everything you need to know about working with Digitacurve before starting a project.
+            Everything you need to know about working with Digitacurve across India before starting a project.
           </p>
         </div>
 
