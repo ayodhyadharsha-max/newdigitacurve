@@ -18,7 +18,7 @@ export default function RegionalCityHubs() {
       ],
       description:
         'Powering high-growth textile, chemical, D2C and manufacturing enterprises across Ahmedabad with sub-second websites, Google Maps 3-pack dominance, and localized digital marketing.',
-      guideLink: '/blog/digital-marketing-agency-ahmedabad-surat-vadodara-guide',
+      guideLink: '/blog/digital-marketing-agency-seo-company-ahmedabad-surat-vadodara-2026',
       waMessage: 'Hi Rishabh, I need SEO, web development & digital marketing services in Ahmedabad.',
     },
     {
@@ -34,7 +34,7 @@ export default function RegionalCityHubs() {
       ],
       description:
         'Helping Surat’s diamond, textile, jewellery and ecommerce titans scale revenue through performance marketing, custom Shopify website development, and Instagram Reels growth.',
-      guideLink: '/blog/digital-marketing-agency-ahmedabad-surat-vadodara-guide',
+      guideLink: '/blog/social-media-marketing-agency-ahmedabad-surat-gujarat-growth-2026',
       waMessage: 'Hi Rishabh, I am looking for digital marketing and web development in Surat.',
     },
     {
@@ -49,7 +49,7 @@ export default function RegionalCityHubs() {
       ],
       description:
         'Engineering B2B lead generation engines, technical SEO audits, and modern Next.js portals for engineering, pharma, and industrial leaders across Vadodara.',
-      guideLink: '/blog/seo-company-jaipur-vadodara-indore-surat-guide',
+      guideLink: '/blog/digital-marketing-agency-seo-company-ahmedabad-surat-vadodara-2026',
       waMessage: 'Hi Rishabh, I need an SEO and digital marketing agency in Vadodara.',
     },
     {
@@ -64,7 +64,7 @@ export default function RegionalCityHubs() {
       ],
       description:
         'Empowering Pune’s Hinjewadi IT corridor, automotive innovators, and D2C brands with scalable Next.js web applications, Meta ads agency strategies, and viral social campaigns.',
-      guideLink: '/blog/digital-marketing-agency-pune-indore-lucknow-guide',
+      guideLink: '/blog/digital-marketing-agency-seo-company-pune-jaipur-indore-2026',
       waMessage: 'Hi Rishabh, I want to discuss web development and social media marketing in Pune.',
     },
     {
@@ -80,7 +80,7 @@ export default function RegionalCityHubs() {
       ],
       description:
         'Accelerating Jaipur’s luxury hospitality, gemstone exporters, apparel brands, and artisans with global SEO, Shopify ecommerce development, and influencer collaborations.',
-      guideLink: '/blog/seo-company-jaipur-vadodara-indore-surat-guide',
+      guideLink: '/blog/social-media-marketing-agency-pune-jaipur-roi-framework-2026',
       waMessage: 'Hi Rishabh, I need an SEO and social media agency in Jaipur.',
     },
     {
@@ -95,7 +95,7 @@ export default function RegionalCityHubs() {
       ],
       description:
         'Accelerating Indore’s Super Corridor startups, FMCG distributors, and food tech brands with high-conversion landing pages, local SEO 3-pack rankings, and certified Google Ads.',
-      guideLink: '/blog/digital-marketing-agency-pune-indore-lucknow-guide',
+      guideLink: '/blog/digital-marketing-agency-seo-company-pune-jaipur-indore-2026',
       waMessage: 'Hi Rishabh, I need digital marketing and SEO services in Indore.',
     },
     {
@@ -110,7 +110,7 @@ export default function RegionalCityHubs() {
       ],
       description:
         'Empowering Lucknow healthcare providers, education institutions, real estate developments, and retail businesses with verified Google Ads management and modern web design.',
-      guideLink: '/blog/digital-marketing-agency-pune-indore-lucknow-guide',
+      guideLink: '/blog/digital-marketing-website-development-company-lucknow-uttar-pradesh-2026',
       waMessage: 'Hi Rishabh, I need a website development and digital marketing agency in Lucknow.',
     },
     {

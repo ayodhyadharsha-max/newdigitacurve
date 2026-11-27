@@ -27,7 +27,7 @@ export default function ServicesGrid() {
       title: 'GOOGLE ADS AGENCY & PPC MANAGEMENT',
       desc: 'Hire Google Ads expert with certified Google Ads management services and high-converting Meta & Facebook ads agency campaigns focused on maximizing qualified inbound pipeline.',
       isAdService: true,
-      link: '/blog/google-ads-management-services-meta-ads-agency-guide',
+      link: '/blog/google-ads-agency-meta-ads-lead-generation-agency-india-2026',
       badge: 'CERTIFIED PPC',
     },
     {
@@ -35,7 +35,7 @@ export default function ServicesGrid() {
       tagline: 'CREATOR ROSTER · BRAND COLLABORATIONS · VIRAL CAMPAIGNS',
       title: 'INFLUENCER MARKETING AGENCY INDIA',
       desc: 'India’s premier influencer agency and brand collaboration agency pairing hyper-engaged tier-1 to micro creators with viral performance tracking and creator management.',
-      link: '/blog/influencer-marketing-agency-india-guide',
+      link: '/blog/influencer-marketing-agency-india-brand-collaborations-roi-2026',
       badge: 'CREATOR NETWORK',
     },
     {
@@ -43,7 +43,7 @@ export default function ServicesGrid() {
       tagline: 'INSTAGRAM · REELS · FACEBOOK ADS · VIRAL ENGAGEMENT',
       title: 'SOCIAL MEDIA MARKETING AGENCY',
       desc: 'Full-service social media management company and Instagram marketing agency delivering bespoke content, community handling and high-converting Reels across top Indian commercial hubs.',
-      link: '/blog/social-media-marketing-agency-india-guide',
+      link: '/blog/social-media-marketing-agency-ahmedabad-surat-gujarat-growth-2026',
       badge: 'ORGANIC + PAID',
     },
     {
@@ -59,7 +59,7 @@ export default function ServicesGrid() {
       tagline: 'SHOPIFY PLUS · WOOCOMMERCE · CHECKOUT UX · ECOMMERCE',
       title: 'SHOPIFY DEVELOPMENT COMPANY',
       desc: 'Full-funnel ecommerce website development company India building ultra-fast Shopify website development, headless storefronts and frictionless buyer checkout journeys.',
-      link: '/blog/shopify-wordpress-website-development-india',
+      link: '/blog/website-development-company-ahmedabad-surat-pune-jaipur-indore-2026',
       badge: 'HIGH CONVERSION',
     },
     {
