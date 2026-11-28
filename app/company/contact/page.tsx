@@ -109,7 +109,7 @@ export default function ContactPage() {
                 <div className="pt-3 flex flex-col sm:flex-row items-center justify-center gap-3">
                   <a
                     href={`https://wa.me/919315822996?text=${encodeURIComponent(
-                      `Hi Rishabh, I just submitted an inquiry on Digitacurve!\n\nName: ${submittedData.name}\nPhone: ${submittedData.phone}\nService: ${submittedData.service}\nDetails: ${submittedData.message}`
+                      `🚀 *NEW MAIN WEBSITE INQUIRY - DIGITACURVE*\n━━━━━━━━━━━━━━━━━━━━━\n📍 *Source:* Main Website (/company/contact)\n🎯 *Traffic:* Organic Search (SEO) / Direct\n━━━━━━━━━━━━━━━━━━━━━\n👤 *Name:* ${submittedData.name}\n📞 *Phone:* ${submittedData.phone}\n📧 *Email:* ${submittedData.email || 'Not provided'}\n💼 *Service:* ${submittedData.service}\n📝 *Details:* ${submittedData.message || 'Not provided'}\n━━━━━━━━━━━━━━━━━━━━━\nHi Rishabh, I just submitted an inquiry on the Digitacurve main website. Let's discuss our project!`
                     )}`}
                     target="_blank"
                     rel="noopener noreferrer"
